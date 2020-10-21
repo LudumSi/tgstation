@@ -13,15 +13,20 @@ Format:
 	votable (is this map votable)
 endmap
 
-map metastation
-	#default
-	minplayers 25
+map boxstation
+	
 	#voteweight 0.5
 	votable
 endmap
 
-map pubbystation
+map metastation
+	minplayers 25
+	#voteweight 1.5
 	votable
+endmap
+
+map pubbystation
+ default votable
 endmap
 
 map deltastation
@@ -29,8 +34,8 @@ map deltastation
 	votable
 endmap
 
-map icebox
-	minplayers 25
+map donutstation
+	minplayers 50
 	votable
 endmap
 
