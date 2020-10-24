@@ -1,0 +1,8 @@
+{
+    "map_name": "LeifTestStation",
+    "map_path": "map_files/LeifTestStation",
+    "map_file": "LeifTestStation1.dmm",
+	"shuttles": {
+	    "cargo": "cargo_delta"
+    }
+}
