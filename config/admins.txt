@@ -4,5 +4,7 @@
 #Ranks will match to those with the same name in admin_ranks.txt, if a match isn't found the user won't be adminned.
 #If SQL-based admin loading is enabled, admins listed here will always be loaded first and will override any duplicate entries in the database.
 
-Shadowizard23 = Host
-airmage21 = Game Master
+shadowizard23 = Game Master
+abornga = Game Master
+zephyr1112 = Game Master
+cheetahclaw23 = Game Master
