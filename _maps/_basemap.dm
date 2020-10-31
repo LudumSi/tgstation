@@ -13,7 +13,7 @@
 		#include "map_files\IceBoxStation\IceBoxStation.dmm"
 		#include "map_files\ReduxStation\ReduxStation.dmm"
 
-		#ifdef TRAVISBUILDING
+		#ifdef CIBUILDING
 			#include "templates.dm"
 		#endif
 	#endif
