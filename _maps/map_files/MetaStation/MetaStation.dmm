@@ -32065,6 +32065,9 @@
 	dir = 1
 	},
 /area/engineering/atmos)
+"eeN" = (
+/turf/open/floor/iron/dark,
+/area/security/warden)
 "eeS" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
 	dir = 6
@@ -79130,6 +79133,13 @@
 	},
 /turf/open/floor/iron/dark,
 /area/engineering/gravity_generator)
+"wEN" = (
+/obj/structure/cable,
+/obj/effect/turf_decal/tile/red{
+	dir = 4
+	},
+/turf/open/floor/iron,
+/area/security/brig)
 "wFh" = (
 /obj/machinery/computer/exoscanner_control{
 	dir = 1
@@ -110488,7 +110498,7 @@ asu
 ahI
 ajx
 awf
-aDE
+eeN
 aDE
 roZ
 pvK
@@ -113571,7 +113581,7 @@ dHm
 mAi
 fNA
 asw
-awp
+wEN
 axr
 aiq
 azP
