@@ -25,7 +25,7 @@ map metastation
 	#votable
 endmap
 
-map pubbystation
+map bellystation
 	default
 	votable
 endmap
