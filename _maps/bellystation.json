@@ -1,5 +1,6 @@
 {
-    "map_name": "BellyStation",
+    "version": 1,
+    "map_name": "Belly Station",
     "map_path": "map_files/BellyStation",
     "map_file": "Belly.dmm",
     "shuttles": {
