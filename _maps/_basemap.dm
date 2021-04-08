@@ -11,7 +11,7 @@
 		#include "map_files\KiloStation\KiloStation.dmm"
 		#include "map_files\MetaStation\MetaStation.dmm"
 		#include "map_files\IceBoxStation\IceBoxStation.dmm"
-		#include "map_files\ReduxStation\ReduxStation.dmm"
+		#include "map_files\BellyStation\Belly.dmm"
 		#include "map_files\tramstation\tramstation.dmm"
 
 		#ifdef CIBUILDING

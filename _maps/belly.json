@@ -1,7 +1,7 @@
 {
-    "map_name": "ReduxStation",
-    "map_path": "map_files/ReduxStation",
-    "map_file": "ReduxStation.dmm",
+    "map_name": "BellyStation",
+    "map_path": "map_files/BellyStation",
+    "map_file": "Belly.dmm",
     "shuttles": {
 	    "emergency": "emergency_pubby",
 	    "whiteship": "whiteship_pubby",
