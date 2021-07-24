@@ -19,7 +19,7 @@ map metastation
 	#votable
 endmap
 
-map bellystation
+map pubbystation
 	default
 	votable
 endmap
