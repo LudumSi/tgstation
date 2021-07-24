@@ -34,6 +34,10 @@
 	var/junkiness
 	///Will this food turn into badrecipe on a grill? Don't use this for everything; preferably mostly for food that is made on a grill to begin with so it burns after some time
 	var/burns_on_grill = FALSE
+	///Price of this food if sold in a venue
+	var/venue_value
+	///Food that's immune to decomposition.
+	var/preserved_food = FALSE
 
 /obj/item/food/Initialize()
 	. = ..()
@@ -43,10 +47,13 @@
 		tastes = string_assoc_list(tastes)
 	if(eatverbs)
 		eatverbs = string_list(eatverbs)
+	if(venue_value)
+		AddElement(/datum/element/venue_price, venue_value)
 	MakeEdible()
 	MakeProcessable()
 	MakeLeaveTrash()
 	MakeGrillable()
+	MakeDecompose()
 
 ///This proc adds the edible component, overwrite this if you for some reason want to change some specific args like callbacks.
 /obj/item/food/proc/MakeEdible()
@@ -78,3 +85,8 @@
 	if(trash_type)
 		AddElement(/datum/element/food_trash, trash_type)
 	return
+
+///This proc makes things decompose. Set preserved_food to TRUE to make it never decompose.
+/obj/item/food/proc/MakeDecompose()
+	if(!preserved_food)
+		AddComponent(/datum/component/decomposition, decomp_flags = foodtypes)

@@ -1,9 +1,9 @@
-/datum/job/cmo
+/datum/job/chief_medical_officer
 	title = "Chief Medical Officer"
 	department_head = list("Captain")
 	auto_deadmin_role_flags = DEADMIN_POSITION_HEAD
 	head_announce = list(RADIO_CHANNEL_MEDICAL)
-	faction = "Station"
+	faction = FACTION_STATION
 	total_positions = 1
 	spawn_positions = 1
 	supervisors = "the captain"
@@ -15,13 +15,9 @@
 	exp_type_department = EXP_TYPE_MEDICAL
 
 	outfit = /datum/outfit/job/cmo
+	plasmaman_outfit = /datum/outfit/plasmaman/chief_medical_officer
+	departments = DEPARTMENT_MEDICAL | DEPARTMENT_COMMAND
 
-	access = list(ACCESS_MEDICAL, ACCESS_PSYCHOLOGY, ACCESS_MORGUE, ACCESS_PHARMACY, ACCESS_HEADS, ACCESS_MINERAL_STOREROOM,
-			ACCESS_CHEMISTRY, ACCESS_VIROLOGY, ACCESS_CMO, ACCESS_SURGERY, ACCESS_RC_ANNOUNCE, ACCESS_MECH_MEDICAL,
-			ACCESS_KEYCARD_AUTH, ACCESS_SEC_DOORS, ACCESS_MAINT_TUNNELS, ACCESS_EVA, ACCESS_TELEPORTER)
-	minimal_access = list(ACCESS_MEDICAL, ACCESS_PSYCHOLOGY, ACCESS_MORGUE, ACCESS_PHARMACY, ACCESS_HEADS, ACCESS_MINERAL_STOREROOM,
-			ACCESS_CHEMISTRY, ACCESS_VIROLOGY, ACCESS_CMO, ACCESS_SURGERY, ACCESS_RC_ANNOUNCE, ACCESS_MECH_MEDICAL,
-			ACCESS_KEYCARD_AUTH, ACCESS_SEC_DOORS, ACCESS_MAINT_TUNNELS, ACCESS_EVA)
 	paycheck = PAYCHECK_COMMAND
 	paycheck_department = ACCOUNT_MED
 
@@ -30,11 +26,28 @@
 	display_order = JOB_DISPLAY_ORDER_CHIEF_MEDICAL_OFFICER
 	bounty_types = CIV_JOB_MED
 
+	mail_goodies = list(
+		/obj/effect/spawner/lootdrop/organ_spawner = 10,
+		/obj/effect/spawner/lootdrop/memeorgans = 8,
+		/obj/effect/spawner/lootdrop/space/fancytool/advmedicalonly = 4,
+		/obj/effect/spawner/lootdrop/space/fancytool/raremedicalonly = 1
+	)
+	family_heirlooms = list(/obj/item/storage/firstaid/ancient/heirloom)
+
+	job_flags = JOB_ANNOUNCE_ARRIVAL | JOB_CREW_MANIFEST | JOB_EQUIP_RANK | JOB_CREW_MEMBER | JOB_NEW_PLAYER_JOINABLE
+
+	voice_of_god_power = 1.4 //Command staff has authority
+
+
+/datum/job/chief_medical_officer/get_captaincy_announcement(mob/living/captain)
+	return "Due to staffing shortages, newly promoted Acting Captain [captain.real_name] on deck!"
+
+
 /datum/outfit/job/cmo
 	name = "Chief Medical Officer"
-	jobtype = /datum/job/cmo
+	jobtype = /datum/job/chief_medical_officer
 
-	id = /obj/item/card/id/silver
+	id = /obj/item/card/id/advanced/silver
 	belt = /obj/item/pda/heads/cmo
 	l_pocket = /obj/item/pinpointer/crew
 	ears = /obj/item/radio/headset/heads/cmo
@@ -54,6 +67,8 @@
 
 	chameleon_extras = list(/obj/item/gun/syringe, /obj/item/stamp/cmo)
 
+	id_trim = /datum/id_trim/job/chief_medical_officer
+
 /datum/outfit/job/cmo/hardsuit
 	name = "Chief Medical Officer (Hardsuit)"
 
@@ -61,4 +76,3 @@
 	suit = /obj/item/clothing/suit/space/hardsuit/medical
 	suit_store = /obj/item/tank/internals/oxygen
 	r_pocket = /obj/item/flashlight/pen/paramedic
-

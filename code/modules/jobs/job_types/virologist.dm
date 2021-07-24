@@ -1,7 +1,7 @@
 /datum/job/virologist
 	title = "Virologist"
 	department_head = list("Chief Medical Officer")
-	faction = "Station"
+	faction = FACTION_STATION
 	total_positions = 1
 	spawn_positions = 1
 	supervisors = "the chief medical officer"
@@ -10,9 +10,8 @@
 	exp_requirements = 60
 
 	outfit = /datum/outfit/job/virologist
+	plasmaman_outfit = /datum/outfit/plasmaman/viro
 
-	access = list(ACCESS_MEDICAL, ACCESS_MORGUE, ACCESS_SURGERY, ACCESS_CHEMISTRY, ACCESS_VIROLOGY, ACCESS_MECH_MEDICAL, ACCESS_MINERAL_STOREROOM)
-	minimal_access = list(ACCESS_MEDICAL, ACCESS_VIROLOGY, ACCESS_MECH_MEDICAL, ACCESS_MINERAL_STOREROOM)
 	paycheck = PAYCHECK_MEDIUM
 	paycheck_department = ACCOUNT_MED
 
@@ -20,6 +19,20 @@
 
 	display_order = JOB_DISPLAY_ORDER_VIROLOGIST
 	bounty_types = CIV_JOB_VIRO
+	departments = DEPARTMENT_MEDICAL
+
+	family_heirlooms = list(/obj/item/reagent_containers/syringe)
+
+	mail_goodies = list(
+		/obj/item/reagent_containers/glass/bottle/random_virus = 15,
+		/obj/item/reagent_containers/glass/bottle/formaldehyde = 10,
+		/obj/item/reagent_containers/glass/bottle/synaptizine = 10,
+		/obj/item/stack/sheet/mineral/plasma = 10,
+		/obj/item/stack/sheet/mineral/uranium = 5
+	)
+
+	job_flags = JOB_ANNOUNCE_ARRIVAL | JOB_CREW_MANIFEST | JOB_EQUIP_RANK | JOB_CREW_MEMBER | JOB_NEW_PLAYER_JOINABLE
+
 
 /datum/outfit/job/virologist
 	name = "Virologist"
@@ -35,5 +48,7 @@
 
 	backpack = /obj/item/storage/backpack/virology
 	satchel = /obj/item/storage/backpack/satchel/vir
-	duffelbag = /obj/item/storage/backpack/duffelbag/med
+	duffelbag = /obj/item/storage/backpack/duffelbag/virology
 	box = /obj/item/storage/box/survival/medical
+
+	id_trim = /datum/id_trim/job/virologist

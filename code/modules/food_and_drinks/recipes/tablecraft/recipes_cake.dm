@@ -16,7 +16,7 @@
 	name = "Cheese cake"
 	reqs = list(
 		/obj/item/food/cake/plain = 1,
-		/obj/item/food/cheesewedge = 2
+		/obj/item/food/cheese = 2
 	)
 	result = /obj/item/food/cake/cheese
 	subcategory = CAT_CAKE
@@ -149,6 +149,28 @@
 		/obj/item/food/grown/berries = 5
 	)
 	result = /obj/item/food/cake/bscc
+	subcategory = CAT_CAKE
+
+/datum/crafting_recipe/food/pavlovacream
+	name = "Pavlova with cream"
+	reqs = list(
+		/datum/reagent/consumable/eggwhite = 12,
+		/datum/reagent/consumable/sugar = 15,
+		/datum/reagent/consumable/whipped_cream = 10,
+		/obj/item/food/grown/berries = 5
+	)
+	result = /obj/item/food/cake/pavlovacream
+	subcategory = CAT_CAKE
+
+/datum/crafting_recipe/food/pavlovakorta
+	name = "Pavlova with korta cream"
+	reqs = list(
+		/datum/reagent/consumable/eggwhite = 12,
+		/datum/reagent/consumable/sugar = 15,
+		/datum/reagent/consumable/korta_milk = 10,
+		/obj/item/food/grown/berries = 5
+	)
+	result = /obj/item/food/cake/pavlovakorta
 	subcategory = CAT_CAKE
 
 /datum/crafting_recipe/food/bscvcake

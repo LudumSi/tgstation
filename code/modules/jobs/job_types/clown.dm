@@ -1,27 +1,42 @@
 /datum/job/clown
 	title = "Clown"
 	department_head = list("Head of Personnel")
-	faction = "Station"
+	faction = FACTION_STATION
 	total_positions = 1
 	spawn_positions = 1
 	supervisors = "the head of personnel"
 	selection_color = "#bbe291"
 
 	outfit = /datum/outfit/job/clown
+	plasmaman_outfit = /datum/outfit/plasmaman/clown
 
-	access = list(ACCESS_THEATRE)
-	minimal_access = list(ACCESS_THEATRE)
 	paycheck = PAYCHECK_MINIMAL
 	paycheck_department = ACCOUNT_SRV
 
 	liver_traits = list(TRAIT_COMEDY_METABOLISM)
 
 	display_order = JOB_DISPLAY_ORDER_CLOWN
+	departments = DEPARTMENT_SERVICE
+
+	mail_goodies = list(
+		/obj/item/food/grown/banana = 100,
+		/obj/item/food/pie/cream = 50,
+		/obj/item/clothing/shoes/clown_shoes/combat = 10,
+		/obj/item/reagent_containers/spray/waterflower/lube = 20, // lube
+		/obj/item/reagent_containers/spray/waterflower/superlube = 1 // Superlube, good lord.
+	)
+
+	family_heirlooms = list(/obj/item/bikehorn/golden)
+
+	job_flags = JOB_ANNOUNCE_ARRIVAL | JOB_CREW_MANIFEST | JOB_EQUIP_RANK | JOB_CREW_MEMBER | JOB_NEW_PLAYER_JOINABLE
 
 
-/datum/job/clown/after_spawn(mob/living/carbon/human/H, mob/M)
+/datum/job/clown/after_spawn(mob/living/spawned, client/player_client)
 	. = ..()
-	H.apply_pref_name("clown", M.client)
+	if(!ishuman(spawned))
+		return
+	spawned.apply_pref_name("clown", player_client)
+
 
 /datum/outfit/job/clown
 	name = "Clown"
@@ -49,6 +64,13 @@
 	box = /obj/item/storage/box/hug/survival
 
 	chameleon_extras = /obj/item/stamp/clown
+
+	id_trim = /datum/id_trim/job/clown
+
+/datum/outfit/job/clown/pre_equip(mob/living/carbon/human/H, visualsOnly)
+	. = ..()
+	if(HAS_TRAIT(SSstation, STATION_TRAIT_BANANIUM_SHIPMENTS))
+		backpack_contents[/obj/item/stack/sheet/mineral/bananium/five] = 1
 
 /datum/outfit/job/clown/post_equip(mob/living/carbon/human/H, visualsOnly = FALSE)
 	..()

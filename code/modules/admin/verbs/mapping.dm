@@ -20,18 +20,18 @@
 //- Check if the area has too much empty space. If so, make it smaller and replace the rest with maintenance tunnels.
 
 GLOBAL_LIST_INIT(admin_verbs_debug_mapping, list(
-	/client/proc/camera_view, 				//-errorage
-	/client/proc/sec_camera_report, 		//-errorage
-	/client/proc/intercom_view, 			//-errorage
+	/client/proc/camera_view, //-errorage
+	/client/proc/sec_camera_report, //-errorage
+	/client/proc/intercom_view, //-errorage
 	/client/proc/air_status, //Air things
 	/client/proc/Cell, //More air things
 	/client/proc/atmosscan, //check plumbing
 	/client/proc/powerdebug, //check power
 	/client/proc/count_objects_on_z_level,
 	/client/proc/count_objects_all,
-	/client/proc/cmd_assume_direct_control,	//-errorage
+	/client/proc/cmd_assume_direct_control, //-errorage
 	/client/proc/cmd_give_direct_control,
-	/client/proc/set_server_fps,	//allows you to set the ticklag.
+	/client/proc/set_server_fps, //allows you to set the ticklag.
 	/client/proc/cmd_admin_grantfullaccess,
 	/client/proc/cmd_admin_areatest_all,
 	/client/proc/cmd_admin_areatest_station,
@@ -109,7 +109,7 @@ GLOBAL_LIST_EMPTY(dirty_vars)
 	set name = "Camera Report"
 
 	if(!Master)
-		alert(usr,"Master_controller not found.","Sec Camera Report")
+		tgui_alert(usr,"Master_controller not found.","Sec Camera Report")
 		return FALSE
 
 	var/list/obj/machinery/camera/CL = list()
@@ -305,7 +305,7 @@ GLOBAL_VAR_INIT(say_disabled, FALSE)
 				for(var/obj/item/I in D)
 					qdel(I)
 				randomize_human(D)
-				JB.equip(D, TRUE, FALSE)
+				D.dress_up_as_job(JB, TRUE)
 				COMPILE_OVERLAYS(D)
 				var/icon/I = icon(getFlatIcon(D), frame = 1)
 				final.Insert(I, JB.title)
