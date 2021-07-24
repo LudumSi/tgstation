@@ -24,7 +24,7 @@ FEEDBACK_DATABASE ss13
 ## FEEDBACK_TABLEPREFIX SS13_
 
 ## Username/Login used to access the database.
-FEEDBACK_LOGIN ss13
+FEEDBACK_LOGIN root
 
 ## Password used to access the database.
 FEEDBACK_PASSWORD ss13
