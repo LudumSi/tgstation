@@ -1,7 +1,7 @@
 /datum/job/roboticist
 	title = "Roboticist"
 	department_head = list("Research Director")
-	faction = "Station"
+	faction = FACTION_STATION
 	total_positions = 2
 	spawn_positions = 2
 	supervisors = "the research director"
@@ -19,11 +19,20 @@
 
 	display_order = JOB_DISPLAY_ORDER_ROBOTICIST
 
+	mail_goodies = list(
+		/obj/item/storage/box/flashes = 20,
+		/obj/item/stack/sheet/iron/twenty = 15,
+		/obj/item/modular_computer/tablet/preset/advanced = 5
+	)
+
 	family_heirlooms = list(/obj/item/toy/plush/pkplush)
+
+	job_flags = JOB_ANNOUNCE_ARRIVAL | JOB_CREW_MANIFEST | JOB_EQUIP_RANK | JOB_CREW_MEMBER | JOB_NEW_PLAYER_JOINABLE
+
 
 /datum/job/roboticist/New()
 	. = ..()
-	family_heirlooms += subtypesof(/obj/item/toy/prize)
+	family_heirlooms += subtypesof(/obj/item/toy/mecha)
 
 /datum/outfit/job/roboticist
 	name = "Roboticist"
@@ -38,6 +47,7 @@
 	backpack = /obj/item/storage/backpack/science
 	satchel = /obj/item/storage/backpack/satchel/tox
 	duffelbag = /obj/item/storage/backpack/duffelbag/toxins
+	backpack_contents = list(/obj/item/modular_computer/tablet/preset/science=1)
 
 	pda_slot = ITEM_SLOT_LPOCKET
 

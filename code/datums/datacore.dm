@@ -160,6 +160,8 @@
 		"Service" = GLOB.service_positions,
 		"Silicon" = GLOB.nonhuman_positions
 	)
+	var/list/heads = GLOB.command_positions + list("Quartermaster")
+
 	for(var/datum/data/record/t in GLOB.data_core.general)
 		var/name = t.fields["name"]
 		var/rank = t.fields["rank"]
@@ -169,12 +171,18 @@
 			if(rank in jobs)
 				if(!manifest_out[department])
 					manifest_out[department] = list()
-				manifest_out[department] += list(list(
-					"name" = name,
-					"rank" = rank
-				))
+				// Append to beginning of list if captain or department head
+				if (rank == "Captain" || (department != "Command" && (rank in heads)))
+					manifest_out[department] = list(list(
+						"name" = name,
+						"rank" = rank
+					)) + manifest_out[department]
+				else
+					manifest_out[department] += list(list(
+						"name" = name,
+						"rank" = rank
+					))
 				has_department = TRUE
-				break
 		if(!has_department)
 			if(!manifest_out["Misc"])
 				manifest_out["Misc"] = list()
@@ -219,14 +227,8 @@
 /datum/datacore/proc/manifest_inject(mob/living/carbon/human/H, client/C)
 	set waitfor = FALSE
 	var/static/list/show_directions = list(SOUTH, WEST)
-	if(H.mind && (H.mind.assigned_role != H.mind.special_role))
-		var/assignment
-		if(H.mind.assigned_role)
-			assignment = H.mind.assigned_role
-		else if(H.job)
-			assignment = H.job
-		else
-			assignment = "Unassigned"
+	if(H.mind?.assigned_role.job_flags & JOB_CREW_MANIFEST)
+		var/assignment = H.mind.assigned_role.title
 
 		var/static/record_id_num = 1001
 		var/id = num2hex(record_id_num++,6)
@@ -252,7 +254,7 @@
 		G.fields["rank"] = assignment
 		G.fields["age"] = H.age
 		G.fields["species"] = H.dna.species.name
-		G.fields["fingerprint"] = md5(H.dna.uni_identity)
+		G.fields["fingerprint"] = md5(H.dna.unique_identity)
 		G.fields["p_stat"] = "Active"
 		G.fields["m_stat"] = "Stable"
 		G.fields["gender"] = H.gender
@@ -294,9 +296,9 @@
 
 		//Locked Record
 		var/datum/data/record/L = new()
-		L.fields["id"] = md5("[H.real_name][H.mind.assigned_role]") //surely this should just be id, like the others?
+		L.fields["id"] = md5("[H.real_name][assignment]") //surely this should just be id, like the others?
 		L.fields["name"] = H.real_name
-		L.fields["rank"] = H.mind.assigned_role
+		L.fields["rank"] = assignment
 		L.fields["age"] = H.age
 		L.fields["gender"] = H.gender
 		if(H.gender == "male")
@@ -307,7 +309,7 @@
 			G.fields["gender"]  = "Other"
 		L.fields["blood_type"] = H.dna.blood_type
 		L.fields["b_dna"] = H.dna.unique_enzymes
-		L.fields["identity"] = H.dna.uni_identity
+		L.fields["identity"] = H.dna.unique_identity
 		L.fields["species"] = H.dna.species.type
 		L.fields["features"] = H.dna.features
 		L.fields["image"] = image
@@ -316,7 +318,7 @@
 	return
 
 /datum/datacore/proc/get_id_photo(mob/living/carbon/human/H, client/C, show_directions = list(SOUTH))
-	var/datum/job/J = SSjob.GetJob(H.mind.assigned_role)
+	var/datum/job/J = H.mind.assigned_role
 	var/datum/preferences/P
 	if(!C)
 		C = H.client

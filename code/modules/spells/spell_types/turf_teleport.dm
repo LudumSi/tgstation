@@ -3,6 +3,8 @@
 	desc = "This spell teleports the target to the turf in range."
 	nonabstract_req = TRUE
 
+	school = SCHOOL_TRANSLOCATION
+
 	var/inner_tele_radius = 1
 	var/outer_tele_radius = 2
 
@@ -40,5 +42,5 @@
 		if(!picked || !isturf(picked))
 			return
 
-		if(do_teleport(user, picked, forceMove = TRUE, channel = TELEPORT_CHANNEL_MAGIC))
+		if(do_teleport(user, picked, channel = TELEPORT_CHANNEL_MAGIC))
 			playsound(get_turf(user), sound1, 50,TRUE)

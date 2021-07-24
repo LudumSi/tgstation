@@ -1,7 +1,7 @@
 /datum/job/doctor
 	title = "Medical Doctor"
 	department_head = list("Chief Medical Officer")
-	faction = "Station"
+	faction = FACTION_STATION
 	total_positions = 5
 	spawn_positions = 3
 	supervisors = "the chief medical officer"
@@ -21,6 +21,19 @@
 
 	family_heirlooms = list(/obj/item/storage/firstaid/ancient/heirloom)
 
+	mail_goodies = list(
+		/obj/item/healthanalyzer/advanced = 15,
+		/obj/item/scalpel/advanced = 6,
+		/obj/item/retractor/advanced = 6,
+		/obj/item/cautery/advanced = 6,
+		/obj/item/reagent_containers/glass/bottle/formaldehyde = 6,
+		/obj/effect/spawner/lootdrop/organ_spawner = 5,
+		/obj/effect/spawner/lootdrop/memeorgans = 1
+	)
+
+	job_flags = JOB_ANNOUNCE_ARRIVAL | JOB_CREW_MANIFEST | JOB_EQUIP_RANK | JOB_CREW_MEMBER | JOB_NEW_PLAYER_JOINABLE
+
+
 /datum/outfit/job/doctor
 	name = "Medical Doctor"
 	jobtype = /datum/job/doctor
@@ -38,7 +51,7 @@
 	duffelbag = /obj/item/storage/backpack/duffelbag/med
 	box = /obj/item/storage/box/survival/medical
 
-	skillchips = list(/obj/item/skillchip/entrails_reader, /obj/item/skillchip/quickcarry)
+	skillchips = list(/obj/item/skillchip/entrails_reader)
 
 	chameleon_extras = /obj/item/gun/syringe
 
