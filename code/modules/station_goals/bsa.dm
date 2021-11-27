@@ -1,3 +1,7 @@
+
+///BSA unlocked by head ID swipes
+GLOBAL_VAR_INIT(bsa_unlock, FALSE)
+
 // Crew has to build a bluespace cannon
 // Cargo orders part for high price
 // Requires high amount of power
@@ -190,7 +194,7 @@
 	var/turf/point = get_front_turf()
 	var/turf/target = get_target_turf()
 	var/atom/movable/blocker
-	for(var/T in getline(get_step(point, dir), target))
+	for(var/T in get_line(get_step(point, dir), target))
 		var/turf/tile = T
 		if(SEND_SIGNAL(tile, COMSIG_ATOM_BSA_BEAM) & COMSIG_ATOM_BLOCKS_BSA_BEAM)
 			blocker = tile
@@ -211,7 +215,7 @@
 	if(!blocker)
 		message_admins("[ADMIN_LOOKUPFLW(user)] has launched an artillery strike targeting [ADMIN_VERBOSEJMP(bullseye)].")
 		log_game("[key_name(user)] has launched an artillery strike targeting [AREACOORD(bullseye)].")
-		explosion(bullseye, devastation_range = ex_power, heavy_impact_range = ex_power*2, light_impact_range = ex_power*4)
+		explosion(bullseye, devastation_range = ex_power, heavy_impact_range = ex_power*2, light_impact_range = ex_power*4, explosion_cause = src)
 	else
 		message_admins("[ADMIN_LOOKUPFLW(user)] has launched an artillery strike targeting [ADMIN_VERBOSEJMP(bullseye)] but it was blocked by [blocker] at [ADMIN_VERBOSEJMP(target)].")
 		log_game("[key_name(user)] has launched an artillery strike targeting [AREACOORD(bullseye)] but it was blocked by [blocker] at [AREACOORD(target)].")
