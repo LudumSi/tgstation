@@ -3,7 +3,7 @@
 /turf/closed/wall/mineral/titanium,
 /area/shuttle/mining)
 "b" = (
-/obj/effect/spawner/structure/window/shuttle,
+/obj/effect/spawner/structure/window/reinforced/shuttle,
 /turf/open/floor/plating,
 /area/shuttle/mining)
 "c" = (
@@ -67,7 +67,7 @@
 "l" = (
 /obj/effect/turf_decal/stripes/line,
 /obj/effect/turf_decal/stripes/corner{
-	dir = 4
+	dir = 1
 	},
 /obj/machinery/atmospherics/components/binary/valve{
 	dir = 8
@@ -106,7 +106,7 @@
 /turf/open/floor/mineral/plastitanium,
 /area/shuttle/mining)
 "p" = (
-/obj/effect/spawner/structure/window/shuttle,
+/obj/effect/spawner/structure/window/reinforced/shuttle,
 /obj/structure/shuttle/engine/heater,
 /turf/open/floor/plating,
 /area/template_noop)

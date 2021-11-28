@@ -22,7 +22,7 @@
 
 /obj/item/circuit_component/medical_console_data
 	display_name = "Crew Monitoring Data"
-	display_desc = "Outputs the medical statuses of people on the crew monitoring computer, where it can then be filtered with a Select Query component."
+	desc = "Outputs the medical statuses of people on the crew monitoring computer, where it can then be filtered with a Select Query component."
 	circuit_flags = CIRCUIT_FLAG_INPUT_SIGNAL|CIRCUIT_FLAG_OUTPUT_SIGNAL
 
 	/// The records retrieved
@@ -30,21 +30,15 @@
 
 	var/obj/machinery/computer/crew/attached_console
 
-/obj/item/circuit_component/medical_console_data/Initialize()
-	. = ..()
+/obj/item/circuit_component/medical_console_data/populate_ports()
 	records = add_output_port("Crew Monitoring Data", PORT_TYPE_TABLE)
 
-/obj/item/circuit_component/medical_console_data/Destroy()
-	records = null
-	return ..()
-
-
-/obj/item/circuit_component/medical_console_data/register_usb_parent(atom/movable/parent)
+/obj/item/circuit_component/medical_console_data/register_usb_parent(atom/movable/shell)
 	. = ..()
-	if(istype(parent, /obj/machinery/computer/crew))
-		attached_console = parent
+	if(istype(shell, /obj/machinery/computer/crew))
+		attached_console = shell
 
-/obj/item/circuit_component/medical_console_data/unregister_usb_parent(atom/movable/parent)
+/obj/item/circuit_component/medical_console_data/unregister_usb_parent(atom/movable/shell)
 	attached_console = null
 	return ..()
 
@@ -63,9 +57,6 @@
 
 
 /obj/item/circuit_component/medical_console_data/input_received(datum/port/input/port)
-	. = ..()
-	if(.)
-		return
 
 	if(!attached_console || !GLOB.crewmonitor)
 		return
@@ -189,9 +180,9 @@ GLOBAL_DATUM_INIT(crewmonitor, /datum/crewmonitor, new)
 		return data_by_z["[z]"]
 
 	var/list/results = list()
-	for(var/tracked_mob in GLOB.suit_sensors_list | GLOB.nanite_sensors_list)
+	for(var/tracked_mob in GLOB.suit_sensors_list)
 		if(!tracked_mob)
-			stack_trace("Null entry in suit sensors or nanite sensors list.")
+			stack_trace("Null entry in suit sensors list.")
 			continue
 
 		var/mob/living/tracked_living_mob = tracked_mob
@@ -208,31 +199,25 @@ GLOBAL_DATUM_INIT(crewmonitor, /datum/crewmonitor, new)
 		if(pos.z != z && (!is_station_level(pos.z) || !is_station_level(z)))
 			continue
 
-		var/sensor_mode
+		var/mob/living/carbon/human/tracked_human = tracked_living_mob
 
-		// Set sensor level based on whether we're in the nanites list or the suit sensor list.
-		if(tracked_living_mob in GLOB.nanite_sensors_list)
-			sensor_mode = SENSOR_COORDS
-		else
-			var/mob/living/carbon/human/tracked_human = tracked_living_mob
+		// Check their humanity.
+		if(!ishuman(tracked_human))
+			stack_trace("Non-human mob is in suit_sensors_list: [tracked_living_mob] ([tracked_living_mob.type])")
+			continue
 
-			// Check their humanity.
-			if(!ishuman(tracked_human))
-				stack_trace("Non-human mob is in suit_sensors_list: [tracked_living_mob] ([tracked_living_mob.type])")
-				continue
+		// Check they have a uniform
+		var/obj/item/clothing/under/uniform = tracked_human.w_uniform
+		if (!istype(uniform))
+			stack_trace("Human without a suit sensors compatible uniform is in suit_sensors_list: [tracked_human] ([tracked_human.type]) ([uniform?.type])")
+			continue
 
-			// Check they have a uniform
-			var/obj/item/clothing/under/uniform = tracked_human.w_uniform
-			if (!istype(uniform))
-				stack_trace("Human without a suit sensors compatible uniform is in suit_sensors_list: [tracked_human] ([tracked_human.type]) ([uniform?.type])")
-				continue
+		// Check if their uniform is in a compatible mode.
+		if((uniform.has_sensor <= NO_SENSORS) || !uniform.sensor_mode)
+			stack_trace("Human without active suit sensors is in suit_sensors_list: [tracked_human] ([tracked_human.type]) ([uniform.type])")
+			continue
 
-			// Check if their uniform is in a compatible mode.
-			if((uniform.has_sensor <= NO_SENSORS) || !uniform.sensor_mode)
-				stack_trace("Human without active suit sensors is in suit_sensors_list: [tracked_human] ([tracked_human.type]) ([uniform.type])")
-				continue
-
-			sensor_mode = uniform.sensor_mode
+		var/sensor_mode = uniform.sensor_mode
 
 		// The entry for this human
 		var/list/entry = list(
@@ -246,7 +231,9 @@ GLOBAL_DATUM_INIT(crewmonitor, /datum/crewmonitor, new)
 		if (id_card)
 			entry["name"] = id_card.registered_name
 			entry["assignment"] = id_card.assignment
-			entry["ijob"] = jobs[id_card.assignment]
+			var/trim_assignment = id_card.get_trim_assignment()
+			if (jobs[trim_assignment] != null)
+				entry["ijob"] = jobs[trim_assignment]
 
 		// Binary living/dead status
 		if (sensor_mode >= SENSOR_LIVING)

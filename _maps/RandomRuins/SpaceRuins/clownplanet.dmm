@@ -148,7 +148,7 @@
 /area/ruin/powered/clownplanet)
 "aE" = (
 /obj/effect/turf_decal/stripes/corner{
-	dir = 4
+	dir = 1
 	},
 /turf/open/floor/grass{
 	color = "#1eff00"
@@ -215,7 +215,7 @@
 /area/ruin/powered/clownplanet)
 "aP" = (
 /obj/effect/turf_decal/stripes/corner{
-	dir = 1
+	dir = 8
 	},
 /turf/open/floor/grass{
 	color = "#1eff00"
@@ -257,7 +257,7 @@
 /area/ruin/powered/clownplanet)
 "aV" = (
 /obj/effect/turf_decal/stripes/corner{
-	dir = 8
+	dir = 4
 	},
 /turf/open/floor/grass{
 	color = "#1eff00"
@@ -282,7 +282,7 @@
 "aY" = (
 /obj/structure/flora/ausbushes/lavendergrass,
 /obj/effect/turf_decal/stripes/corner{
-	dir = 8
+	dir = 4
 	},
 /turf/open/floor/grass{
 	color = "#1eff00"
@@ -330,7 +330,7 @@
 "be" = (
 /obj/structure/flora/ausbushes/ywflowers,
 /obj/effect/turf_decal/stripes/corner{
-	dir = 1
+	dir = 8
 	},
 /turf/open/floor/grass{
 	color = "#1eff00"
@@ -347,7 +347,7 @@
 /turf/open/floor/bluespace,
 /area/ruin/powered/clownplanet)
 "bh" = (
-/obj/effect/spawner/randomcolavend,
+/obj/effect/spawner/random/vending/colavend,
 /obj/effect/turf_decal/stripes/white/box,
 /turf/open/floor/bluespace,
 /area/ruin/powered/clownplanet)
@@ -361,7 +361,7 @@
 	},
 /area/ruin/powered/clownplanet)
 "bk" = (
-/obj/effect/spawner/randomsnackvend,
+/obj/effect/spawner/random/vending/snackvend,
 /obj/effect/turf_decal/stripes/white/box,
 /turf/open/floor/bluespace,
 /area/ruin/powered/clownplanet)

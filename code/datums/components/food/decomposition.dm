@@ -10,8 +10,8 @@
 
 /datum/component/decomposition
 	dupe_mode = COMPONENT_DUPE_UNIQUE
-	/// Makes sure food only starts decomposing if a player's EVER picked it up before
-	var/handled = FALSE
+	/// Makes sure maploaded food only starts decomposing if a player's EVER picked it up before
+	var/handled = TRUE
 	/// Used to stop food in someone's hand & in storage slots from decomposing.
 	var/protected = FALSE
 	/// Used to stop the timer & check for the examine proc
@@ -20,14 +20,23 @@
 	var/time_remaining = DECOMPOSITION_TIME
 	/// Used to give raw/gross food lower timers
 	var/decomp_flags
+	/// Use for determining what kind of item the food decomposes into.
+	var/decomp_result
+	/// Does our food attract ants?
+	var/produce_ants = TRUE
 	/// Used for examining
 	var/examine_type = DECOMP_EXAM_NORMAL
 
-/datum/component/decomposition/Initialize(decomp_flags = NONE)
+/datum/component/decomposition/Initialize(mapload, decomp_req_handle, decomp_flags = NONE, decomp_result, ant_attracting = TRUE)
 	if(!isobj(parent))
 		return COMPONENT_INCOMPATIBLE
 
 	src.decomp_flags = decomp_flags
+	src.decomp_result = decomp_result
+	if(mapload || decomp_req_handle)
+		handled = FALSE
+	if(!ant_attracting)
+		produce_ants = FALSE
 
 	RegisterSignal(parent, COMSIG_MOVABLE_MOVED, .proc/handle_movement)
 	RegisterSignal(parent, list(
@@ -47,6 +56,9 @@
 		time_remaining = DECOMPOSITION_TIME_GROSS
 		examine_type = DECOMP_EXAM_GROSS
 
+	handle_movement()
+
+
 /datum/component/decomposition/UnregisterFromParent()
 	UnregisterSignal(parent, list(
 		COMSIG_ITEM_PICKUP,
@@ -57,7 +69,8 @@
 		COMSIG_PARENT_EXAMINE))
 
 /datum/component/decomposition/proc/handle_movement()
-	if(!handled) // Has someone touched this previously?
+	SIGNAL_HANDLER
+	if(!handled) // If maploaded, has someone touched this previously?
 		return
 	var/obj/food = parent // Doesn't HAVE to be food, that's just what it's intended for
 
@@ -98,8 +111,9 @@
 
 /datum/component/decomposition/proc/decompose()
 	var/obj/decomp = parent //Lets us spawn things at decomp
-	new /obj/effect/decal/cleanable/ants(decomp.loc)
-	new /obj/item/food/badrecipe/moldy(decomp.loc)
+	if(produce_ants)
+		new /obj/effect/decal/cleanable/ants(decomp.loc)
+	new decomp_result(decomp.loc)
 	decomp.visible_message("<span class='notice'>[decomp] gets overtaken by mold and ants! Gross!</span>")
 	qdel(decomp)
 	return
