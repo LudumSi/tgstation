@@ -656,7 +656,7 @@
 /area/tcommsat/oldaisat)
 "cm" = (
 /obj/effect/turf_decal/stripes/corner{
-	dir = 1
+	dir = 8
 	},
 /turf/open/floor/iron/airless,
 /area/tcommsat/oldaisat)
@@ -720,7 +720,7 @@
 /obj/machinery/light/small/directional/south,
 /obj/item/paper,
 /obj/effect/turf_decal/stripes/corner{
-	dir = 8
+	dir = 4
 	},
 /turf/open/floor/iron/airless,
 /area/tcommsat/oldaisat)
@@ -776,7 +776,7 @@
 /area/tcommsat/oldaisat)
 "cH" = (
 /obj/effect/turf_decal/stripes/corner{
-	dir = 4
+	dir = 1
 	},
 /turf/open/floor/iron,
 /area/tcommsat/oldaisat)
@@ -785,7 +785,7 @@
 /area/tcommsat/oldaisat)
 "cJ" = (
 /obj/effect/turf_decal/stripes/corner{
-	dir = 8
+	dir = 4
 	},
 /turf/open/floor/iron,
 /area/tcommsat/oldaisat)
@@ -840,7 +840,7 @@
 /area/tcommsat/oldaisat)
 "cU" = (
 /obj/effect/turf_decal/stripes/corner{
-	dir = 1
+	dir = 8
 	},
 /turf/open/floor/iron,
 /area/tcommsat/oldaisat)

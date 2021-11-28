@@ -881,7 +881,7 @@
 	},
 /obj/structure/alien/weeds/node,
 /obj/effect/turf_decal/stripes/corner{
-	dir = 4
+	dir = 1
 	},
 /turf/open/floor/iron{
 	heat_capacity = 1e+006;
@@ -906,7 +906,7 @@
 	pixel_y = 32
 	},
 /obj/effect/turf_decal/stripes/corner{
-	dir = 1
+	dir = 8
 	},
 /turf/open/floor/iron{
 	heat_capacity = 1e+006;
@@ -963,7 +963,7 @@
 "cl" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/turf_decal/stripes/corner{
-	dir = 1
+	dir = 8
 	},
 /turf/open/floor/plating{
 	heat_capacity = 1e+006
@@ -1536,7 +1536,7 @@
 /area/awaymission/moonoutpost19/syndicate)
 "dn" = (
 /obj/effect/turf_decal/stripes/corner{
-	dir = 1
+	dir = 8
 	},
 /turf/open/floor/iron{
 	heat_capacity = 1e+006;
@@ -3718,7 +3718,7 @@
 /area/awaymission/moonoutpost19/research)
 "ij" = (
 /obj/machinery/airalarm/unlocked{
-	dir = 8;
+	dir = 4;
 	pixel_x = -23;
 	req_access = null
 	},
@@ -5141,7 +5141,7 @@
 /obj/structure/table,
 /obj/item/storage/box,
 /obj/machinery/airalarm/unlocked{
-	dir = 8;
+	dir = 4;
 	pixel_x = -23;
 	req_access = null
 	},

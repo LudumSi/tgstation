@@ -141,7 +141,7 @@
 /area/ctf)
 "dd" = (
 /obj/effect/turf_decal/stripes/corner{
-	dir = 8
+	dir = 4
 	},
 /obj/effect/turf_decal/tile/red{
 	dir = 4
@@ -163,7 +163,7 @@
 /area/ctf)
 "dw" = (
 /obj/effect/turf_decal/stripes/corner{
-	dir = 4
+	dir = 1
 	},
 /turf/open/floor/iron,
 /area/ctf)
@@ -1100,7 +1100,7 @@
 /area/ctf)
 "vY" = (
 /obj/effect/turf_decal/stripes/corner{
-	dir = 1
+	dir = 8
 	},
 /turf/open/floor/iron,
 /area/ctf)
@@ -1620,7 +1620,7 @@
 	dir = 1
 	},
 /obj/effect/turf_decal/tile/bar,
-/obj/structure/chair/stool/bar/directional/north{
+/obj/structure/chair/stool/bar/directional/south{
 	item_chair = null;
 	resistance_flags = 64
 	},
@@ -1753,7 +1753,7 @@
 /area/ctf)
 "GE" = (
 /obj/effect/turf_decal/stripes/corner{
-	dir = 1
+	dir = 8
 	},
 /obj/effect/turf_decal/tile/red{
 	dir = 8
@@ -1852,7 +1852,7 @@
 /area/ctf)
 "Is" = (
 /obj/effect/turf_decal/stripes/corner{
-	dir = 8
+	dir = 4
 	},
 /obj/effect/turf_decal/tile/blue{
 	dir = 1
@@ -2630,7 +2630,7 @@
 /area/ctf)
 "Yb" = (
 /obj/effect/turf_decal/stripes/corner{
-	dir = 4
+	dir = 1
 	},
 /obj/effect/turf_decal/tile/blue,
 /turf/open/floor/iron/dark,
@@ -3686,9 +3686,9 @@ xs
 td
 Bh
 ql
-go
+hU
 ql
-go
+hU
 QC
 td
 mB
@@ -3838,9 +3838,9 @@ BH
 Am
 Ug
 ql
-go
+hU
 ql
-go
+hU
 QC
 Am
 Ad
@@ -4183,7 +4183,7 @@ dO
 sZ
 Dm
 ql
-go
+hU
 td
 qT
 yX

@@ -871,7 +871,7 @@
 /area/construction)
 "cZ" = (
 /obj/effect/turf_decal/stripes/corner{
-	dir = 1
+	dir = 8
 	},
 /turf/open/floor/iron,
 /area/construction)
@@ -884,7 +884,7 @@
 /area/hallway/secondary/entry)
 "dc" = (
 /obj/effect/turf_decal/stripes/corner{
-	dir = 8
+	dir = 4
 	},
 /obj/structure/cable,
 /turf/open/floor/iron,
@@ -1062,7 +1062,7 @@
 /area/commons/storage/primary)
 "dK" = (
 /obj/effect/turf_decal/stripes/corner{
-	dir = 8
+	dir = 4
 	},
 /turf/open/floor/iron,
 /area/construction)
@@ -1074,7 +1074,7 @@
 /area/construction)
 "dM" = (
 /obj/effect/turf_decal/stripes/corner{
-	dir = 4
+	dir = 1
 	},
 /turf/open/floor/iron,
 /area/construction)
@@ -1312,7 +1312,7 @@
 /area/hallway/secondary/entry)
 "eG" = (
 /obj/machinery/airalarm/unlocked{
-	dir = 8;
+	dir = 4;
 	pixel_x = -24
 	},
 /turf/open/floor/iron,
@@ -1415,7 +1415,7 @@
 /area/hallway/secondary/entry)
 "eW" = (
 /obj/effect/turf_decal/stripes/corner{
-	dir = 1
+	dir = 8
 	},
 /turf/open/floor/iron,
 /area/commons/storage/primary)
@@ -1670,7 +1670,7 @@
 "fH" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden,
 /obj/effect/turf_decal/stripes/corner{
-	dir = 4
+	dir = 1
 	},
 /obj/structure/cable,
 /turf/open/floor/iron,
@@ -1950,7 +1950,7 @@
 /obj/machinery/camera/autoname/directional/south,
 /obj/structure/cable,
 /obj/effect/turf_decal/stripes/corner{
-	dir = 1
+	dir = 8
 	},
 /turf/open/floor/iron,
 /area/cargo/miningoffice)
@@ -2074,7 +2074,7 @@
 /area/science/misc_lab)
 "nq" = (
 /obj/effect/turf_decal/stripes/corner{
-	dir = 8
+	dir = 4
 	},
 /turf/open/floor/iron,
 /area/commons/storage/primary)
@@ -2217,7 +2217,7 @@
 /area/commons/storage/primary)
 "vy" = (
 /obj/effect/turf_decal/stripes/corner{
-	dir = 4
+	dir = 1
 	},
 /turf/open/floor/iron,
 /area/cargo/miningoffice)

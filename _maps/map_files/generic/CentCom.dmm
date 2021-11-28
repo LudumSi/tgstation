@@ -2373,7 +2373,7 @@
 /area/centcom/supply)
 "jv" = (
 /obj/effect/turf_decal/stripes/corner{
-	dir = 8
+	dir = 4
 	},
 /turf/open/floor/iron,
 /area/centcom/control)
@@ -2385,7 +2385,7 @@
 /area/centcom/control)
 "jx" = (
 /obj/effect/turf_decal/stripes/corner{
-	dir = 4
+	dir = 1
 	},
 /turf/open/floor/iron,
 /area/centcom/control)
@@ -2465,7 +2465,7 @@
 /area/centcom/control)
 "jH" = (
 /obj/effect/turf_decal/stripes/corner{
-	dir = 1
+	dir = 8
 	},
 /turf/open/floor/iron,
 /area/centcom/control)
@@ -6015,7 +6015,7 @@
 /area/syndicate_mothership/control)
 "sp" = (
 /obj/effect/turf_decal/stripes/corner{
-	dir = 1
+	dir = 8
 	},
 /turf/open/floor/plating/airless,
 /area/syndicate_mothership/control)
@@ -7926,7 +7926,7 @@
 "xL" = (
 /obj/structure/closet/cardboard/metal,
 /obj/effect/turf_decal/stripes/corner{
-	dir = 4
+	dir = 1
 	},
 /turf/open/floor/plating/airless,
 /area/syndicate_mothership/control)
@@ -7944,7 +7944,7 @@
 /area/syndicate_mothership/control)
 "xP" = (
 /obj/effect/turf_decal/stripes/corner{
-	dir = 4
+	dir = 1
 	},
 /turf/open/floor/plating/airless,
 /area/syndicate_mothership/control)
@@ -8109,7 +8109,7 @@
 /area/centcom/control)
 "yk" = (
 /obj/effect/turf_decal/stripes/corner{
-	dir = 8
+	dir = 4
 	},
 /turf/open/floor/plating/airless,
 /area/syndicate_mothership/control)
