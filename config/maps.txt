@@ -24,6 +24,11 @@ map pubbystation
 	votable
 endmap
 
+map ministation
+	minplayers 0
+	#votable
+endmao
+
 map deltastation
 	minplayers 50
 	#votable
