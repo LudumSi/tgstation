@@ -20,13 +20,14 @@ map metastation
 endmap
 
 map pubbystation
-	default
+	minplayer 20
 	votable
 endmap
 
 map ministation
 	minplayers 0
-	#votable
+	default
+	votable
 endmao
 
 map deltastation
