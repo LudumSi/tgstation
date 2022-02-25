@@ -21,6 +21,9 @@
 		"officer": {
 			"additional_access": 27,
 			"additional_minimal_access": 27
+		},
+		"cook": {
+			"additional_cqc_areas": ["/area/service/cafeteria"]
 		}
 	}
 }
