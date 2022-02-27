@@ -28,7 +28,7 @@ map ministation
 	minplayers 0
 	default
 	votable
-endmao
+endmap
 
 map deltastation
 	minplayers 50
