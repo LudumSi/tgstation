@@ -20,8 +20,8 @@ map metastation
 endmap
 
 map pubbystation
-	minplayer 20
-	votable
+	minplayers 20
+	#votable
 endmap
 
 map ministation
