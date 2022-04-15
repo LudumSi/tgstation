@@ -38,6 +38,7 @@
 	var/datum/component/storage/modstorage = mod.GetComponent(/datum/component/storage)
 	storage.slaves -= modstorage
 	qdel(modstorage)
+	SEND_SIGNAL(src, COMSIG_TRY_STORAGE_QUICK_EMPTY, drop_location())
 	SEND_SIGNAL(src, COMSIG_TRY_STORAGE_SET_LOCKSTATE, TRUE)
 	UnregisterSignal(mod.chestplate, COMSIG_ITEM_PRE_UNEQUIP)
 
@@ -276,7 +277,7 @@
 	. = ..()
 	if(!active)
 		return
-	var/mutable_appearance/light_icon = mutable_appearance('icons/mob/clothing/mod.dmi', "module_light_on", layer = standing.layer + 0.2)
+	var/mutable_appearance/light_icon = mutable_appearance(overlay_icon_file, "module_light_on", layer = standing.layer + 0.2)
 	light_icon.appearance_flags = RESET_COLOR
 	light_icon.color = light_color
 	. += light_icon
