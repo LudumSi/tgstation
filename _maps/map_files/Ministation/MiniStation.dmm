@@ -9480,6 +9480,7 @@
 /area/ai_monitored/turret_protected/ai_upload)
 "vo" = (
 /obj/machinery/status_display/ai/directional/north,
+/obj/machinery/light/directional/north,
 /turf/open/floor/circuit,
 /area/ai_monitored/turret_protected/ai_upload)
 "vq" = (
@@ -9731,6 +9732,9 @@
 /obj/effect/turf_decal/tile/yellow{
 	dir = 8
 	},
+/obj/structure/sign/warning/securearea{
+	pixel_x = -32
+	},
 /turf/open/floor/iron,
 /area/tcommsat/computer)
 "wg" = (
@@ -9813,6 +9817,7 @@
 /area/tcommsat/computer)
 "ws" = (
 /obj/item/radio/intercom/directional/south,
+/obj/machinery/light/directional/south,
 /turf/open/floor/iron,
 /area/tcommsat/computer)
 "wt" = (
@@ -14823,6 +14828,7 @@
 /obj/machinery/power/smes{
 	charge = 5e+006
 	},
+/obj/structure/cable,
 /turf/open/floor/plating,
 /area/tcommsat/computer)
 "Hy" = (
@@ -15663,6 +15669,7 @@
 /area/tcommsat/computer)
 "LG" = (
 /obj/machinery/status_display/ai/directional/south,
+/obj/machinery/light/directional/south,
 /turf/open/floor/circuit,
 /area/ai_monitored/turret_protected/ai_upload)
 "LI" = (
@@ -15806,9 +15813,6 @@
 /turf/open/floor/iron/dark,
 /area/command/bridge)
 "Mv" = (
-/obj/structure/sign/warning/securearea{
-	pixel_x = -32
-	},
 /turf/open/floor/iron,
 /area/tcommsat/computer)
 "MK" = (
@@ -15912,6 +15916,7 @@
 "Nt" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/plating,
 /area/tcommsat/computer)
 "Nw" = (
@@ -17008,6 +17013,11 @@
 	},
 /turf/closed/wall,
 /area/maintenance/central)
+"VS" = (
+/obj/structure/cable,
+/obj/machinery/light/directional/north,
+/turf/open/floor/iron,
+/area/tcommsat/computer)
 "VU" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
@@ -17139,11 +17149,11 @@
 /turf/open/floor/iron,
 /area/engineering/main)
 "WN" = (
-/mob/living/simple_animal/pet/cat/jerry,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/structure/cable,
 /turf/open/floor/plating,
-/area/maintenance/aft{
-	name = "Aft Maintenance"
-	})
+/area/tcommsat/computer)
 "WP" = (
 /obj/machinery/suit_storage_unit/captain,
 /obj/item/storage/secure/safe/directional/east,
@@ -17599,6 +17609,11 @@
 /obj/machinery/portable_atmospherics/canister/nitrous_oxide,
 /turf/open/floor/engine,
 /area/engineering/main)
+"ZP" = (
+/obj/structure/cable,
+/mob/living/simple_animal/pet/cat/jerry,
+/turf/open/floor/plating,
+/area/tcommsat/computer)
 "ZQ" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
 	dir = 8
@@ -47863,7 +47878,7 @@ nr
 Gg
 nr
 nr
-WN
+nr
 nr
 nr
 qB
@@ -61266,7 +61281,7 @@ Yw
 Yw
 vH
 Ht
-Yw
+ZP
 Nt
 Yu
 Yu
@@ -63321,7 +63336,7 @@ vo
 vt
 LG
 vJ
-NC
+VS
 vV
 Ma
 wk
@@ -64346,7 +64361,7 @@ uI
 uY
 Vg
 PS
-Vg
+WN
 IZ
 vi
 vi
