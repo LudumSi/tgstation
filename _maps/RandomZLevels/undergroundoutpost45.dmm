@@ -292,7 +292,7 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden,
 /obj/structure/closet/secure_closet/personal/cabinet{
 	locked = 0;
-	req_access_txt = "201"
+	req_access = list("away_maintenance")
 	},
 /obj/item/clothing/under/misc/pj/blue,
 /turf/open/floor/carpet{
@@ -339,7 +339,7 @@
 	},
 /obj/structure/closet/secure_closet/personal/cabinet{
 	locked = 0;
-	req_access_txt = "201"
+	req_access = list("away_maintenance")
 	},
 /obj/item/clothing/under/suit/black/skirt,
 /turf/open/floor/carpet{
@@ -378,7 +378,7 @@
 /obj/structure/closet/secure_closet{
 	icon_state = "sec";
 	name = "security officer's locker";
-	req_access_txt = "201"
+	req_access = list("away_maintenance")
 	},
 /obj/effect/turf_decal/tile/red{
 	dir = 1
@@ -1551,7 +1551,7 @@
 /obj/structure/closet/secure_closet/freezer{
 	locked = 0;
 	name = "meat fridge";
-	req_access_txt = "201"
+	req_access = list("away_maintenance")
 	},
 /turf/open/floor/iron/showroomfloor{
 	heat_capacity = 1e+006
@@ -1574,7 +1574,7 @@
 /obj/structure/closet/secure_closet/freezer{
 	locked = 0;
 	name = "refrigerator";
-	req_access_txt = "201"
+	req_access = list("away_maintenance")
 	},
 /turf/open/floor/iron/cafeteria{
 	dir = 5;
@@ -1615,7 +1615,7 @@
 "dR" = (
 /obj/machinery/door/airlock/security{
 	name = "Security Checkpoint";
-	req_access_txt = "201"
+	req_access = list("away_maintenance")
 	},
 /turf/open/floor/iron{
 	heat_capacity = 1e+006
@@ -1687,7 +1687,7 @@
 	},
 /obj/machinery/door/airlock/public/glass{
 	name = "Hydroponics";
-	req_access_txt = "201"
+	req_access = list("away_maintenance")
 	},
 /turf/open/floor/iron{
 	heat_capacity = 1e+006
@@ -1728,7 +1728,7 @@
 /obj/machinery/door/firedoor,
 /obj/machinery/door/airlock/command{
 	name = "Gateway Chamber";
-	req_access_txt = "201"
+	req_access = list("away_maintenance")
 	},
 /obj/structure/cable,
 /turf/open/floor/iron{
@@ -1749,7 +1749,7 @@
 	},
 /obj/machinery/door/airlock/maintenance{
 	name = "Security Checkpoint Maintenance";
-	req_access_txt = "201"
+	req_access = list("away_maintenance")
 	},
 /turf/open/floor/plating{
 	heat_capacity = 1e+006
@@ -1833,7 +1833,7 @@
 /obj/machinery/door/firedoor,
 /obj/machinery/door/airlock/public/glass{
 	name = "Hydroponics";
-	req_access_txt = "201"
+	req_access = list("away_maintenance")
 	},
 /turf/open/floor/iron{
 	heat_capacity = 1e+006
@@ -1874,7 +1874,7 @@
 "ev" = (
 /obj/structure/closet/secure_closet/personal/cabinet{
 	locked = 0;
-	req_access_txt = "201"
+	req_access = list("away_maintenance")
 	},
 /obj/item/clothing/under/misc/pj/red,
 /turf/open/floor/carpet{
@@ -1915,13 +1915,13 @@
 	},
 /area/awaymission/undergroundoutpost45/central)
 "eA" = (
-/obj/structure/flora/ausbushes/ppflowers,
+/obj/structure/flora/bush/flowers_pp/style_random,
 /turf/open/floor/grass{
 	heat_capacity = 1e+006
 	},
 /area/awaymission/undergroundoutpost45/central)
 "eB" = (
-/obj/structure/flora/ausbushes/brflowers,
+/obj/structure/flora/bush/flowers_br/style_random,
 /turf/open/floor/grass{
 	heat_capacity = 1e+006
 	},
@@ -2005,7 +2005,7 @@
 	},
 /area/awaymission/undergroundoutpost45/central)
 "eO" = (
-/obj/structure/flora/ausbushes/ywflowers,
+/obj/structure/flora/bush/flowers_yw/style_random,
 /turf/open/floor/grass{
 	heat_capacity = 1e+006
 	},
@@ -2314,7 +2314,7 @@
 	},
 /obj/machinery/door/airlock/maintenance{
 	name = "Hydroponics Maintenance";
-	req_access_txt = "201"
+	req_access = list("away_maintenance")
 	},
 /obj/structure/cable,
 /turf/open/floor/plating{
@@ -2590,7 +2590,7 @@
 "gi" = (
 /obj/machinery/door/airlock/maintenance{
 	name = "Kitchen Maintenance";
-	req_access_txt = "201"
+	req_access = list("away_maintenance")
 	},
 /turf/open/floor/plating{
 	heat_capacity = 1e+006
@@ -2682,7 +2682,7 @@
 "gu" = (
 /obj/machinery/door/airlock{
 	name = "Kitchen Cold Room";
-	req_access_txt = "201"
+	req_access = list("away_maintenance")
 	},
 /turf/open/floor/iron/showroomfloor{
 	heat_capacity = 1e+006
@@ -2926,7 +2926,7 @@
 /obj/machinery/door/window/left/directional/south{
 	dir = 8;
 	name = "Security Checkpoint";
-	req_access_txt = "201"
+	req_access = list("away_maintenance")
 	},
 /turf/open/floor/iron{
 	heat_capacity = 1e+006
@@ -3118,7 +3118,7 @@
 	},
 /area/awaymission/undergroundoutpost45/research)
 "hD" = (
-/obj/machinery/rnd/production/protolathe,
+/obj/machinery/rnd/production/protolathe/offstation,
 /obj/effect/turf_decal/stripes/line{
 	dir = 1
 	},
@@ -3243,7 +3243,7 @@
 /obj/machinery/door/firedoor,
 /obj/machinery/door/airlock/public/glass{
 	name = "Kitchen";
-	req_access_txt = "201"
+	req_access = list("away_maintenance")
 	},
 /obj/structure/disposalpipe/segment{
 	dir = 4
@@ -3340,7 +3340,7 @@
 	dir = 4;
 	icon_state = "right";
 	name = "Hydroponics Desk";
-	req_access_txt = "201"
+	req_access = list("away_maintenance")
 	},
 /turf/open/floor/iron{
 	heat_capacity = 1e+006
@@ -3504,7 +3504,7 @@
 "iu" = (
 /obj/machinery/door/window{
 	name = "Gateway Chamber";
-	req_access_txt = "201"
+	req_access = list("away_maintenance")
 	},
 /obj/structure/cable,
 /turf/open/floor/iron/dark{
@@ -3518,19 +3518,6 @@
 	heat_capacity = 1e+006
 	},
 /area/awaymission/undergroundoutpost45/gateway)
-"iw" = (
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden,
-/obj/structure/chair{
-	dir = 8
-	},
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/sign/warning/nosmoking{
-	pixel_x = 32
-	},
-/turf/open/floor/iron/dark{
-	heat_capacity = 1e+006
-	},
-/area/awaymission/undergroundoutpost45/gateway)
 "ix" = (
 /obj/machinery/door/airlock{
 	name = "Emergency Supplies"
@@ -3539,31 +3526,6 @@
 	heat_capacity = 1e+006
 	},
 /area/awaymission/undergroundoutpost45/gateway)
-"iy" = (
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden{
-	dir = 6
-	},
-/obj/structure/table,
-/obj/item/stack/cable_coil,
-/obj/item/stack/cable_coil{
-	pixel_x = 3;
-	pixel_y = 3
-	},
-/obj/item/stock_parts/scanning_module{
-	pixel_x = 2;
-	pixel_y = 3
-	},
-/obj/item/stock_parts/scanning_module,
-/obj/structure/sign/warning/nosmoking{
-	pixel_x = -32
-	},
-/obj/effect/turf_decal/stripes/line{
-	dir = 1
-	},
-/turf/open/floor/iron/white{
-	heat_capacity = 1e+006
-	},
-/area/awaymission/undergroundoutpost45/research)
 "iz" = (
 /obj/structure/disposalpipe/segment{
 	dir = 6
@@ -3875,7 +3837,7 @@
 /obj/structure/closet/secure_closet{
 	locked = 0;
 	name = "kitchen Cabinet";
-	req_access_txt = "201"
+	req_access = list("away_maintenance")
 	},
 /obj/item/reagent_containers/food/condiment/flour,
 /obj/item/reagent_containers/food/condiment/flour,
@@ -3964,7 +3926,7 @@
 	},
 /obj/machinery/door/airlock/research{
 	name = "Gateway Observation";
-	req_access_txt = "201"
+	req_access = list("away_maintenance")
 	},
 /turf/open/floor/iron/dark{
 	heat_capacity = 1e+006
@@ -4075,7 +4037,7 @@
 	},
 /obj/machinery/door/airlock{
 	name = "Kitchen";
-	req_access_txt = "201"
+	req_access = list("away_maintenance")
 	},
 /obj/effect/turf_decal/tile/bar,
 /obj/effect/turf_decal/tile/bar{
@@ -4173,7 +4135,7 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden,
 /obj/machinery/door/airlock/research{
 	name = "Research Lab";
-	req_access_txt = "201"
+	req_access = list("away_maintenance")
 	},
 /turf/open/floor/iron/white{
 	heat_capacity = 1e+006
@@ -4360,7 +4322,7 @@
 /obj/structure/closet/secure_closet{
 	icon_state = "rd";
 	name = "research director's locker";
-	req_access_txt = "201"
+	req_access = list("away_maintenance")
 	},
 /turf/open/floor/iron/cafeteria{
 	dir = 5;
@@ -4420,7 +4382,7 @@
 	},
 /obj/machinery/door/airlock/command{
 	name = "Gateway EVA";
-	req_access_txt = "201"
+	req_access = list("away_maintenance")
 	},
 /obj/structure/cable,
 /turf/open/floor/iron{
@@ -4431,7 +4393,7 @@
 /obj/item/clothing/under/suit/navy,
 /obj/structure/closet/secure_closet/personal/cabinet{
 	locked = 0;
-	req_access_txt = "201"
+	req_access = list("away_maintenance")
 	},
 /turf/open/floor/carpet{
 	heat_capacity = 1e+006
@@ -4568,15 +4530,6 @@
 	heat_capacity = 1e+006
 	},
 /area/awaymission/undergroundoutpost45/gateway)
-"kz" = (
-/obj/structure/sign/warning/securearea{
-	pixel_y = 32
-	},
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/iron{
-	heat_capacity = 1e+006
-	},
-/area/awaymission/undergroundoutpost45/gateway)
 "kA" = (
 /obj/structure/tank_dispenser/oxygen,
 /obj/effect/decal/cleanable/dirt,
@@ -4610,19 +4563,6 @@
 	heat_capacity = 1e+006
 	},
 /area/awaymission/undergroundoutpost45/gateway)
-"kD" = (
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden{
-	dir = 4
-	},
-/obj/machinery/light/small/directional/west,
-/obj/structure/sign/warning/securearea{
-	pixel_x = -32
-	},
-/turf/open/floor/iron/white{
-	heat_capacity = 1e+006
-	},
-/area/awaymission/undergroundoutpost45/gateway)
 "kE" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden,
 /turf/open/floor/iron/white{
@@ -4636,7 +4576,7 @@
 	},
 /obj/machinery/door/airlock/research{
 	name = "Research Division Access";
-	req_access_txt = "201"
+	req_access = list("away_maintenance")
 	},
 /turf/open/floor/iron/white{
 	heat_capacity = 1e+006
@@ -4711,7 +4651,7 @@
 	},
 /obj/machinery/door/airlock/research{
 	name = "Research Division Access";
-	req_access_txt = "201"
+	req_access = list("away_maintenance")
 	},
 /obj/effect/turf_decal/tile/purple{
 	dir = 4
@@ -4845,28 +4785,13 @@
 /obj/machinery/door/firedoor,
 /obj/machinery/door/poddoor/preopen{
 	id = "UO45_biohazard";
-	name = "biohazard containment door"
+	name = "Biohazard Containment Door"
 	},
 /obj/effect/turf_decal/delivery,
 /turf/open/floor/iron{
 	heat_capacity = 1e+006
 	},
 /area/awaymission/undergroundoutpost45/research)
-"kZ" = (
-/obj/structure/sink{
-	pixel_y = 25
-	},
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/sign/warning/nosmoking{
-	pixel_x = -32
-	},
-/obj/effect/turf_decal/stripes/line{
-	dir = 9
-	},
-/turf/open/floor/iron/white{
-	heat_capacity = 1e+006
-	},
-/area/space/nearstation)
 "la" = (
 /obj/machinery/shower{
 	pixel_y = 15
@@ -5021,24 +4946,6 @@
 "ln" = (
 /turf/closed/wall/r_wall,
 /area/awaymission/undergroundoutpost45/engineering)
-"lo" = (
-/obj/machinery/light/small/directional/west,
-/obj/structure/table,
-/obj/item/storage/toolbox/mechanical{
-	pixel_x = -2;
-	pixel_y = -1
-	},
-/obj/item/multitool,
-/obj/structure/sign/warning/nosmoking{
-	pixel_x = -32
-	},
-/obj/effect/turf_decal/stripes/line{
-	dir = 4
-	},
-/turf/open/floor/iron/dark{
-	heat_capacity = 1e+006
-	},
-/area/awaymission/undergroundoutpost45/gateway)
 "lq" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on{
 	dir = 4
@@ -5083,7 +4990,7 @@
 /obj/structure/closet/secure_closet{
 	icon_state = "sec";
 	name = "security officer's locker";
-	req_access_txt = "201"
+	req_access = list("away_maintenance")
 	},
 /obj/effect/turf_decal/tile/red,
 /obj/effect/turf_decal/tile/red{
@@ -5119,7 +5026,7 @@
 	},
 /obj/machinery/door/airlock/research{
 	name = "Research Division Access";
-	req_access_txt = "201"
+	req_access = list("away_maintenance")
 	},
 /obj/structure/cable,
 /turf/open/floor/iron/white{
@@ -5190,7 +5097,7 @@
 	},
 /obj/machinery/door/airlock/research{
 	name = "Research Division Access";
-	req_access_txt = "201"
+	req_access = list("away_maintenance")
 	},
 /obj/effect/turf_decal/tile/purple,
 /obj/structure/cable,
@@ -5318,7 +5225,7 @@
 "lO" = (
 /obj/machinery/door/airlock/research{
 	name = "Research Division Access";
-	req_access_txt = "201"
+	req_access = list("away_maintenance")
 	},
 /turf/open/floor/iron/white{
 	heat_capacity = 1e+006
@@ -5516,7 +5423,7 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden,
 /obj/machinery/door/airlock/command{
 	name = "Research Director's Office";
-	req_access_txt = "201"
+	req_access = list("away_maintenance")
 	},
 /turf/open/floor/iron/cafeteria{
 	dir = 5;
@@ -5528,7 +5435,7 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden,
 /obj/machinery/door/poddoor/shutters/preopen{
 	id = "UO45_rdprivacy";
-	name = "privacy shutters"
+	name = "Privacy Shutters"
 	},
 /turf/open/floor/plating{
 	heat_capacity = 1e+006
@@ -5538,7 +5445,7 @@
 /obj/effect/spawner/structure/window/reinforced,
 /obj/machinery/door/poddoor/shutters/preopen{
 	id = "UO45_rdprivacy";
-	name = "privacy shutters"
+	name = "Privacy Shutters"
 	},
 /turf/open/floor/plating{
 	heat_capacity = 1e+006
@@ -5561,18 +5468,6 @@
 	heat_capacity = 1e+006
 	},
 /area/awaymission/undergroundoutpost45/research)
-"mm" = (
-/obj/structure/closet/firecloset,
-/obj/machinery/light/small/directional/south,
-/obj/structure/sign/warning/securearea{
-	pixel_y = -32
-	},
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/turf_decal/stripes/line,
-/turf/open/floor/iron/white{
-	heat_capacity = 1e+006
-	},
-/area/awaymission/undergroundoutpost45/research)
 "mn" = (
 /obj/structure/closet/emcloset,
 /obj/effect/turf_decal/stripes/line{
@@ -5582,18 +5477,6 @@
 	heat_capacity = 1e+006
 	},
 /area/awaymission/undergroundoutpost45/research)
-"mo" = (
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden,
-/obj/structure/sign/warning/securearea{
-	pixel_x = -32
-	},
-/obj/effect/turf_decal/tile/purple{
-	dir = 1
-	},
-/turf/open/floor/iron{
-	heat_capacity = 1e+006
-	},
-/area/awaymission/undergroundoutpost45/crew_quarters)
 "mp" = (
 /obj/structure/chair{
 	dir = 1
@@ -5669,7 +5552,7 @@
 /obj/item/clothing/glasses/meson,
 /obj/structure/closet/secure_closet/engineering_personal{
 	locked = 0;
-	req_access_txt = "201"
+	req_access = list("away_maintenance")
 	},
 /obj/effect/turf_decal/tile/yellow{
 	dir = 1
@@ -5800,7 +5683,7 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden,
 /obj/machinery/door/airlock/maintenance{
 	name = "Research Maintenance";
-	req_access_txt = "201"
+	req_access = list("away_maintenance")
 	},
 /obj/structure/cable,
 /turf/open/floor/plating{
@@ -6044,7 +5927,7 @@
 "nh" = (
 /obj/machinery/door/poddoor{
 	id = "UO45_Secure Storage";
-	name = "secure storage"
+	name = "Secure Storage"
 	},
 /turf/open/floor/plating{
 	heat_capacity = 1e+006
@@ -6059,19 +5942,6 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/cable,
 /turf/open/floor/plating{
-	heat_capacity = 1e+006
-	},
-/area/awaymission/undergroundoutpost45/research)
-"nk" = (
-/obj/structure/table,
-/obj/item/cartridge/signal/ordnance,
-/obj/item/cartridge/signal/ordnance{
-	pixel_x = -4;
-	pixel_y = 2
-	},
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/iron/cafeteria{
-	dir = 5;
 	heat_capacity = 1e+006
 	},
 /area/awaymission/undergroundoutpost45/research)
@@ -6870,14 +6740,14 @@
 	id = "UO45_biohazard";
 	name = "Biohazard Door Control";
 	pixel_y = 8;
-	req_access_txt = "201"
+	req_access = list("away_maintenance")
 	},
 /obj/machinery/button/door{
 	desc = "A remote control-switch that controls the privacy shutters.";
 	id = "UO45_rdprivacy";
 	name = "Privacy Shutter Control";
 	pixel_y = -2;
-	req_access_txt = "201"
+	req_access = list("away_maintenance")
 	},
 /turf/open/floor/iron/cafeteria{
 	dir = 5;
@@ -6933,7 +6803,7 @@
 "oE" = (
 /obj/machinery/door/airlock/security/glass{
 	name = "Security Office";
-	req_access_txt = "201"
+	req_access = list("away_maintenance")
 	},
 /turf/open/floor/iron/white{
 	heat_capacity = 1e+006
@@ -7256,7 +7126,7 @@
 	desc = "A remote control switch which locks the research division down in the event of a biohazard leak or contamination.";
 	id = "UO45_biohazard";
 	name = "Biohazard Door Control";
-	req_access_txt = "201"
+	req_access = list("away_maintenance")
 	},
 /turf/open/floor/iron{
 	heat_capacity = 1e+006
@@ -7457,7 +7327,7 @@
 "pI" = (
 /obj/machinery/door/airlock/command{
 	name = "Server Room";
-	req_access_txt = "201"
+	req_access = list("away_maintenance")
 	},
 /turf/open/floor/iron/dark{
 	heat_capacity = 1e+006
@@ -7482,7 +7352,7 @@
 "pM" = (
 /obj/machinery/door/airlock/research/glass{
 	name = "Research Storage";
-	req_access_txt = "201"
+	req_access = list("away_maintenance")
 	},
 /turf/open/floor/iron/white{
 	heat_capacity = 1e+006
@@ -7618,7 +7488,7 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/visible,
 /obj/machinery/door/airlock/engineering/glass{
 	name = "SMES Room";
-	req_access_txt = "201"
+	req_access = list("away_maintenance")
 	},
 /obj/structure/cable,
 /turf/open/floor/iron/dark{
@@ -7674,17 +7544,6 @@
 	},
 /turf/open/floor/iron/dark/telecomms,
 /area/awaymission/undergroundoutpost45/research)
-"qj" = (
-/obj/effect/spawner/structure/window/reinforced,
-/obj/structure/sign/warning/securearea{
-	desc = "A warning sign which reads 'SERVER ROOM'.";
-	name = "SERVER ROOM";
-	pixel_y = 32
-	},
-/turf/open/floor/plating{
-	heat_capacity = 1e+006
-	},
-/area/awaymission/undergroundoutpost45/research)
 "qk" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron/dark{
@@ -7692,7 +7551,7 @@
 	},
 /area/awaymission/undergroundoutpost45/research)
 "ql" = (
-/obj/machinery/atmospherics/components/binary/thermomachine/freezer/on,
+/obj/machinery/atmospherics/components/unary/thermomachine/freezer/on,
 /turf/open/floor/iron/dark{
 	heat_capacity = 1e+006
 	},
@@ -7742,7 +7601,7 @@
 /area/awaymission/undergroundoutpost45/research)
 "qq" = (
 /obj/machinery/vending/medical{
-	req_access_txt = "201"
+	req_access = list("away_maintenance")
 	},
 /turf/open/floor/iron/white/side{
 	dir = 6;
@@ -7827,24 +7686,6 @@
 	heat_capacity = 1e+006
 	},
 /area/awaymission/undergroundoutpost45/engineering)
-"qE" = (
-/obj/machinery/computer/monitor/secret{
-	name = "primary power monitoring console"
-	},
-/obj/structure/sign/warning/nosmoking{
-	pixel_x = -32
-	},
-/obj/effect/turf_decal/tile/yellow{
-	dir = 1
-	},
-/obj/effect/turf_decal/tile/yellow{
-	dir = 4
-	},
-/obj/structure/cable,
-/turf/open/floor/iron{
-	heat_capacity = 1e+006
-	},
-/area/awaymission/undergroundoutpost45/engineering)
 "qF" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/turf_decal/tile/yellow{
@@ -7887,7 +7728,7 @@
 	},
 /obj/structure/closet/secure_closet/engineering_personal{
 	req_access = null;
-	req_access_txt = "201"
+	req_access = list("away_maintenance")
 	},
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/turf_decal/tile/yellow{
@@ -7996,7 +7837,7 @@
 	},
 /obj/machinery/door/airlock/command/glass{
 	name = "Server Room";
-	req_access_txt = "201"
+	req_access = list("away_maintenance")
 	},
 /turf/open/floor/iron/dark{
 	heat_capacity = 1e+006
@@ -8245,7 +8086,7 @@
 	dir = 8;
 	name = "UO45 Engineering APC";
 	pixel_x = -25;
-	req_access_txt = "201";
+	req_access = list("away_maintenance");
 	start_charge = 100
 	},
 /obj/machinery/atmospherics/components/unary/vent_pump/on{
@@ -8274,7 +8115,7 @@
 /obj/structure/closet/secure_closet{
 	icon_state = "sec";
 	name = "security officer's locker";
-	req_access_txt = "201"
+	req_access = list("away_maintenance")
 	},
 /obj/effect/turf_decal/tile/red,
 /obj/effect/turf_decal/tile/red{
@@ -8287,7 +8128,7 @@
 	desc = "A remote control switch for the engineering security doors.";
 	id = "UO45_Engineering";
 	name = "Engineering Lockdown";
-	req_access_txt = "201"
+	req_access = list("away_maintenance")
 	},
 /turf/open/floor/iron{
 	heat_capacity = 1e+006
@@ -8296,7 +8137,7 @@
 "rs" = (
 /obj/structure/closet/secure_closet/personal/cabinet{
 	locked = 0;
-	req_access_txt = "201"
+	req_access = list("away_maintenance")
 	},
 /obj/item/clothing/under/misc/pj/blue,
 /turf/open/floor/carpet{
@@ -8362,17 +8203,6 @@
 	},
 /turf/open/floor/iron/dark/telecomms,
 /area/awaymission/undergroundoutpost45/research)
-"rA" = (
-/obj/effect/spawner/structure/window/reinforced,
-/obj/structure/sign/warning/securearea{
-	desc = "A warning sign which reads 'SERVER ROOM'.";
-	name = "SERVER ROOM";
-	pixel_y = -32
-	},
-/turf/open/floor/plating{
-	heat_capacity = 1e+006
-	},
-/area/awaymission/undergroundoutpost45/research)
 "rB" = (
 /obj/structure/table,
 /obj/item/folder/white,
@@ -8419,7 +8249,7 @@
 	},
 /obj/machinery/door/airlock/maintenance{
 	name = "Research Maintenance";
-	req_access_txt = "201"
+	req_access = list("away_maintenance")
 	},
 /turf/open/floor/plating{
 	heat_capacity = 1e+006
@@ -8752,7 +8582,7 @@
 	},
 /obj/machinery/door/poddoor/preopen{
 	id = "UO45_Engineering";
-	name = "engineering security door"
+	name = "Engineering Security Door"
 	},
 /turf/open/floor/plating{
 	heat_capacity = 1e+006
@@ -8774,7 +8604,7 @@
 	},
 /obj/structure/closet/secure_closet/personal/cabinet{
 	locked = 0;
-	req_access_txt = "201"
+	req_access = list("away_maintenance")
 	},
 /turf/open/floor/carpet{
 	heat_capacity = 1e+006
@@ -8796,7 +8626,7 @@
 	locked = 0;
 	name = "miner's equipment";
 	req_access = null;
-	req_access_txt = "201"
+	req_access = list("away_maintenance")
 	},
 /obj/item/storage/backpack/satchel/eng,
 /obj/item/clothing/gloves/fingerless,
@@ -9145,7 +8975,7 @@
 	},
 /obj/machinery/door/poddoor/preopen{
 	id = "UO45_Engineering";
-	name = "engineering security door"
+	name = "Engineering Security Door"
 	},
 /turf/open/floor/plating{
 	heat_capacity = 1e+006
@@ -9431,24 +9261,6 @@
 	heat_capacity = 1e+006
 	},
 /area/awaymission/undergroundoutpost45/engineering)
-"ty" = (
-/obj/machinery/atmospherics/components/unary/vent_scrubber/on{
-	dir = 1
-	},
-/obj/structure/sign/warning/securearea{
-	pixel_y = -32
-	},
-/obj/effect/turf_decal/tile/yellow,
-/obj/effect/turf_decal/tile/yellow{
-	dir = 4
-	},
-/obj/effect/turf_decal/tile/yellow{
-	dir = 8
-	},
-/turf/open/floor/iron{
-	heat_capacity = 1e+006
-	},
-/area/awaymission/undergroundoutpost45/engineering)
 "tz" = (
 /obj/machinery/computer/security{
 	dir = 1;
@@ -9464,7 +9276,7 @@
 	desc = "A remote control switch for the security privacy shutters.";
 	id = "UO45_EngineeringOffice";
 	name = "Privacy Shutters";
-	req_access_txt = "201"
+	req_access = list("away_maintenance")
 	},
 /turf/open/floor/iron{
 	heat_capacity = 1e+006
@@ -9557,19 +9369,6 @@
 	heat_capacity = 1e+006
 	},
 /area/awaymission/undergroundoutpost45/engineering)
-"tJ" = (
-/obj/machinery/atmospherics/components/binary/pump/on{
-	dir = 1;
-	name = "Unfiltered to Mix"
-	},
-/obj/structure/sign/warning/nosmoking{
-	pixel_x = 32
-	},
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/iron{
-	heat_capacity = 1e+006
-	},
-/area/awaymission/undergroundoutpost45/engineering)
 "tK" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden{
 	dir = 5
@@ -9582,7 +9381,7 @@
 	},
 /obj/machinery/door/airlock/engineering{
 	name = "Engineering Maintenance";
-	req_access_txt = "201"
+	req_access = list("away_maintenance")
 	},
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden,
 /turf/open/floor/plating{
@@ -9763,7 +9562,7 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden,
 /obj/machinery/door/airlock/engineering{
 	name = "Engineering Foyer";
-	req_access_txt = "201"
+	req_access = list("away_maintenance")
 	},
 /obj/structure/cable,
 /turf/open/floor/iron{
@@ -10037,7 +9836,7 @@
 "uF" = (
 /obj/machinery/door/airlock/security/glass{
 	name = "Security Office";
-	req_access_txt = "201"
+	req_access = list("away_maintenance")
 	},
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden,
 /turf/open/floor/iron{
@@ -10048,7 +9847,7 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/visible,
 /obj/machinery/door/airlock/engineering{
 	name = "Engineering";
-	req_access_txt = "201"
+	req_access = list("away_maintenance")
 	},
 /obj/structure/cable,
 /turf/open/floor/iron{
@@ -10219,25 +10018,6 @@
 	heat_capacity = 1e+006
 	},
 /area/awaymission/undergroundoutpost45/engineering)
-"uY" = (
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden{
-	dir = 4
-	},
-/obj/structure/sign/warning/securearea{
-	pixel_x = 32
-	},
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/turf_decal/tile/yellow{
-	dir = 1
-	},
-/obj/effect/turf_decal/tile/yellow,
-/obj/effect/turf_decal/tile/yellow{
-	dir = 4
-	},
-/turf/open/floor/iron{
-	heat_capacity = 1e+006
-	},
-/area/awaymission/undergroundoutpost45/engineering)
 "uZ" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden{
 	dir = 4
@@ -10248,7 +10028,7 @@
 /obj/machinery/door/firedoor,
 /obj/machinery/door/poddoor/preopen{
 	id = "UO45_Engineering";
-	name = "engineering security door"
+	name = "Engineering Security Door"
 	},
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden{
 	dir = 4
@@ -10262,28 +10042,13 @@
 /obj/machinery/door/firedoor,
 /obj/machinery/door/poddoor/preopen{
 	id = "UO45_Engineering";
-	name = "engineering security door"
+	name = "Engineering Security Door"
 	},
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden{
 	dir = 9
 	},
 /obj/effect/turf_decal/delivery,
 /obj/structure/cable,
-/turf/open/floor/iron{
-	heat_capacity = 1e+006
-	},
-/area/awaymission/undergroundoutpost45/engineering)
-"vc" = (
-/obj/machinery/door/firedoor,
-/obj/structure/sign/warning/securearea{
-	pixel_y = 32
-	},
-/obj/machinery/door/poddoor/preopen{
-	id = "UO45_Engineering";
-	name = "engineering security door"
-	},
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden,
-/obj/effect/turf_decal/delivery,
 /turf/open/floor/iron{
 	heat_capacity = 1e+006
 	},
@@ -10494,7 +10259,7 @@
 "vz" = (
 /obj/machinery/door/airlock/engineering{
 	name = "Engineering";
-	req_access_txt = "201"
+	req_access = list("away_maintenance")
 	},
 /obj/structure/cable,
 /turf/open/floor/iron{
@@ -10546,7 +10311,7 @@
 "vM" = (
 /obj/machinery/door/airlock/maintenance{
 	name = "Mining Maintenance";
-	req_access_txt = "201"
+	req_access = list("away_maintenance")
 	},
 /turf/open/floor/plating{
 	heat_capacity = 1e+006
@@ -10557,7 +10322,7 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden,
 /obj/machinery/door/airlock/mining/glass{
 	name = "Mining Foyer";
-	req_access_txt = "201"
+	req_access = list("away_maintenance")
 	},
 /turf/open/floor/iron{
 	heat_capacity = 1e+006
@@ -10568,7 +10333,7 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden,
 /obj/machinery/door/airlock/mining/glass{
 	name = "Mining Foyer";
-	req_access_txt = "201"
+	req_access = list("away_maintenance")
 	},
 /obj/structure/cable,
 /turf/open/floor/iron{
@@ -10628,23 +10393,6 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden,
 /obj/structure/cable,
-/turf/open/floor/iron{
-	heat_capacity = 1e+006
-	},
-/area/awaymission/undergroundoutpost45/engineering)
-"vU" = (
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden{
-	dir = 4
-	},
-/obj/structure/sign/warning/electricshock{
-	pixel_y = -32
-	},
-/obj/machinery/vending/engivend,
-/obj/machinery/camera/directional/south{
-	c_tag = "Engineering Foyer";
-	network = list("uo45")
-	},
-/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron{
 	heat_capacity = 1e+006
 	},
@@ -10982,7 +10730,7 @@
 /obj/machinery/firealarm/directional/south,
 /obj/structure/closet/secure_closet/miner{
 	req_access = null;
-	req_access_txt = "201"
+	req_access = list("away_maintenance")
 	},
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron{
@@ -11021,7 +10769,7 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden,
 /obj/machinery/door/airlock/mining{
 	name = "Processing Area";
-	req_access_txt = "201"
+	req_access = list("away_maintenance")
 	},
 /turf/open/floor/iron{
 	heat_capacity = 1e+006
@@ -11032,7 +10780,7 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden,
 /obj/machinery/door/airlock/mining{
 	name = "Processing Area";
-	req_access_txt = "201"
+	req_access = list("away_maintenance")
 	},
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/cable,
@@ -11088,20 +10836,6 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/cable,
 /turf/open/floor/iron{
-	heat_capacity = 1e+006
-	},
-/area/awaymission/undergroundoutpost45/mining)
-"xq" = (
-/obj/machinery/conveyor{
-	id = "UO45_mining"
-	},
-/obj/structure/sign/warning/nosmoking{
-	pixel_x = -32
-	},
-/obj/effect/turf_decal/stripes/line{
-	dir = 4
-	},
-/turf/open/floor/plating{
 	heat_capacity = 1e+006
 	},
 /area/awaymission/undergroundoutpost45/mining)
@@ -11255,7 +10989,7 @@
 	},
 /obj/machinery/door/airlock/mining/glass{
 	name = "Mining EVA";
-	req_access_txt = "201"
+	req_access = list("away_maintenance")
 	},
 /obj/structure/cable,
 /turf/open/floor/iron{
@@ -11382,7 +11116,7 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden,
 /obj/machinery/door/airlock/external/ruin{
 	name = "Mining External Airlock";
-	req_access_txt = "201"
+	req_access = list("away_maintenance")
 	},
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
@@ -11455,11 +11189,24 @@
 "yf" = (
 /obj/machinery/door/airlock/external/ruin{
 	name = "Mining External Airlock";
-	req_access_txt = "201"
+	req_access = list("away_maintenance")
 	},
 /obj/effect/turf_decal/sand,
 /turf/open/floor/iron,
 /area/awaymission/undergroundoutpost45/mining)
+"yh" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden,
+/obj/structure/chair{
+	dir = 8
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/sign/warning/no_smoking{
+	pixel_x = 32
+	},
+/turf/open/floor/iron/dark{
+	heat_capacity = 1e+006
+	},
+/area/awaymission/undergroundoutpost45/gateway)
 "yy" = (
 /obj/machinery/light/small/directional/east,
 /obj/machinery/airalarm/all_access{
@@ -11493,6 +11240,31 @@
 	temperature = 363.9
 	},
 /area/awaymission/undergroundoutpost45/caves)
+"ze" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden{
+	dir = 6
+	},
+/obj/structure/table,
+/obj/item/stack/cable_coil,
+/obj/item/stack/cable_coil{
+	pixel_x = 3;
+	pixel_y = 3
+	},
+/obj/item/stock_parts/scanning_module{
+	pixel_x = 2;
+	pixel_y = 3
+	},
+/obj/item/stock_parts/scanning_module,
+/obj/structure/sign/warning/no_smoking{
+	pixel_x = -32
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/turf/open/floor/iron/white{
+	heat_capacity = 1e+006
+	},
+/area/awaymission/undergroundoutpost45/research)
 "zq" = (
 /turf/open/misc/asteroid{
 	heat_capacity = 1e+006;
@@ -11545,11 +11317,11 @@
 	icon_state = "hydro";
 	locked = 0;
 	name = "botanist's locker";
-	req_access_txt = "201"
+	req_access = list("away_maintenance")
 	},
 /obj/item/storage/bag/plants/portaseeder,
 /obj/item/plant_analyzer,
-/obj/item/clothing/mask/bandana/color/striped/botany,
+/obj/item/clothing/mask/bandana/striped/botany,
 /obj/item/hatchet,
 /obj/effect/turf_decal/tile/neutral/fourcorners,
 /turf/open/floor/iron/dark{
@@ -11575,6 +11347,23 @@
 	temperature = 363.9
 	},
 /area/awaymission/undergroundoutpost45/caves)
+"AN" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden{
+	dir = 4
+	},
+/obj/structure/sign/warning/electric_shock{
+	pixel_y = -32
+	},
+/obj/machinery/vending/engivend,
+/obj/machinery/camera/directional/south{
+	c_tag = "Engineering Foyer";
+	network = list("uo45")
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron{
+	heat_capacity = 1e+006
+	},
+/area/awaymission/undergroundoutpost45/engineering)
 "Bh" = (
 /obj/structure/disposalpipe/segment{
 	dir = 5
@@ -11676,6 +11465,15 @@
 	heat_capacity = 1e+006
 	},
 /area/awaymission/undergroundoutpost45/research)
+"Cy" = (
+/obj/structure/sign/warning/secure_area{
+	pixel_y = 32
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron{
+	heat_capacity = 1e+006
+	},
+/area/awaymission/undergroundoutpost45/gateway)
 "CH" = (
 /obj/structure/table/reinforced,
 /obj/item/paper_bin{
@@ -11685,6 +11483,24 @@
 /obj/item/pen,
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/turf_decal/tile/neutral/fourcorners,
+/turf/open/floor/iron{
+	heat_capacity = 1e+006
+	},
+/area/awaymission/undergroundoutpost45/engineering)
+"De" = (
+/obj/machinery/computer/monitor/secret{
+	name = "primary power monitoring console"
+	},
+/obj/structure/sign/warning/no_smoking{
+	pixel_x = -32
+	},
+/obj/effect/turf_decal/tile/yellow{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/yellow{
+	dir = 4
+	},
+/obj/structure/cable,
 /turf/open/floor/iron{
 	heat_capacity = 1e+006
 	},
@@ -11720,6 +11536,24 @@
 	heat_capacity = 1e+006
 	},
 /area/awaymission/undergroundoutpost45/engineering)
+"DB" = (
+/obj/machinery/light/small/directional/west,
+/obj/structure/table,
+/obj/item/storage/toolbox/mechanical{
+	pixel_x = -2;
+	pixel_y = -1
+	},
+/obj/item/multitool,
+/obj/structure/sign/warning/no_smoking{
+	pixel_x = -32
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/turf/open/floor/iron/dark{
+	heat_capacity = 1e+006
+	},
+/area/awaymission/undergroundoutpost45/gateway)
 "DJ" = (
 /obj/effect/turf_decal/sand/plating,
 /obj/effect/turf_decal/stripes/asteroid/line{
@@ -11744,13 +11578,24 @@
 	heat_capacity = 1e+006
 	},
 /area/awaymission/undergroundoutpost45/engineering)
+"Ea" = (
+/obj/effect/spawner/structure/window/reinforced,
+/obj/structure/sign/warning/secure_area{
+	desc = "A warning sign which reads 'SERVER ROOM'.";
+	name = "SERVER ROOM";
+	pixel_y = -32
+	},
+/turf/open/floor/plating{
+	heat_capacity = 1e+006
+	},
+/area/awaymission/undergroundoutpost45/research)
 "Ed" = (
 /obj/structure/table/reinforced,
 /obj/machinery/door/firedoor,
 /obj/machinery/door/window/left/directional/south{
 	dir = 4;
 	name = "Hydroponics Desk";
-	req_access_txt = "201"
+	req_access = list("away_maintenance")
 	},
 /turf/open/floor/iron{
 	heat_capacity = 1e+006
@@ -11761,11 +11606,11 @@
 	icon_state = "hydro";
 	locked = 0;
 	name = "botanist's locker";
-	req_access_txt = "201"
+	req_access = list("away_maintenance")
 	},
 /obj/item/clothing/suit/apron,
 /obj/item/storage/bag/plants/portaseeder,
-/obj/item/clothing/mask/bandana/color/striped/botany,
+/obj/item/clothing/mask/bandana/striped/botany,
 /obj/item/cultivator,
 /obj/effect/turf_decal/tile/neutral/fourcorners,
 /turf/open/floor/iron/dark{
@@ -11776,7 +11621,7 @@
 /obj/structure/disposalpipe/segment,
 /obj/machinery/door/airlock/command/glass{
 	name = "Chief Engineer";
-	req_access_txt = "201"
+	req_access = list("away_maintenance")
 	},
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden,
 /obj/effect/turf_decal/tile/neutral/fourcorners,
@@ -11842,6 +11687,17 @@
 	heat_capacity = 1e+006
 	},
 /area/awaymission/undergroundoutpost45/engineering)
+"Gq" = (
+/obj/effect/spawner/structure/window/reinforced,
+/obj/structure/sign/warning/secure_area{
+	desc = "A warning sign which reads 'SERVER ROOM'.";
+	name = "SERVER ROOM";
+	pixel_y = 32
+	},
+/turf/open/floor/plating{
+	heat_capacity = 1e+006
+	},
+/area/awaymission/undergroundoutpost45/research)
 "GI" = (
 /obj/structure/filingcabinet/chestdrawer,
 /obj/effect/turf_decal/tile/neutral/fourcorners,
@@ -12003,7 +11859,7 @@
 "Mu" = (
 /obj/machinery/door/window/right/directional/south{
 	name = "Bar Door";
-	req_access_txt = "201"
+	req_access = list("away_maintenance")
 	},
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/turf_decal/tile/bar,
@@ -12050,6 +11906,21 @@
 	temperature = 363.9
 	},
 /area/awaymission/undergroundoutpost45/central)
+"No" = (
+/obj/machinery/door/firedoor,
+/obj/structure/sign/warning/secure_area{
+	pixel_y = 32
+	},
+/obj/machinery/door/poddoor/preopen{
+	id = "UO45_Engineering";
+	name = "Engineering Security Door"
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden,
+/obj/effect/turf_decal/delivery,
+/turf/open/floor/iron{
+	heat_capacity = 1e+006
+	},
+/area/awaymission/undergroundoutpost45/engineering)
 "NA" = (
 /obj/structure/table/reinforced,
 /obj/machinery/door/firedoor,
@@ -12063,7 +11934,7 @@
 	dir = 8;
 	icon_state = "right";
 	name = "Security Checkpoint";
-	req_access_txt = "201"
+	req_access = list("away_maintenance")
 	},
 /turf/open/floor/iron{
 	heat_capacity = 1e+006
@@ -12086,6 +11957,21 @@
 	heat_capacity = 1e+006
 	},
 /area/awaymission/undergroundoutpost45/central)
+"NR" = (
+/obj/structure/sink{
+	pixel_y = 25
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/sign/warning/no_smoking{
+	pixel_x = -32
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 9
+	},
+/turf/open/floor/iron/white{
+	heat_capacity = 1e+006
+	},
+/area/space/nearstation)
 "NT" = (
 /obj/machinery/light/small/directional/north,
 /turf/open/misc/asteroid{
@@ -12164,7 +12050,7 @@
 /obj/machinery/door/window/left/directional/south{
 	dir = 4;
 	name = "Engineering Reception";
-	req_access_txt = "201"
+	req_access = list("away_maintenance")
 	},
 /obj/item/paper_bin{
 	pixel_x = 1;
@@ -12200,6 +12086,18 @@
 	temperature = 363.9
 	},
 /area/awaymission/undergroundoutpost45/caves)
+"QG" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden,
+/obj/structure/sign/warning/secure_area{
+	pixel_x = -32
+	},
+/obj/effect/turf_decal/tile/purple{
+	dir = 1
+	},
+/turf/open/floor/iron{
+	heat_capacity = 1e+006
+	},
+/area/awaymission/undergroundoutpost45/crew_quarters)
 "QX" = (
 /obj/structure/table,
 /obj/item/storage/medkit/regular,
@@ -12235,6 +12133,25 @@
 	temperature = 363.9
 	},
 /area/awaymission/undergroundoutpost45/crew_quarters)
+"RF" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden{
+	dir = 4
+	},
+/obj/structure/sign/warning/secure_area{
+	pixel_x = 32
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/turf_decal/tile/yellow{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/yellow,
+/obj/effect/turf_decal/tile/yellow{
+	dir = 4
+	},
+/turf/open/floor/iron{
+	heat_capacity = 1e+006
+	},
+/area/awaymission/undergroundoutpost45/engineering)
 "RX" = (
 /obj/machinery/computer/atmos_alert{
 	dir = 1
@@ -12244,13 +12161,13 @@
 	id = "UO45_Engineering";
 	name = "Engineering Lockdown";
 	pixel_x = -6;
-	req_access_txt = "201"
+	req_access = list("away_maintenance")
 	},
 /obj/machinery/button/door/directional/south{
 	id = "UO45_Secure Storage";
 	name = "Engineering Secure Storage";
 	pixel_x = 6;
-	req_access_txt = "201"
+	req_access = list("away_maintenance")
 	},
 /turf/open/floor/iron{
 	heat_capacity = 1e+006
@@ -12284,6 +12201,19 @@
 	heat_capacity = 1e+006
 	},
 /area/awaymission/undergroundoutpost45/gateway)
+"SZ" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden{
+	dir = 4
+	},
+/obj/machinery/light/small/directional/west,
+/obj/structure/sign/warning/secure_area{
+	pixel_x = -32
+	},
+/turf/open/floor/iron/white{
+	heat_capacity = 1e+006
+	},
+/area/awaymission/undergroundoutpost45/gateway)
 "Tr" = (
 /obj/structure/alien/resin/membrane,
 /turf/open/misc/asteroid{
@@ -12293,6 +12223,24 @@
 	temperature = 363.9
 	},
 /area/awaymission/undergroundoutpost45/caves)
+"Tu" = (
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on{
+	dir = 1
+	},
+/obj/structure/sign/warning/secure_area{
+	pixel_y = -32
+	},
+/obj/effect/turf_decal/tile/yellow,
+/obj/effect/turf_decal/tile/yellow{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/yellow{
+	dir = 8
+	},
+/turf/open/floor/iron{
+	heat_capacity = 1e+006
+	},
+/area/awaymission/undergroundoutpost45/engineering)
 "TC" = (
 /obj/structure/table,
 /obj/machinery/reagentgrinder,
@@ -12331,6 +12279,19 @@
 	temperature = 363.9
 	},
 /area/awaymission/undergroundoutpost45/caves)
+"VX" = (
+/obj/machinery/atmospherics/components/binary/pump/on{
+	dir = 1;
+	name = "Unfiltered to Mix"
+	},
+/obj/structure/sign/warning/no_smoking{
+	pixel_x = 32
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron{
+	heat_capacity = 1e+006
+	},
+/area/awaymission/undergroundoutpost45/engineering)
 "Wd" = (
 /obj/structure/alien/resin/wall,
 /obj/structure/alien/weeds,
@@ -12347,7 +12308,7 @@
 /obj/machinery/door/window/left/directional/east{
 	dir = 1;
 	name = "Hydroponics Desk";
-	req_access_txt = "201"
+	req_access = list("away_maintenance")
 	},
 /turf/open/floor/iron/dark{
 	heat_capacity = 1e+006
@@ -12376,6 +12337,18 @@
 	heat_capacity = 1e+006
 	},
 /area/awaymission/undergroundoutpost45/crew_quarters)
+"Xq" = (
+/obj/structure/closet/firecloset,
+/obj/machinery/light/small/directional/south,
+/obj/structure/sign/warning/secure_area{
+	pixel_y = -32
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/turf_decal/stripes/line,
+/turf/open/floor/iron/white{
+	heat_capacity = 1e+006
+	},
+/area/awaymission/undergroundoutpost45/research)
 "XF" = (
 /obj/structure/ore_box,
 /turf/open/misc/asteroid{
@@ -12400,7 +12373,7 @@
 	dir = 4;
 	icon_state = "right";
 	name = "Engineering Reception";
-	req_access_txt = "201"
+	req_access = list("away_maintenance")
 	},
 /obj/item/folder/red,
 /turf/open/floor/iron{
@@ -12427,6 +12400,16 @@
 	temperature = 363.9
 	},
 /area/awaymission/undergroundoutpost45/caves)
+"Yk" = (
+/obj/structure/table,
+/obj/item/computer_hardware/hard_drive/portable/ordnance,
+/obj/item/computer_hardware/hard_drive/portable/ordnance,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron/cafeteria{
+	dir = 5;
+	heat_capacity = 1e+006
+	},
+/area/awaymission/undergroundoutpost45/research)
 "Yn" = (
 /obj/machinery/vending/hydroseeds{
 	slogan_delay = 700
@@ -12446,6 +12429,20 @@
 	heat_capacity = 1e+006
 	},
 /area/awaymission/undergroundoutpost45/crew_quarters)
+"YM" = (
+/obj/machinery/conveyor{
+	id = "UO45_mining"
+	},
+/obj/structure/sign/warning/no_smoking{
+	pixel_x = -32
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/turf/open/floor/plating{
+	heat_capacity = 1e+006
+	},
+/area/awaymission/undergroundoutpost45/mining)
 "YV" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on{
 	dir = 1
@@ -31899,7 +31896,7 @@ jh
 jG
 gw
 ky
-lo
+DB
 ma
 mB
 gK
@@ -32412,7 +32409,7 @@ iQ
 jj
 jI
 gv
-kz
+Cy
 lq
 jI
 mD
@@ -33435,7 +33432,7 @@ gL
 gW
 hx
 ic
-iw
+yh
 iU
 jn
 gL
@@ -33954,7 +33951,7 @@ iW
 jp
 jJ
 kf
-kD
+SZ
 lv
 md
 gU
@@ -37547,7 +37544,7 @@ gx
 gX
 hB
 ig
-iy
+ze
 iY
 jr
 jM
@@ -38070,7 +38067,7 @@ kP
 lH
 gy
 kd
-nk
+Yk
 nO
 ox
 pd
@@ -38332,9 +38329,9 @@ nl
 nl
 pe
 gy
-qj
+Gq
 qR
-rA
+Ea
 gz
 nu
 tN
@@ -41921,7 +41918,7 @@ zq
 zq
 ad
 gy
-kZ
+NR
 ha
 ml
 gx
@@ -42180,7 +42177,7 @@ ad
 gx
 la
 ha
-mm
+Xq
 gy
 nu
 nX
@@ -42951,7 +42948,7 @@ ng
 kn
 lc
 lP
-mo
+QG
 mV
 nw
 nZ
@@ -46830,7 +46827,7 @@ wO
 we
 vK
 xl
-xq
+YM
 xw
 xE
 xl
@@ -51443,7 +51440,7 @@ ln
 rk
 sb
 sO
-ty
+Tu
 ln
 uD
 sM
@@ -51962,7 +51959,7 @@ uf
 qb
 sM
 vw
-vU
+AN
 wn
 uE
 wK
@@ -52474,7 +52471,7 @@ sS
 tB
 rr
 qb
-uY
+RF
 vy
 vW
 ni
@@ -52981,7 +52978,7 @@ os
 oU
 pz
 qb
-qE
+De
 rp
 sh
 sU
@@ -53502,7 +53499,7 @@ sW
 tE
 uk
 uH
-vc
+No
 vC
 wa
 ni
@@ -55298,7 +55295,7 @@ qN
 qN
 sp
 tc
-tJ
+VX
 ur
 ni
 ln

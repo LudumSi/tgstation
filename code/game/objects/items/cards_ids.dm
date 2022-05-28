@@ -681,11 +681,23 @@
 
 /obj/item/card/id/examine(mob/user)
 	. = ..()
+	if(!user.can_read(src))
+		return
+
 	if(registered_account)
 		. += "The account linked to the ID belongs to '[registered_account.account_holder]' and reports a balance of [registered_account.account_balance] cr."
+		if((ACCESS_COMMAND in access) || (ACCESS_QM in access))
+			var/datum/bank_account/linked_dept = SSeconomy.get_dep_account(registered_account.account_job.paycheck_department)
+			. += "The [linked_dept.account_holder] linked to the ID reports a balance of [linked_dept.account_balance] cr."
+
+	if(HAS_TRAIT(user, TRAIT_ID_APPRAISER))
+		. += HAS_TRAIT(src, TRAIT_JOB_FIRST_ID_CARD) ? span_boldnotice("Hmm... yes, this ID was issued from Central Command!") : span_boldnotice("This ID was created in this sector, not by Central Command.")
 	. += span_notice("<i>There's more information below, you can look again to take a closer look...</i>")
 
 /obj/item/card/id/examine_more(mob/user)
+	if(!user.can_read(src))
+		return
+
 	. = ..()
 	. += span_notice("<i>You examine [src] closer, and note the following...</i>")
 
@@ -794,6 +806,11 @@
 	name = "APC Access ID"
 	desc = "A special ID card that allows access to APC terminals."
 	trim = /datum/id_trim/away/old/apc
+
+/obj/item/card/id/away/old/robo
+	name = "Delta Station Roboticist's ID card"
+	desc = "An ID card that allows access to bots maintenance protocols."
+	trim = /datum/id_trim/away/old/robo
 
 /obj/item/card/id/away/deep_storage //deepstorage.dmm space ruin
 	name = "bunker access ID"
@@ -909,7 +926,7 @@
 /obj/item/card/id/advanced/Moved(atom/OldLoc, Dir)
 	. = ..()
 
-	if(istype(OldLoc, /obj/item/pda) || istype(OldLoc, /obj/item/storage/wallet))
+	if(istype(OldLoc, /obj/item/storage/wallet))
 		UnregisterSignal(OldLoc, list(COMSIG_ITEM_EQUIPPED, COMSIG_ITEM_DROPPED))
 
 	if(istype(OldLoc, /obj/item/computer_hardware/card_slot))
@@ -921,7 +938,7 @@
 			var/obj/item/modular_computer/tablet/slot_holder = slot.holder
 			UnregisterSignal(slot_holder, list(COMSIG_ITEM_EQUIPPED, COMSIG_ITEM_DROPPED))
 
-	if(istype(loc, /obj/item/pda) || istype(loc, /obj/item/storage/wallet))
+	if(istype(loc, /obj/item/storage/wallet))
 		RegisterSignal(loc, COMSIG_ITEM_EQUIPPED, .proc/update_intern_status)
 		RegisterSignal(loc, COMSIG_ITEM_DROPPED, .proc/remove_intern_status)
 
@@ -1165,6 +1182,9 @@
 
 /obj/item/card/id/advanced/prisoner/examine(mob/user)
 	. = ..()
+	if(!.)
+		return
+
 	if(timed)
 		if(time_left <= 0)
 			. += span_notice("The digital timer on the card has zero seconds remaining. You leave a changed man, but a free man nonetheless.")
