@@ -1,5 +1,9 @@
 ###Files and folders specified here will never be tracked.
 
+#Hullrot stuff
+/hullrot/**/*
+hullrot.dll
+
 #Ignore everything in datafolder and subdirectories
 /data/**/*
 /tmp/**/*
