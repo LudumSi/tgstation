@@ -445,8 +445,8 @@
 /obj/docking_port/stationary{
 	dwidth = 5;
 	height = 7;
-	id = "supply_home";
 	name = "Cargo Bay";
+	shuttle_id = "cargo_home";
 	width = 12
 	},
 /turf/open/space,
@@ -500,18 +500,13 @@
 /turf/open/floor/plating/airless,
 /area/space/nearstation)
 "bn" = (
-/obj/machinery/power/apc{
-	auto_name = 1;
-	dir = 1;
-	name = "_North APC";
-	pixel_y = 24
-	},
 /obj/structure/cable,
 /obj/machinery/computer/department_orders/engineering,
 /obj/effect/turf_decal/tile/yellow{
 	dir = 4
 	},
 /obj/machinery/light/directional/north,
+/obj/machinery/power/apc/auto_name/directional/north,
 /turf/open/floor/iron,
 /area/station/engineering/main)
 "bo" = (
@@ -1046,13 +1041,8 @@
 /turf/open/floor/wood,
 /area/station/command/heads_quarters/hop)
 "cx" = (
-/obj/machinery/power/apc{
-	auto_name = 1;
-	dir = 1;
-	name = "_North APC";
-	pixel_y = 24
-	},
 /obj/structure/cable,
+/obj/machinery/power/apc/auto_name/directional/north,
 /turf/open/floor/plating,
 /area/station/maintenance/fore)
 "cy" = (
@@ -1211,6 +1201,7 @@
 	height = 15;
 	id = "emergency_home";
 	name = "ministation emergency evac bay";
+	shuttle_id = "emergency_home";
 	width = 20
 	},
 /turf/open/space/basic,
@@ -1925,9 +1916,9 @@
 	dir = 8;
 	dwidth = 3;
 	height = 15;
-	id = "arrivals_stationary";
 	name = "arrivals";
 	roundstart_template = /datum/map_template/shuttle/arrival/box;
+	shuttle_id = "arrival_stationary";
 	width = 7
 	},
 /turf/open/space/basic,
@@ -1979,14 +1970,8 @@
 /turf/open/floor/engine,
 /area/station/science/xenobiology)
 "ev" = (
-/obj/docking_port/stationary{
-	dir = 8;
-	dwidth = 3;
-	height = 5;
-	id = "mining_home";
-	name = "mining shuttle bay";
-	roundstart_template = /datum/map_template/shuttle/mining/box;
-	width = 7
+/obj/docking_port/stationary/mining_home{
+	dir = 8
 	},
 /turf/open/space/basic,
 /area/space)
@@ -5669,9 +5654,7 @@
 	},
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/turf/open/floor/wood{
-	icon_state = "wood-broken3"
-	},
+/turf/open/floor/wood,
 /area/station/commons/dorms)
 "lK" = (
 /obj/effect/turf_decal/tile/purple,
@@ -10769,12 +10752,10 @@
 	pixel_x = 5;
 	pixel_y = -32
 	},
-/obj/machinery/camera/directional/south{
-	c_tag = "Pharmacy"
-	},
 /obj/effect/turf_decal/stripes/line{
 	dir = 1
 	},
+/obj/machinery/camera/autoname/directional/west,
 /turf/open/floor/iron/dark/textured,
 /area/station/medical/chemistry)
 "yc" = (
@@ -11412,9 +11393,6 @@
 	dir = 4
 	},
 /obj/item/radio/intercom/directional/east,
-/obj/machinery/camera/directional/north{
-	c_tag = "Chemistry Lab"
-	},
 /obj/machinery/button/door{
 	id = "plumbing_shutters";
 	name = "Plumbing Shutter Control";
@@ -11424,6 +11402,7 @@
 /obj/machinery/light{
 	dir = 4
 	},
+/obj/machinery/camera/autoname/directional/north,
 /turf/open/floor/iron/white,
 /area/station/medical/chemistry)
 "zp" = (
@@ -14625,26 +14604,15 @@
 /turf/open/floor/plating,
 /area/station/command/heads_quarters/hop)
 "Gq" = (
-/obj/machinery/power/apc{
-	auto_name = 1;
-	dir = 1;
-	name = "_North APC";
-	pixel_y = 24
-	},
 /obj/structure/cable,
 /obj/structure/closet,
 /obj/effect/spawner/random/maintenance,
+/obj/machinery/power/apc/auto_name/directional/north,
 /turf/open/floor/plating,
 /area/station/command/heads_quarters/hop)
 "Gr" = (
-/obj/machinery/power/apc{
-	auto_name = 1;
-	dir = 4;
-	name = "_East APC";
-	pixel_x = 27;
-	pixel_y = 2
-	},
 /obj/structure/cable,
+/obj/machinery/power/apc/auto_name/directional/east,
 /turf/open/floor/plating,
 /area/station/maintenance/aft{
 	name = "Aft Maintenance"
