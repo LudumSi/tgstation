@@ -4,7 +4,7 @@
 		"Traitors": {
 			"cost": 8,
 			"scaling_cost": 9,
-			"weight": 1,
+			"weight": 0,
 			"required_candidates": 1,
 			"minimum_required_age": 0,
 			"requirements": [
@@ -36,103 +36,95 @@
 		},
 
 		"Blood Brothers": {
-			"weight": 1
+			"weight": 0
 		},
 
 		"Changelings": {
-			"weight": 1
+			"weight": 0
 		},
 
 		"Heretics": {
-			"weight": 1
+			"weight": 0
 		},
 
 		"Wizard": {
-			"weight": 1
+			"weight": 0
 		},
 
 		"Blood Cult": {
-			"weight": 1
+			"weight": 0
 		},
 
 		"Nuclear Emergency": {
-			"weight": 1
+			"weight": 0
 		},
 
 		"Revolution": {
-			"weight": 1
-		},
-
-		"Families": {
-			"weight": 1
+			"weight": 0
 		}
 	},
 
 	"Midround": {
 		"Syndicate Sleeper Agent": {
-			"weight": 1
-		},
-
-		"Family Head Aspirants": {
-			"weight": 1
+			"weight": 0
 		},
 
 		"Malfunctioning AI": {
-			"weight": 1
+			"weight": 0
 		},
 
 		"Wizard": {
-			"weight": 1
+			"weight": 0
 		},
 
 		"Nuclear Assault": {
-			"weight": 1
+			"weight": 0
 		},
 
 		"Blob": {
-			"weight": 1
+			"weight": 0
 		},
 
 		"Blob Infection": {
-			"weight": 1
+			"weight": 0
 		},
 
 		"Alien Infestation": {
-			"weight": 1
+			"weight": 0
 		},
 
 		"Nightmare": {
-			"weight": 1
+			"weight": 0
 		},
 
 		"Space Dragon": {
-			"weight": 1
+			"weight": 0
 		},
 
 		"Abductors": {
-			"weight": 1
+			"weight": 0
 		},
 
 		"Space Ninja": {
-			"weight": 1
+			"weight": 0
 		},
 
 		"Spiders": {
-			"weight": 1
+			"weight": 0
 		}
 	},
 
 	"Latejoin": {
 		"Syndicate Infiltrator": {
-			"weight": 1
+			"weight": 0
 		},
 
 		"Provocateur": {
-			"weight": 1
+			"weight": 0
 		},
 
 		"Heretic Smuggler": {
-			"weight": 1
+			"weight": 0
 		}
 	}
 }
