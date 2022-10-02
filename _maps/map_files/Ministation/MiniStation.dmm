@@ -5857,7 +5857,6 @@
 /area/station/medical/chemistry)
 "mt" = (
 /obj/machinery/portable_atmospherics/canister/plasma,
-/obj/machinery/portable_atmospherics/canister/plasma,
 /obj/effect/turf_decal/bot,
 /obj/effect/turf_decal/stripes/line,
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2,
@@ -17315,7 +17314,7 @@
 /turf/open/floor/iron,
 /area/station/engineering/main)
 "VX" = (
-/obj/docking_port/stationary/mining_home/common{
+/obj/docking_port/stationary/public_mining_dock{
 	dir = 8
 	},
 /turf/open/space/basic,
