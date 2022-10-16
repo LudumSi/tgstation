@@ -23,7 +23,7 @@
 			"additional_minimal_access": 27
 		},
 		"cook": {
-			"additional_cqc_areas": ["/area/service/cafeteria"]
+			"additional_cqc_areas": ["/area/station/service/cafeteria"]
 		}
 	}
 }
