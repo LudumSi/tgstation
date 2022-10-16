@@ -421,7 +421,7 @@ AUTOADMIN_RANK Game Master
 
 
 ## Uncomment to automatically deadmin players when the game starts.
-#AUTO_DEADMIN_PLAYERS
+AUTO_DEADMIN_PLAYERS
 
 ## Uncomment to automatically deadmin antagonists when they gain the role.
 #AUTO_DEADMIN_ANTAGONISTS
