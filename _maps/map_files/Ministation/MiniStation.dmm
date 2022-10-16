@@ -2063,7 +2063,8 @@
 /area/station/science/server)
 "eP" = (
 /obj/docking_port/stationary/mining_home{
-	dir = 8
+	dir = 8;
+	shuttle_id = "mining"
 	},
 /turf/open/space/basic,
 /area/space)
@@ -3011,9 +3012,8 @@
 /turf/closed/wall,
 /area/station/science/server)
 "gU" = (
-/obj/machinery/mass_driver{
-	dir = 4;
-	id = "toxinsdriver"
+/obj/machinery/mass_driver/ordnance{
+	dir = 4
 	},
 /turf/open/floor/plating,
 /area/station/science/research)
@@ -3498,11 +3498,9 @@
 /turf/open/floor/iron/white,
 /area/station/science/research)
 "hZ" = (
-/obj/machinery/door/poddoor{
-	id = "toxinsdriver";
-	name = "Toxins Launcher Bay Door"
-	},
-/turf/open/space/basic,
+/obj/machinery/door/poddoor/massdriver_ordnance,
+/obj/structure/fans/tiny,
+/turf/open/floor/plating,
 /area/station/science/research)
 "ia" = (
 /obj/effect/turf_decal/tile/neutral{
@@ -9909,7 +9907,7 @@
 	name = "Toxins Shutters Control";
 	pixel_x = 0;
 	pixel_y = 24;
-	req_access = list("ordnance")
+	req_access = null
 	},
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
@@ -9927,19 +9925,16 @@
 /obj/machinery/light/small{
 	dir = 1
 	},
-/obj/machinery/button/massdriver{
-	dir = 2;
-	id = "toxinsdriver";
-	pixel_x = 8;
-	pixel_y = 24
-	},
-/obj/structure/extinguisher_cabinet{
-	pixel_x = 5;
-	pixel_y = 32
-	},
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/structure/cable,
+/obj/machinery/computer/pod/old/mass_driver_controller/ordnancedriver{
+	pixel_x = 8;
+	pixel_y = 32
+	},
+/obj/structure/extinguisher_cabinet/directional/north{
+	pixel_x = -6
+	},
 /turf/open/floor/iron/white,
 /area/station/science/research)
 "wP" = (
@@ -13400,7 +13395,7 @@
 /obj/structure/table,
 /obj/machinery/computer/security/telescreen/ordnance{
 	dir = 8;
-	icon_state = "telescreen"
+	pixel_y = 3
 	},
 /obj/item/radio/intercom/directional/south,
 /turf/open/floor/iron/dark,
@@ -15499,6 +15494,11 @@
 /obj/effect/landmark/navigate_destination/bar,
 /turf/open/floor/iron,
 /area/station/service/cafeteria)
+"Kv" = (
+/obj/structure/cable,
+/obj/machinery/ntnet_relay,
+/turf/open/floor/iron/dark/airless,
+/area/station/tcommsat/server)
 "Kx" = (
 /obj/effect/turf_decal/siding/wood{
 	dir = 1
@@ -15797,6 +15797,10 @@
 /obj/structure/cable,
 /turf/open/floor/iron,
 /area/station/security/brig)
+"Mh" = (
+/obj/machinery/air_sensor/ordnance_burn_chamber,
+/turf/open/floor/engine,
+/area/station/science/ordnance/burnchamber)
 "Mi" = (
 /obj/machinery/door/airlock/security/glass{
 	name = "Long-Term Cell 1";
@@ -16245,7 +16249,6 @@
 /area/station/engineering/main)
 "OV" = (
 /obj/structure/table/wood,
-/obj/item/gun/ballistic/shotgun/doublebarrel,
 /obj/item/reagent_containers/cup/glass/shaker,
 /obj/machinery/light/directional/east,
 /turf/open/floor/wood,
@@ -17744,7 +17747,7 @@
 /area/station/service/hydroponics)
 "XU" = (
 /obj/machinery/door/airlock{
-	id_tag = "Cabin2";
+	id_tag = null;
 	name = "Public Shuttle Dock"
 	},
 /obj/effect/turf_decal/siding/wood{
@@ -18165,6 +18168,7 @@
 /obj/structure/closet/secure_closet/bar{
 	req_access_txt = "25"
 	},
+/obj/item/gun/ballistic/shotgun/doublebarrel,
 /turf/open/floor/wood,
 /area/station/service/cafeteria)
 "ZN" = (
@@ -60758,7 +60762,7 @@ oS
 Al
 Cq
 BA
-Cq
+Mh
 CY
 CZ
 ac
@@ -62612,7 +62616,7 @@ Vj
 PG
 vz
 vI
-FW
+Kv
 vI
 wc
 PG
