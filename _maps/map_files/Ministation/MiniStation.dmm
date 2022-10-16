@@ -3327,6 +3327,14 @@
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
 	dir = 4
 	},
+/obj/machinery/navbeacon{
+	codes_txt = "patrol;next_patrol=2-science";
+	location = "1-fore-hall"
+	},
+/obj/machinery/navbeacon{
+	codes_txt = "patrol;next_patrol=4-central";
+	location = "3.2-fore"
+	},
 /turf/open/floor/iron,
 /area/station/hallway/primary/central)
 "hE" = (
@@ -5904,6 +5912,18 @@
 	},
 /obj/effect/spawner/xmastree,
 /obj/structure/cable,
+/obj/machinery/navbeacon{
+	codes_txt = "patrol;next_patrol=5-engi";
+	location = "4-central"
+	},
+/obj/machinery/navbeacon{
+	codes_txt = "patrol;next_patrol=6-medbay";
+	location = "5.1-central"
+	},
+/obj/machinery/navbeacon{
+	codes_txt = "patrol;next_patrol=0-security";
+	location = "7.1-central"
+	},
 /turf/open/floor/iron,
 /area/station/hallway/primary/central)
 "my" = (
@@ -8184,6 +8204,10 @@
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
 	dir = 1
 	},
+/obj/machinery/navbeacon{
+	codes_txt = "patrol;next_patrol=7-escape";
+	location = "6-medbay"
+	},
 /turf/open/floor/iron/white,
 /area/station/medical/medbay/central)
 "rW" = (
@@ -8269,7 +8293,7 @@
 	dir = 8;
 	layer = 2.9
 	},
-/obj/item/clothing/head/welding{
+/obj/item/clothing/head/utility/welding{
 	pixel_x = -3;
 	pixel_y = 5
 	},
@@ -10895,7 +10919,7 @@
 	dir = 4
 	},
 /obj/structure/table/glass,
-/obj/item/clothing/head/welding,
+/obj/item/clothing/head/utility/welding,
 /obj/item/stack/sheet/iron/fifty,
 /obj/item/storage/toolbox/mechanical,
 /obj/item/stack/ducts/fifty{
@@ -12221,7 +12245,7 @@
 	},
 /obj/item/storage/toolbox/electrical,
 /obj/item/multitool,
-/obj/item/clothing/head/welding,
+/obj/item/clothing/head/utility/welding,
 /obj/item/clothing/glasses/welding,
 /obj/machinery/newscaster/directional/north,
 /turf/open/floor/iron/dark,
@@ -13246,7 +13270,7 @@
 /obj/structure/rack{
 	dir = 1
 	},
-/obj/item/clothing/head/hardhat/red,
+/obj/item/clothing/head/utility/hardhat/red,
 /obj/effect/spawner/random/maintenance,
 /obj/item/extinguisher,
 /turf/open/floor/plating,
@@ -14678,6 +14702,9 @@
 /obj/effect/spawner/random/contraband/armory,
 /obj/machinery/power/apc/auto_name/directional/west,
 /obj/structure/cable,
+/obj/machinery/camera/motion/directional/west{
+	c_tag = "Armory - Internal"
+	},
 /turf/open/floor/iron/dark,
 /area/station/ai_monitored/security/armory)
 "GZ" = (
@@ -15408,6 +15435,13 @@
 /obj/effect/turf_decal/tile/blue,
 /turf/open/floor/iron/white,
 /area/station/medical/medbay/central)
+"JX" = (
+/obj/machinery/navbeacon{
+	codes_txt = "patrol;next_patrol=7.1-central";
+	location = "7-escape"
+	},
+/turf/open/floor/iron,
+/area/station/hallway/secondary/exit)
 "JY" = (
 /obj/effect/spawner/random/trash/garbage,
 /turf/open/floor/plating,
@@ -15464,6 +15498,14 @@
 /area/station/engineering/main)
 "Kj" = (
 /obj/effect/landmark/event_spawn,
+/turf/open/floor/iron,
+/area/station/hallway/primary/central)
+"Kk" = (
+/obj/structure/cable,
+/obj/machinery/navbeacon{
+	codes_txt = "patrol;next_patrol=5.1-central";
+	location = "5-engi"
+	},
 /turf/open/floor/iron,
 /area/station/hallway/primary/central)
 "Km" = (
@@ -15605,10 +15647,11 @@
 /turf/open/floor/engine,
 /area/station/engineering/main)
 "Lm" = (
-/obj/structure/cable,
-/mob/living/simple_animal/bot/secbot/beepsky/officer,
-/turf/open/floor/iron,
-/area/station/security/brig)
+/obj/machinery/camera/motion/directional/west{
+	c_tag = "Armory - External"
+	},
+/turf/open/space/basic,
+/area/space)
 "Ln" = (
 /obj/machinery/conveyor{
 	dir = 8;
@@ -15944,6 +15987,20 @@
 /obj/structure/cable,
 /turf/open/floor/iron,
 /area/station/hallway/primary/central)
+"Na" = (
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
+	dir = 4
+	},
+/obj/machinery/navbeacon{
+	codes_txt = "patrol;next_patrol=3-north-sci";
+	location = "2-science"
+	},
+/obj/machinery/navbeacon{
+	codes_txt = "patrol;next_patrol=3.2-fore";
+	location = "3.1-sci"
+	},
+/turf/open/floor/iron,
+/area/station/hallway/primary/central)
 "Nh" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/green/hidden/layer2,
 /obj/machinery/atmospherics/components/unary/vent_pump/siphon/monitored/nitrogen_output{
@@ -15975,6 +16032,7 @@
 /obj/effect/landmark/event_spawn,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/mob/living/simple_animal/bot/secbot/beepsky/officer,
 /turf/open/floor/iron,
 /area/station/security/brig)
 "Np" = (
@@ -16362,7 +16420,6 @@
 /obj/effect/turf_decal/tile/red{
 	dir = 4
 	},
-/obj/machinery/camera/autoname/directional/north,
 /turf/open/floor/iron/dark,
 /area/station/ai_monitored/security/armory)
 "PB" = (
@@ -17328,6 +17385,13 @@
 /obj/effect/spawner/random/food_or_drink/donkpockets,
 /turf/open/floor/iron,
 /area/station/service/cafeteria)
+"Vw" = (
+/obj/machinery/navbeacon{
+	codes_txt = "patrol;next_patrol=1-fore-hall";
+	location = "0-security"
+	},
+/turf/open/floor/iron,
+/area/station/hallway/primary/central)
 "Vz" = (
 /obj/machinery/power/apc/auto_name/directional/east,
 /obj/structure/cable,
@@ -17629,6 +17693,14 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /turf/open/floor/iron/showroomfloor,
 /area/station/security/brig)
+"Xb" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/navbeacon{
+	codes_txt = "patrol;next_patrol=3.1-sci";
+	location = "3-north-sci"
+	},
+/turf/open/floor/iron,
+/area/station/hallway/primary/central)
 "Xc" = (
 /obj/effect/turf_decal/tile/red,
 /obj/effect/turf_decal/tile/red{
@@ -45089,7 +45161,7 @@ iw
 iw
 iw
 iw
-iw
+JX
 mN
 iw
 iw
@@ -50462,7 +50534,7 @@ cC
 ck
 dA
 RC
-dA
+Vw
 dA
 dA
 dA
@@ -50503,7 +50575,7 @@ Wk
 Wk
 Wn
 Wk
-Wk
+Kk
 Co
 rq
 rC
@@ -51233,7 +51305,7 @@ ho
 dB
 GW
 dQ
-Lm
+Yy
 Wl
 eJ
 eW
@@ -55338,7 +55410,7 @@ ac
 bi
 bi
 ac
-ac
+Lm
 ac
 ac
 ac
@@ -55604,7 +55676,7 @@ ac
 za
 kR
 RC
-Ri
+Xb
 dA
 dA
 dA
@@ -55612,7 +55684,7 @@ dA
 dA
 dA
 RC
-hD
+Na
 xr
 fb
 iF
