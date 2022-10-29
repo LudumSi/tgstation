@@ -2067,8 +2067,7 @@
 /area/station/science/server)
 "eP" = (
 /obj/docking_port/stationary/mining_home{
-	dir = 8;
-	shuttle_id = "mining"
+	dir = 8
 	},
 /turf/open/space/basic,
 /area/space)
