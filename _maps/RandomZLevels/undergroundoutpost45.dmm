@@ -3226,6 +3226,7 @@
 "hS" = (
 /obj/structure/table,
 /obj/item/food/mint,
+/obj/item/kitchen/rollingpin,
 /turf/open/floor/iron/cafeteria{
 	dir = 5;
 	heat_capacity = 1e+006
@@ -3418,8 +3419,7 @@
 	},
 /area/awaymission/undergroundoutpost45/crew_quarters)
 "iq" = (
-/obj/structure/table,
-/obj/item/kitchen/rollingpin,
+/obj/machinery/griddle,
 /turf/open/floor/iron/cafeteria{
 	dir = 5;
 	heat_capacity = 1e+006
@@ -7682,7 +7682,7 @@
 	dir = 8
 	},
 /obj/machinery/computer/atmos_control/noreconnect{
-	atmos_chambers = list("uo45air" = "Air Supply")
+	atmos_chambers = list("uo45air"="Air Supply")
 	},
 /turf/open/floor/iron/white/corner{
 	dir = 1;
@@ -8590,7 +8590,7 @@
 	dir = 4
 	},
 /obj/machinery/computer/atmos_control/noreconnect{
-	atmos_chambers = list("uo45mix" = "Mix Chamber");
+	atmos_chambers = list("uo45mix"="Mix Chamber");
 	dir = 8
 	},
 /turf/open/floor/iron{
@@ -9553,7 +9553,7 @@
 	dir = 8
 	},
 /obj/machinery/computer/atmos_control/noreconnect{
-	atmos_chambers = list("uo45n2" = "Nitrogen Supply");
+	atmos_chambers = list("uo45n2"="Nitrogen Supply");
 	dir = 1
 	},
 /turf/open/floor/iron{
@@ -9598,7 +9598,7 @@
 	dir = 8
 	},
 /obj/machinery/computer/atmos_control/noreconnect{
-	atmos_chambers = list("uo45o2" = "Oxygen Supply");
+	atmos_chambers = list("uo45o2"="Oxygen Supply");
 	dir = 1
 	},
 /turf/open/floor/iron{
@@ -9685,7 +9685,7 @@
 	dir = 8
 	},
 /obj/machinery/computer/atmos_control/fixed{
-	atmos_chambers = list("uo45air" = "Air Supply", "uo45mix" = "Mix Chamber", "uo45n2" = "Nitrogen Supply", "uo45o2" = "Oxygen Supply");
+	atmos_chambers = list("uo45air"="Air Supply","uo45mix"="Mix Chamber","uo45n2"="Nitrogen Supply","uo45o2"="Oxygen Supply");
 	dir = 4;
 	name = "Chamber Atmospherics Monitoring"
 	},
@@ -9860,7 +9860,7 @@
 	dir = 8
 	},
 /obj/machinery/computer/atmos_control/fixed{
-	atmos_chambers = list("uo45waste", "uo45distro");
+	atmos_chambers = list("uo45waste","uo45distro");
 	dir = 4;
 	name = "Distribution and Waste Monitoring"
 	},
@@ -11221,6 +11221,13 @@
 	temperature = 363.9
 	},
 /area/awaymission/undergroundoutpost45/caves)
+"Ar" = (
+/obj/machinery/oven,
+/turf/open/floor/iron/cafeteria{
+	dir = 5;
+	heat_capacity = 1e+006
+	},
+/area/awaymission/undergroundoutpost45/crew_quarters)
 "AN" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden{
 	dir = 4
@@ -12244,8 +12251,8 @@
 /area/awaymission/undergroundoutpost45/caves)
 "Yk" = (
 /obj/structure/table,
-/obj/item/computer_hardware/hard_drive/portable/ordnance,
-/obj/item/computer_hardware/hard_drive/portable/ordnance,
+/obj/item/computer_disk/ordnance,
+/obj/item/computer_disk/ordnance,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron/cafeteria{
 	dir = 5;
@@ -47663,7 +47670,7 @@ gD
 gO
 hq
 hR
-hr
+iq
 iK
 je
 jA
@@ -48179,7 +48186,7 @@ gO
 hT
 gO
 gO
-gD
+dO
 jB
 jZ
 kv
@@ -48435,7 +48442,7 @@ gP
 hs
 hU
 ir
-dO
+Ar
 jf
 jC
 ka
