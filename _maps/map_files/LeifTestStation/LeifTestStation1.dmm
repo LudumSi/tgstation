@@ -4,407 +4,407 @@
 /area/space)
 "ab" = (
 /turf/closed/wall,
-/area/testroom)
+/area/misc/testroom)
 "ac" = (
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "ad" = (
 /obj/structure/closet/secure_closet/atmospherics,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "ae" = (
 /obj/structure/closet/secure_closet/bar,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "af" = (
 /obj/structure/closet/secure_closet/hydroponics,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "ag" = (
 /obj/structure/closet/secure_closet/captains,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "ah" = (
 /obj/structure/closet/secure_closet/engineering_chief,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "ai" = (
 /obj/structure/closet/secure_closet/chief_medical,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "aj" = (
 /obj/structure/closet/secure_closet/detective,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "ak" = (
 /obj/structure/closet/secure_closet/hop,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "al" = (
 /obj/structure/closet/secure_closet/hos,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "am" = (
 /obj/structure/closet/jcloset,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "an" = (
 /obj/structure/closet/lawcloset,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "ao" = (
 /obj/structure/closet/secure_closet/medical3,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "ap" = (
 /obj/structure/closet/syndicate/nuclear,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "aq" = (
 /obj/structure/closet/secure_closet/quartermaster,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "ar" = (
 /obj/structure/closet/secure_closet/research_director,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "as" = (
 /obj/structure/closet/secure_closet/security,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "at" = (
 /obj/structure/closet/secure_closet/miner,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "au" = (
 /obj/structure/closet/secure_closet/engineering_personal,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "av" = (
 /obj/structure/closet/secure_closet/warden,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "aw" = (
 /obj/structure/closet/secure_closet/animal,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "ay" = (
 /obj/structure/closet/abductor,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "az" = (
 /obj/effect/landmark/start/assistant,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "aA" = (
 /obj/effect/landmark/start/atmospheric_technician,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "aB" = (
 /obj/effect/landmark/start/bartender,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "aC" = (
 /obj/effect/landmark/start/botanist,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "aD" = (
 /obj/effect/landmark/start/captain,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "aE" = (
 /obj/effect/landmark/start/cargo_technician,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "aF" = (
 /obj/effect/landmark/start/chaplain,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "aG" = (
 /obj/effect/landmark/start/chemist,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "aH" = (
 /obj/effect/landmark/start/chief_engineer,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "aI" = (
 /obj/effect/landmark/start/chief_medical_officer,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "aJ" = (
 /obj/effect/landmark/start/clown,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "aK" = (
 /obj/effect/landmark/start/cook,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "aL" = (
 /obj/effect/landmark/start/cyborg,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "aM" = (
 /obj/effect/landmark/start/detective,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "aN" = (
 /obj/effect/landmark/start/geneticist,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "aO" = (
 /obj/effect/landmark/start/head_of_personnel,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "aP" = (
 /obj/effect/landmark/start/head_of_security,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "aQ" = (
 /obj/effect/landmark/start/janitor,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "aR" = (
 /obj/effect/landmark/start/lawyer,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "aS" = (
 /obj/effect/landmark/start/librarian,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "aT" = (
 /obj/effect/landmark/start/medical_doctor,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "aU" = (
 /obj/effect/landmark/start/mime,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "aV" = (
 /obj/effect/landmark/start/nukeop,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "aW" = (
 /obj/effect/landmark/start/nukeop_leader,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "aX" = (
 /obj/effect/landmark/start/paramedic,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "aY" = (
 /obj/effect/landmark/start/prisoner,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "aZ" = (
 /obj/effect/landmark/start/psychologist,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "ba" = (
 /obj/effect/landmark/start/quartermaster,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "bb" = (
 /obj/effect/landmark/start/research_director,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "bc" = (
 /obj/effect/landmark/start/roboticist,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "bd" = (
 /obj/effect/landmark/start/scientist,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "be" = (
 /obj/effect/landmark/start/security_officer,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "bf" = (
 /obj/effect/landmark/start/shaft_miner,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "bg" = (
 /obj/effect/landmark/start/station_engineer,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "bh" = (
 /obj/effect/landmark/start/virologist,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "bi" = (
 /obj/effect/landmark/start/warden,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "bj" = (
 /obj/effect/landmark/start/wizard,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "bk" = (
 /obj/effect/landmark/start/new_player,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "bl" = (
 /turf/open/floor/iron/checker,
-/area/testroom)
+/area/misc/testroom)
 "bn" = (
 /obj/structure/closet/acloset,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "bo" = (
 /obj/structure/closet/secure_closet/personal,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "bp" = (
 /obj/structure/closet/wardrobe/atmospherics_yellow,
 /turf/open/floor/iron/dark/side{
 	dir = 1
 	},
-/area/testroom)
+/area/misc/testroom)
 "bq" = (
 /obj/structure/closet/secure_closet/bar{
 	req_access_txt = "25"
 	},
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "br" = (
 /obj/structure/closet/wardrobe/botanist,
 /turf/open/floor/iron/dark/side{
 	dir = 1
 	},
-/area/testroom)
+/area/misc/testroom)
 "bs" = (
 /turf/open/floor/iron/dark/side{
 	dir = 1
 	},
-/area/testroom)
+/area/misc/testroom)
 "bt" = (
 /obj/structure/closet/wardrobe/cargotech,
 /turf/open/floor/iron/dark/side{
 	dir = 1
 	},
-/area/testroom)
+/area/misc/testroom)
 "bu" = (
 /obj/structure/closet/wardrobe/chaplain_black,
 /turf/open/floor/iron/dark/side{
 	dir = 1
 	},
-/area/testroom)
+/area/misc/testroom)
 "bv" = (
 /obj/structure/closet/secure_closet/chemical,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "bw" = (
 /obj/structure/closet/secure_closet/freezer/cream_pie,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "bx" = (
 /obj/structure/closet/secure_closet/freezer,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "by" = (
 /obj/structure/closet/wardrobe/genetics_white,
 /turf/open/floor/iron/dark/side{
 	dir = 1
 	},
-/area/testroom)
+/area/misc/testroom)
 "bz" = (
 /obj/structure/closet/l3closet/janitor,
 /turf/open/floor/iron/dark/side{
 	dir = 1
 	},
-/area/testroom)
+/area/misc/testroom)
 "bA" = (
 /obj/structure/closet/wardrobe/curator,
 /turf/open/floor/iron/dark/side{
 	dir = 1
 	},
-/area/testroom)
+/area/misc/testroom)
 "bB" = (
 /obj/structure/closet/secure_closet/medical1,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "bC" = (
 /obj/structure/closet/syndicate/personal,
 /turf/open/floor/iron/dark/side{
 	dir = 1
 	},
-/area/testroom)
+/area/misc/testroom)
 "bD" = (
 /obj/structure/closet/wardrobe/robotics_black,
 /turf/open/floor/iron/dark/side{
 	dir = 1
 	},
-/area/testroom)
+/area/misc/testroom)
 "bE" = (
 /obj/structure/closet/secure_closet/cytology,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "bF" = (
 /obj/structure/closet/secure_closet/brig,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "bG" = (
 /obj/structure/closet/secure_closet/freezer/kitchen/mining,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "bH" = (
 /obj/structure/closet/secure_closet/engineering_electrical,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "bI" = (
 /obj/structure/closet/l3closet/virology,
 /turf/open/floor/iron/dark/side{
 	dir = 1
 	},
-/area/testroom)
+/area/misc/testroom)
 "bJ" = (
 /obj/structure/closet/secure_closet/armory1,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "bK" = (
 /obj/structure/closet/secure_closet/ert_com,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "bL" = (
 /obj/structure/closet/emcloset,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "bN" = (
 /obj/structure/closet/ammunitionlocker,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "bO" = (
 /obj/structure/closet/secure_closet/personal/cabinet,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "bP" = (
 /turf/open/floor/iron/white/side{
 	dir = 1
 	},
-/area/testroom)
+/area/misc/testroom)
 "bQ" = (
 /obj/structure/closet/crate/hydroponics,
 /turf/open/floor/iron/white/side{
 	dir = 1
 	},
-/area/testroom)
+/area/misc/testroom)
 "bR" = (
 /obj/structure/closet/crate/critter,
 /turf/open/floor/iron/white/side{
 	dir = 1
 	},
-/area/testroom)
+/area/misc/testroom)
 "bS" = (
 /obj/structure/closet/crate/coffin,
 /turf/open/floor/iron/white/side{
 	dir = 1
 	},
-/area/testroom)
+/area/misc/testroom)
 "bT" = (
 /obj/structure/closet/secure_closet/chemical/heisenberg,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "bU" = (
 /obj/structure/closet/secure_closet/freezer/fridge,
 /obj/effect/turf_decal/siding/yellow{
@@ -412,28 +412,28 @@
 	dir = 1
 	},
 /turf/open/floor/iron/yellowsiding,
-/area/testroom)
+/area/misc/testroom)
 "bV" = (
 /obj/structure/closet/secure_closet/medical2,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "bW" = (
 /obj/structure/closet/syndicate/resources,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "bX" = (
 /obj/structure/closet/l3closet/scientist,
 /turf/open/floor/iron/dark/side{
 	dir = 1
 	},
-/area/testroom)
+/area/misc/testroom)
 "bY" = (
 /obj/structure/closet/secure_closet/brig{
 	id = "Cell 1";
 	name = "Cell 1 Locker"
 	},
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "bZ" = (
 /obj/structure/closet/secure_closet/miner/unlocked,
 /obj/effect/turf_decal/siding/yellow{
@@ -441,11 +441,11 @@
 	dir = 1
 	},
 /turf/open/floor/iron/yellowsiding,
-/area/testroom)
+/area/misc/testroom)
 "ca" = (
 /obj/structure/closet/secure_closet/engineering_welding,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "cb" = (
 /obj/structure/closet/wardrobe/virology_white,
 /obj/effect/turf_decal/siding/yellow{
@@ -453,19 +453,19 @@
 	dir = 1
 	},
 /turf/open/floor/iron/yellowsiding,
-/area/testroom)
+/area/misc/testroom)
 "cc" = (
 /obj/structure/closet/secure_closet/armory2,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "cd" = (
 /obj/structure/closet/secure_closet/ert_engi,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "ce" = (
 /obj/structure/closet/emcloset/anchored,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "cg" = (
 /obj/structure/closet/body_bag,
 /obj/effect/turf_decal/siding/yellow{
@@ -473,13 +473,13 @@
 	dir = 1
 	},
 /turf/open/floor/iron/yellowsiding,
-/area/testroom)
+/area/misc/testroom)
 "ch" = (
 /obj/structure/closet/athletic_mixed,
 /turf/open/floor/iron/dark/side{
 	dir = 1
 	},
-/area/testroom)
+/area/misc/testroom)
 "ci" = (
 /obj/structure/closet/crate/secure/hydroponics,
 /obj/effect/turf_decal/siding/yellow{
@@ -487,24 +487,24 @@
 	dir = 1
 	},
 /turf/open/floor/iron/yellowsiding,
-/area/testroom)
+/area/misc/testroom)
 "cj" = (
 /obj/effect/turf_decal/siding/yellow{
 	icon_state = "yellowsiding";
 	dir = 1
 	},
 /turf/open/floor/iron/yellowsiding,
-/area/testroom)
+/area/misc/testroom)
 "ck" = (
 /obj/structure/closet/wardrobe/chemistry_white,
 /turf/open/floor/iron/dark/side{
 	dir = 1
 	},
-/area/testroom)
+/area/misc/testroom)
 "cl" = (
 /obj/structure/closet/secure_closet/freezer/fridge/open,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "cm" = (
 /obj/structure/closet/secure_closet/personal/patient,
 /obj/effect/turf_decal/siding/yellow{
@@ -512,11 +512,11 @@
 	dir = 1
 	},
 /turf/open/floor/iron/yellowsiding,
-/area/testroom)
+/area/misc/testroom)
 "cn" = (
 /obj/structure/closet/syndicate/resources/everything,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "co" = (
 /obj/structure/closet/wardrobe/science_white,
 /obj/effect/turf_decal/siding/yellow{
@@ -524,46 +524,46 @@
 	dir = 1
 	},
 /turf/open/floor/iron/yellowsiding,
-/area/testroom)
+/area/misc/testroom)
 "cp" = (
 /obj/structure/closet/secure_closet/brig{
 	id = "Cell 2";
 	name = "Cell 2 Locker"
 	},
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "cq" = (
 /obj/structure/closet/wardrobe/miner,
 /turf/open/floor/iron/dark/side{
 	dir = 1
 	},
-/area/testroom)
+/area/misc/testroom)
 "cr" = (
 /obj/structure/closet/radiation,
 /turf/open/floor/iron/dark/side{
 	dir = 1
 	},
-/area/testroom)
+/area/misc/testroom)
 "cs" = (
 /obj/structure/closet/secure_closet/armory3,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "ct" = (
 /obj/structure/closet/secure_closet/ert_med,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "cu" = (
 /obj/structure/closet/firecloset,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "cw" = (
 /obj/structure/closet/body_bag/bluespace,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "cx" = (
 /obj/structure/closet/boxinggloves,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "cy" = (
 /obj/structure/closet/secure_closet/freezer/kitchen,
 /obj/effect/turf_decal/siding/yellow{
@@ -571,7 +571,7 @@
 	dir = 1
 	},
 /turf/open/floor/iron/yellowsiding,
-/area/testroom)
+/area/misc/testroom)
 "cz" = (
 /obj/structure/closet/secure_closet/psychology,
 /obj/effect/turf_decal/siding/yellow{
@@ -579,30 +579,30 @@
 	dir = 1
 	},
 /turf/open/floor/iron/yellowsiding,
-/area/testroom)
+/area/misc/testroom)
 "cA" = (
 /obj/structure/closet/crate/science,
 /turf/open/floor/iron/white/side{
 	dir = 1
 	},
-/area/testroom)
+/area/misc/testroom)
 "cB" = (
 /obj/structure/closet/secure_closet/brig{
 	id = "Cell 3";
 	name = "Cell 3 Locker"
 	},
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "cC" = (
 /obj/structure/closet/crate/necropolis,
 /turf/open/floor/iron/white/side{
 	dir = 1
 	},
-/area/testroom)
+/area/misc/testroom)
 "cD" = (
 /obj/structure/closet/toolcloset,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "cE" = (
 /obj/structure/closet/secure_closet/exile,
 /obj/effect/turf_decal/siding/yellow{
@@ -610,21 +610,21 @@
 	dir = 1
 	},
 /turf/open/floor/iron/yellowsiding,
-/area/testroom)
+/area/misc/testroom)
 "cF" = (
 /obj/structure/closet/secure_closet/ert_sec,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "cG" = (
 /obj/structure/closet/firecloset{
 	name = "fire extinguishers"
 	},
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "cH" = (
 /obj/structure/closet/thunderdome,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "cI" = (
 /obj/structure/closet/bombcloset,
 /obj/effect/turf_decal/siding/yellow{
@@ -632,7 +632,7 @@
 	dir = 1
 	},
 /turf/open/floor/iron/yellowsiding,
-/area/testroom)
+/area/misc/testroom)
 "cJ" = (
 /obj/structure/closet/lasertag,
 /obj/effect/turf_decal/siding/yellow{
@@ -640,17 +640,17 @@
 	dir = 1
 	},
 /turf/open/floor/iron/yellowsiding,
-/area/testroom)
+/area/misc/testroom)
 "cK" = (
 /obj/structure/closet/secure_closet/freezer/kitchen/maintenance,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "cL" = (
 /obj/structure/closet/wardrobe/pjs,
 /turf/open/floor/iron/dark/side{
 	dir = 1
 	},
-/area/testroom)
+/area/misc/testroom)
 "cM" = (
 /obj/structure/closet/crate/secure{
 	desc = "A secure crate containing various materials for building a customised test-site.";
@@ -662,7 +662,7 @@
 	dir = 1
 	},
 /turf/open/floor/iron/yellowsiding,
-/area/testroom)
+/area/misc/testroom)
 "cN" = (
 /obj/structure/closet/secure_closet/contraband,
 /obj/effect/turf_decal/siding/yellow{
@@ -670,14 +670,14 @@
 	dir = 1
 	},
 /turf/open/floor/iron/yellowsiding,
-/area/testroom)
+/area/misc/testroom)
 "cO" = (
 /obj/structure/closet/crate/necropolis{
 	desc = "Presumably placed here by top men.";
 	name = "\improper Ark of the Covenant"
 	},
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "cP" = (
 /obj/structure/closet/wardrobe/engineering_yellow,
 /obj/effect/turf_decal/siding/yellow{
@@ -685,7 +685,7 @@
 	dir = 1
 	},
 /turf/open/floor/iron/yellowsiding,
-/area/testroom)
+/area/misc/testroom)
 "cQ" = (
 /obj/structure/closet/secure_closet/injection,
 /obj/effect/turf_decal/siding/yellow{
@@ -693,7 +693,7 @@
 	dir = 1
 	},
 /turf/open/floor/iron/yellowsiding,
-/area/testroom)
+/area/misc/testroom)
 "cR" = (
 /obj/structure/closet/secure_closet/freezer/gulag_fridge,
 /obj/effect/turf_decal/siding/yellow{
@@ -701,27 +701,27 @@
 	dir = 1
 	},
 /turf/open/floor/iron/yellowsiding,
-/area/testroom)
+/area/misc/testroom)
 "cS" = (
 /obj/structure/closet/firecloset/full,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "cT" = (
 /obj/structure/closet/thunderdome/tdgreen,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "cU" = (
 /obj/structure/closet/bombcloset/security,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "cV" = (
 /obj/structure/closet/lasertag/blue,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "cW" = (
 /obj/machinery/light,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "cX" = (
 /obj/structure/closet/secure_closet/freezer/meat,
 /obj/effect/turf_decal/siding/yellow{
@@ -729,74 +729,74 @@
 	dir = 1
 	},
 /turf/open/floor/iron/yellowsiding,
-/area/testroom)
+/area/misc/testroom)
 "cY" = (
 /obj/structure/closet/wardrobe/white/medical,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "cZ" = (
 /obj/structure/closet/crate/secure/science,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "da" = (
 /obj/structure/closet/secure_closet/contraband/armory,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "db" = (
 /obj/structure/closet/crate/necropolis/bubblegum,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "dc" = (
 /obj/structure/closet/crate/engineering,
 /turf/open/floor/iron/white/side{
 	dir = 1
 	},
-/area/testroom)
+/area/misc/testroom)
 "dd" = (
 /obj/structure/closet/secure_closet/injection{
 	name = "educational injections";
 	pixel_x = 2
 	},
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "de" = (
 /obj/structure/closet/l3closet,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "df" = (
 /obj/structure/closet/thunderdome/tdred,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "dg" = (
 /obj/structure/closet/bombcloset/white,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "dh" = (
 /obj/structure/closet/lasertag/red,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "di" = (
 /obj/structure/closet/secure_closet/freezer/meat/open,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "dj" = (
 /obj/structure/closet/crate/freezer/blood,
 /turf/open/floor/iron/white/side{
 	dir = 1
 	},
-/area/testroom)
+/area/misc/testroom)
 "dk" = (
 /obj/structure/closet/secure_closet/contraband/heads,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "dl" = (
 /obj/structure/closet/crate/necropolis/bubblegum/crusher,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "dm" = (
 /obj/structure/closet/crate/engineering/electrical,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "dn" = (
 /obj/structure/closet/secure_closet/lethalshots,
 /obj/effect/turf_decal/siding/yellow{
@@ -804,13 +804,13 @@
 	dir = 1
 	},
 /turf/open/floor/iron/yellowsiding,
-/area/testroom)
+/area/misc/testroom)
 "do" = (
 /obj/structure/closet/crate/bin,
 /turf/open/floor/iron/white/side{
 	dir = 1
 	},
-/area/testroom)
+/area/misc/testroom)
 "dp" = (
 /obj/structure/closet/cabinet,
 /obj/effect/turf_decal/siding/yellow{
@@ -818,7 +818,7 @@
 	dir = 1
 	},
 /turf/open/floor/iron/yellowsiding,
-/area/testroom)
+/area/misc/testroom)
 "dq" = (
 /obj/structure/closet/wardrobe,
 /obj/effect/turf_decal/siding/yellow{
@@ -826,13 +826,13 @@
 	dir = 1
 	},
 /turf/open/floor/iron/yellowsiding,
-/area/testroom)
+/area/misc/testroom)
 "dr" = (
 /obj/machinery/light{
 	dir = 1
 	},
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "ds" = (
 /obj/structure/closet/secure_closet/freezer/money,
 /obj/effect/turf_decal/siding/yellow{
@@ -840,18 +840,18 @@
 	dir = 1
 	},
 /turf/open/floor/iron/yellowsiding,
-/area/testroom)
+/area/misc/testroom)
 "dt" = (
 /obj/machinery/power/terminal{
 	dir = 1
 	},
 /obj/structure/cable,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "du" = (
 /obj/structure/closet/crate/freezer/surplus_limbs,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "dv" = (
 /obj/structure/closet/secure_closet/courtroom,
 /obj/effect/turf_decal/siding/yellow{
@@ -859,11 +859,11 @@
 	dir = 1
 	},
 /turf/open/floor/iron/yellowsiding,
-/area/testroom)
+/area/misc/testroom)
 "dw" = (
 /obj/structure/closet/crate/necropolis/colossus,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "dx" = (
 /obj/structure/closet/crate/rcd,
 /obj/effect/turf_decal/siding/yellow{
@@ -871,7 +871,7 @@
 	dir = 1
 	},
 /turf/open/floor/iron/yellowsiding,
-/area/testroom)
+/area/misc/testroom)
 "dy" = (
 /obj/structure/closet/secure_closet/tac,
 /obj/effect/turf_decal/siding/yellow{
@@ -879,7 +879,7 @@
 	dir = 1
 	},
 /turf/open/floor/iron/yellowsiding,
-/area/testroom)
+/area/misc/testroom)
 "dz" = (
 /obj/structure/closet/crate/eva,
 /obj/effect/turf_decal/siding/yellow{
@@ -887,10 +887,10 @@
 	dir = 1
 	},
 /turf/open/floor/iron/yellowsiding,
-/area/testroom)
+/area/misc/testroom)
 "dA" = (
 /turf/open/floor/wood,
-/area/testroom)
+/area/misc/testroom)
 "dB" = (
 /obj/structure/closet/cardboard,
 /obj/effect/turf_decal/siding/yellow{
@@ -898,16 +898,16 @@
 	dir = 1
 	},
 /turf/open/floor/iron/yellowsiding,
-/area/testroom)
+/area/misc/testroom)
 "dC" = (
 /obj/structure/closet/wardrobe/black,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "dD" = (
 /obj/machinery/power/smes,
 /obj/structure/cable,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "dE" = (
 /obj/structure/closet/crate/medical,
 /obj/effect/turf_decal/siding/yellow{
@@ -915,7 +915,7 @@
 	dir = 1
 	},
 /turf/open/floor/iron/yellowsiding,
-/area/testroom)
+/area/misc/testroom)
 "dF" = (
 /obj/structure/closet/secure_closet/evidence,
 /obj/effect/turf_decal/siding/yellow{
@@ -923,11 +923,11 @@
 	dir = 1
 	},
 /turf/open/floor/iron/yellowsiding,
-/area/testroom)
+/area/misc/testroom)
 "dG" = (
 /obj/structure/closet/crate/necropolis/colossus/crusher,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "dH" = (
 /obj/structure/closet/crate/secure/engineering,
 /obj/effect/turf_decal/siding/yellow{
@@ -935,7 +935,7 @@
 	dir = 1
 	},
 /turf/open/floor/iron/yellowsiding,
-/area/testroom)
+/area/misc/testroom)
 "dI" = (
 /obj/structure/closet/crate/internals,
 /obj/effect/turf_decal/siding/yellow{
@@ -943,21 +943,21 @@
 	dir = 1
 	},
 /turf/open/floor/iron/yellowsiding,
-/area/testroom)
+/area/misc/testroom)
 "dJ" = (
 /obj/structure/closet/cardboard/agent,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "dK" = (
 /obj/structure/closet/wardrobe/green,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "dL" = (
 /obj/structure/closet/crate/freezer,
 /turf/open/floor/iron/white/side{
 	dir = 1
 	},
-/area/testroom)
+/area/misc/testroom)
 "dM" = (
 /obj/structure/closet/secure_closet/labor_camp_security,
 /obj/effect/turf_decal/siding/yellow{
@@ -965,11 +965,11 @@
 	dir = 1
 	},
 /turf/open/floor/iron/yellowsiding,
-/area/testroom)
+/area/misc/testroom)
 "dN" = (
 /obj/structure/closet/crate/necropolis/dragon,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "dO" = (
 /obj/structure/closet/crate/solarpanel_small,
 /obj/effect/turf_decal/siding/yellow{
@@ -977,15 +977,15 @@
 	dir = 1
 	},
 /turf/open/floor/iron/yellowsiding,
-/area/testroom)
+/area/misc/testroom)
 "dP" = (
 /obj/structure/closet/cardboard/metal,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "dQ" = (
 /obj/structure/closet/wardrobe/grey,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "dR" = (
 /obj/structure/closet/secure_closet/security/cargo,
 /obj/effect/turf_decal/siding/yellow{
@@ -993,11 +993,11 @@
 	dir = 1
 	},
 /turf/open/floor/iron/yellowsiding,
-/area/testroom)
+/area/misc/testroom)
 "dS" = (
 /obj/structure/closet/crate/necropolis/dragon/crusher,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "dT" = (
 /obj/structure/closet/decay,
 /obj/effect/turf_decal/siding/yellow{
@@ -1005,19 +1005,19 @@
 	dir = 1
 	},
 /turf/open/floor/iron/yellowsiding,
-/area/testroom)
+/area/misc/testroom)
 "dU" = (
 /obj/structure/closet/wardrobe/mixed,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "dV" = (
 /obj/structure/closet/secure_closet/security/engine,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "dW" = (
 /obj/structure/closet/crate/necropolis/puzzle,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "dX" = (
 /obj/structure/closet/gimmick,
 /obj/effect/turf_decal/siding/yellow{
@@ -1025,43 +1025,43 @@
 	dir = 1
 	},
 /turf/open/floor/iron/yellowsiding,
-/area/testroom)
+/area/misc/testroom)
 "dY" = (
 /obj/structure/closet/wardrobe/orange,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "dZ" = (
 /obj/structure/closet/secure_closet/security/med,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "ea" = (
 /obj/structure/closet/crate/necropolis/tendril,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "eb" = (
 /obj/structure/closet/gimmick/russian,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "ec" = (
 /obj/structure/closet/wardrobe/pink,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "ed" = (
 /obj/structure/closet/secure_closet/security/science,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "ee" = (
 /obj/structure/closet/gimmick/tacticool,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "ef" = (
 /obj/structure/closet/wardrobe/red,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "eg" = (
 /obj/structure/closet/secure_closet/security/sec,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "eh" = (
 /obj/structure/closet/gmcloset,
 /obj/effect/turf_decal/siding/yellow{
@@ -1069,25 +1069,25 @@
 	dir = 1
 	},
 /turf/open/floor/iron/yellowsiding,
-/area/testroom)
+/area/misc/testroom)
 "ei" = (
 /obj/structure/closet/wardrobe/white,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "ej" = (
 /obj/structure/closet/l3closet/security,
 /turf/open/floor/iron/dark/side{
 	dir = 1
 	},
-/area/testroom)
+/area/misc/testroom)
 "ek" = (
 /obj/structure/closet/infinite,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "el" = (
 /obj/structure/closet/wardrobe/yellow,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "em" = (
 /obj/structure/closet/crate/secure{
 	desc = "A secure crate containing various materials for building a customised test-site.";
@@ -1097,7 +1097,7 @@
 /turf/open/floor/iron/white/side{
 	dir = 1
 	},
-/area/testroom)
+/area/misc/testroom)
 "en" = (
 /obj/structure/closet/malf,
 /obj/effect/turf_decal/siding/yellow{
@@ -1105,15 +1105,15 @@
 	dir = 1
 	},
 /turf/open/floor/iron/yellowsiding,
-/area/testroom)
+/area/misc/testroom)
 "eo" = (
 /obj/structure/closet/crate/secure/weapon,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "ep" = (
 /obj/structure/closet/malf/suits,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "eq" = (
 /obj/structure/closet/crate/secure/weapon{
 	desc = "A secure clothing crate.";
@@ -1121,339 +1121,339 @@
 	req_access_txt = "3"
 	},
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "er" = (
 /obj/structure/closet/masks,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "es" = (
 /obj/effect/landmark/start/assistant,
 /turf/open/floor/wood,
-/area/testroom)
+/area/misc/testroom)
 "et" = (
 /obj/effect/landmark/start/atmospheric_technician,
 /turf/open/floor/wood,
-/area/testroom)
+/area/misc/testroom)
 "eu" = (
 /obj/effect/landmark/start/bartender,
 /turf/open/floor/wood,
-/area/testroom)
+/area/misc/testroom)
 "ev" = (
 /obj/effect/landmark/start/botanist,
 /turf/open/floor/wood,
-/area/testroom)
+/area/misc/testroom)
 "ew" = (
 /obj/effect/landmark/start/captain,
 /turf/open/floor/wood,
-/area/testroom)
+/area/misc/testroom)
 "ex" = (
 /obj/effect/landmark/start/cargo_technician,
 /turf/open/floor/wood,
-/area/testroom)
+/area/misc/testroom)
 "ey" = (
 /obj/effect/landmark/start/chaplain,
 /turf/open/floor/wood,
-/area/testroom)
+/area/misc/testroom)
 "ez" = (
 /obj/effect/landmark/start/chemist,
 /turf/open/floor/wood,
-/area/testroom)
+/area/misc/testroom)
 "eA" = (
 /obj/effect/landmark/start/chief_engineer,
 /turf/open/floor/wood,
-/area/testroom)
+/area/misc/testroom)
 "eB" = (
 /obj/effect/landmark/start/chief_medical_officer,
 /turf/open/floor/wood,
-/area/testroom)
+/area/misc/testroom)
 "eC" = (
 /obj/effect/landmark/start/clown,
 /turf/open/floor/wood,
-/area/testroom)
+/area/misc/testroom)
 "eD" = (
 /obj/effect/landmark/start/cook,
 /turf/open/floor/wood,
-/area/testroom)
+/area/misc/testroom)
 "eE" = (
 /obj/effect/landmark/start/cyborg,
 /turf/open/floor/wood,
-/area/testroom)
+/area/misc/testroom)
 "eF" = (
 /obj/effect/landmark/start/detective,
 /turf/open/floor/wood,
-/area/testroom)
+/area/misc/testroom)
 "eG" = (
 /obj/effect/landmark/start/geneticist,
 /turf/open/floor/wood,
-/area/testroom)
+/area/misc/testroom)
 "eH" = (
 /obj/effect/landmark/start/head_of_personnel,
 /turf/open/floor/wood,
-/area/testroom)
+/area/misc/testroom)
 "eI" = (
 /obj/effect/landmark/start/head_of_security,
 /turf/open/floor/wood,
-/area/testroom)
+/area/misc/testroom)
 "eJ" = (
 /obj/effect/landmark/start/janitor,
 /turf/open/floor/wood,
-/area/testroom)
+/area/misc/testroom)
 "eK" = (
 /obj/effect/landmark/start/lawyer,
 /turf/open/floor/wood,
-/area/testroom)
+/area/misc/testroom)
 "eL" = (
 /obj/structure/closet/mini_fridge,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "eM" = (
 /obj/machinery/vending/assist,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "eN" = (
 /obj/machinery/vending/wardrobe/atmos_wardrobe,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "eO" = (
 /obj/machinery/vending/boozeomat,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "eP" = (
 /obj/machinery/vending/hydronutrients,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "eQ" = (
 /turf/open/floor/noslip,
-/area/testroom)
+/area/misc/testroom)
 "eR" = (
 /obj/machinery/vending/wardrobe/cargo_wardrobe,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "eS" = (
 /obj/machinery/vending/wardrobe/chap_wardrobe,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "eT" = (
 /obj/machinery/vending/wardrobe/chem_wardrobe,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "eU" = (
 /obj/machinery/vending/autodrobe,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "eV" = (
 /obj/machinery/vending/dinnerware,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "eW" = (
 /obj/machinery/vending/wardrobe/det_wardrobe,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "eX" = (
 /obj/machinery/vending/wardrobe/gene_wardrobe,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "eY" = (
 /obj/machinery/vending/wardrobe/jani_wardrobe,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "eZ" = (
 /obj/machinery/vending/wardrobe/law_wardrobe,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "fa" = (
 /obj/machinery/vending,
 /turf/open/floor/wood,
-/area/testroom)
+/area/misc/testroom)
 "fb" = (
 /obj/structure/closet/secure,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "fc" = (
 /obj/machinery/vending/clothing,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "fd" = (
 /obj/machinery/vending/boozeomat/all_access,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "fe" = (
 /obj/machinery/vending/hydroseeds,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "ff" = (
 /obj/machinery/nuclearbomb,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "fg" = (
 /obj/machinery/suit_storage_unit/ce,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "fh" = (
 /obj/machinery/suit_storage_unit/cmo,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "fi" = (
 /obj/machinery/vending/autodrobe/all_access,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "fj" = (
 /obj/machinery/vending/wardrobe/chef_wardrobe,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "fk" = (
 /obj/machinery/pdapainter,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "fl" = (
 /obj/machinery/suit_storage_unit/hos,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "fm" = (
 /obj/machinery/vending/cart,
 /turf/open/floor/wood,
-/area/testroom)
+/area/misc/testroom)
 "fn" = (
 /obj/structure/closet/secure/loot,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "fo" = (
 /obj/machinery/vending/wardrobe,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "fp" = (
 /obj/machinery/pipedispenser,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "fq" = (
 /obj/machinery/vending/boozeomat/pubby_captain,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "fr" = (
 /obj/machinery/vending/wardrobe/hydro_wardrobe,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "fs" = (
 /obj/machinery/ore_silo,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "ft" = (
 /obj/machinery/autolathe,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "fu" = (
 /obj/machinery/mass_driver,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "fv" = (
 /obj/machinery/chem_dispenser,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "fw" = (
 /obj/machinery/dna_scannernew,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "fx" = (
 /obj/machinery/ticket_machine,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "fy" = (
 /obj/machinery/vending/cart{
 	req_access_txt = "57"
 	},
 /turf/open/floor/wood,
-/area/testroom)
+/area/misc/testroom)
 "fz" = (
 /obj/structure/closet/crate/wooden,
 /turf/open/floor/iron/white/side{
 	dir = 1
 	},
-/area/testroom)
+/area/misc/testroom)
 "fA" = (
 /obj/structure/closet/crate,
 /turf/open/floor/iron/white/side{
 	dir = 1
 	},
-/area/testroom)
+/area/misc/testroom)
 "fB" = (
 /obj/machinery/washing_machine,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "fC" = (
 /obj/machinery/pipedispenser/disposal,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "fD" = (
 /obj/machinery/vending/boozeomat/pubby_maint,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "fE" = (
 /obj/machinery/suit_storage_unit/captain,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "fF" = (
 /obj/machinery/autolathe/hacked,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "fG" = (
 /obj/machinery/chem_dispenser{
 	layer = 2.7
 	},
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "fH" = (
 /obj/machinery/chem_master/condimaster,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "fI" = (
 /obj/machinery/vending/cigarette,
 /turf/open/floor/wood,
-/area/testroom)
+/area/misc/testroom)
 "fJ" = (
 /obj/structure/closet/crate/wooden/toy,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "fK" = (
 /obj/structure/closet/crate{
 	icon_state = "crateopen"
 	},
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "fL" = (
 /obj/machinery/pipedispenser/disposal/transit_tube,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "fM" = (
 /obj/machinery/vending/boozeomat/syndicate_access,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "fN" = (
 /obj/machinery/biogenerator,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "fO" = (
 /obj/machinery/teleport/station,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "fP" = (
 /obj/machinery/bounty_board,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "fQ" = (
 /obj/machinery/chem_dispenser/chem_synthesizer,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "fR" = (
 /obj/machinery/chem_master/condimaster{
 	name = "CondiMaster Neo";
 	pixel_x = -4
 	},
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "fS" = (
 /obj/machinery/vending/cigarette/beach,
 /turf/open/floor/wood,
-/area/testroom)
+/area/misc/testroom)
 "fT" = (
 /obj/structure/closet/crate/goldcrate,
 /obj/effect/turf_decal/siding/yellow{
@@ -1461,39 +1461,39 @@
 	dir = 1
 	},
 /turf/open/floor/iron/yellowsiding,
-/area/testroom)
+/area/misc/testroom)
 "fU" = (
 /obj/machinery/suit_storage_unit/atmos,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "fV" = (
 /obj/machinery/vending/wardrobe/bar_wardrobe,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "fW" = (
 /obj/machinery/chem_dispenser/mutagensaltpeter,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "fX" = (
 /obj/machinery/teleport/hub,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "fY" = (
 /obj/machinery/rnd/production/protolathe/department/cargo,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "fZ" = (
 /obj/machinery/chem_dispenser/fullupgrade,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "ga" = (
 /obj/machinery/deepfryer,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "gb" = (
 /obj/machinery/vending/cigarette/syndicate,
 /turf/open/floor/wood,
-/area/testroom)
+/area/misc/testroom)
 "gc" = (
 /obj/structure/closet/crate/grave,
 /obj/effect/turf_decal/siding/yellow{
@@ -1501,63 +1501,63 @@
 	dir = 1
 	},
 /turf/open/floor/iron/yellowsiding,
-/area/testroom)
+/area/misc/testroom)
 "gd" = (
 /obj/machinery/power/compressor,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "ge" = (
 /obj/machinery/chem_dispenser/mutagen,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "gf" = (
 /obj/machinery/status_display/shuttle,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "gg" = (
 /obj/machinery/chem_heater,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "gh" = (
 /obj/machinery/food_cart,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "gi" = (
 /obj/machinery/vending/coffee,
 /turf/open/floor/wood,
-/area/testroom)
+/area/misc/testroom)
 "gj" = (
 /obj/structure/closet/crate/grave/lead_researcher,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "gk" = (
 /obj/machinery/power/turbine,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "gl" = (
 /obj/machinery/chem_dispenser/drinks,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "gm" = (
 /obj/machinery/hydroponics/constructable,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "gn" = (
 /obj/machinery/status_display/supply,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "go" = (
 /obj/machinery/chem_master,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "gp" = (
 /obj/machinery/gibber,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "gq" = (
 /obj/machinery/vending/cola,
 /turf/open/floor/wood,
-/area/testroom)
+/area/misc/testroom)
 "gr" = (
 /obj/structure/closet/crate/large,
 /obj/effect/turf_decal/siding/yellow{
@@ -1565,68 +1565,68 @@
 	dir = 1
 	},
 /turf/open/floor/iron/yellowsiding,
-/area/testroom)
+/area/misc/testroom)
 "gs" = (
 /obj/machinery/smartfridge/drinks{
 	icon_state = "boozeomat"
 	},
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "gt" = (
 /obj/machinery/chem_dispenser/drinks/beer,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "gu" = (
 /obj/machinery/hydroponics/soil,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "gv" = (
 /obj/machinery/reagentgrinder,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "gw" = (
 /obj/machinery/smartfridge/food,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "gx" = (
 /obj/machinery/gibber/autogibber,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "gy" = (
 /obj/machinery/vending/cola/black,
 /turf/open/floor/wood,
-/area/testroom)
+/area/misc/testroom)
 "gz" = (
 /obj/structure/closet/crate/maint,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "gA" = (
 /obj/machinery/chem_master/condimaster{
 	desc = "Used to separate out liquids - useful for purifying botanical extracts. Also dispenses condiments.";
 	name = "SapMaster XP"
 	},
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "gB" = (
 /obj/machinery/chem_dispenser/drinks/fullupgrade,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "gC" = (
 /obj/machinery/smartfridge/chemistry/preloaded,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "gD" = (
 /obj/machinery/rnd/production/protolathe/department/service,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "gE" = (
 /obj/machinery/grill,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "gF" = (
 /obj/machinery/vending/cola/blue,
 /turf/open/floor/wood,
-/area/testroom)
+/area/misc/testroom)
 "gG" = (
 /obj/structure/closet/crate/miningcar,
 /obj/effect/turf_decal/siding/yellow{
@@ -1634,27 +1634,27 @@
 	dir = 1
 	},
 /turf/open/floor/iron/yellowsiding,
-/area/testroom)
+/area/misc/testroom)
 "gH" = (
 /obj/machinery/chem_dispenser/drinks/beer/fullupgrade,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "gI" = (
 /obj/machinery/seed_extractor,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "gJ" = (
 /obj/machinery/smoke_machine,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "gK" = (
 /obj/machinery/icecream_vat,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "gL" = (
 /obj/machinery/vending/cola/pwr_game,
 /turf/open/floor/wood,
-/area/testroom)
+/area/misc/testroom)
 "gM" = (
 /obj/structure/closet/crate/radiation,
 /obj/effect/turf_decal/siding/yellow{
@@ -1662,30 +1662,30 @@
 	dir = 1
 	},
 /turf/open/floor/iron/yellowsiding,
-/area/testroom)
+/area/misc/testroom)
 "gN" = (
 /obj/machinery/jukebox,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "gO" = (
 /obj/machinery/chem_master/condimaster{
 	desc = "Looks like a knock-off chem-master. Perhaps useful for separating liquids when mixing drinks precisely. Also dispenses condiments.";
 	name = "HoochMaster Deluxe"
 	},
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "gP" = (
 /obj/machinery/processor,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "gQ" = (
 /obj/machinery/microwave,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "gR" = (
 /obj/machinery/vending/cola/random,
 /turf/open/floor/wood,
-/area/testroom)
+/area/misc/testroom)
 "gS" = (
 /obj/structure/closet/crate/secure,
 /obj/effect/turf_decal/siding/yellow{
@@ -1693,263 +1693,263 @@
 	dir = 1
 	},
 /turf/open/floor/iron/yellowsiding,
-/area/testroom)
+/area/misc/testroom)
 "gT" = (
 /obj/effect/landmark/start/librarian,
 /turf/open/floor/wood,
-/area/testroom)
+/area/misc/testroom)
 "gU" = (
 /obj/effect/landmark/start/medical_doctor,
 /turf/open/floor/wood,
-/area/testroom)
+/area/misc/testroom)
 "gV" = (
 /obj/effect/landmark/start/mime,
 /turf/open/floor/wood,
-/area/testroom)
+/area/misc/testroom)
 "gW" = (
 /obj/effect/landmark/start/nukeop,
 /turf/open/floor/wood,
-/area/testroom)
+/area/misc/testroom)
 "gX" = (
 /obj/effect/landmark/start/nukeop_leader,
 /turf/open/floor/wood,
-/area/testroom)
+/area/misc/testroom)
 "gY" = (
 /obj/effect/landmark/start/paramedic,
 /turf/open/floor/wood,
-/area/testroom)
+/area/misc/testroom)
 "gZ" = (
 /obj/effect/landmark/start/prisoner,
 /turf/open/floor/wood,
-/area/testroom)
+/area/misc/testroom)
 "ha" = (
 /obj/effect/landmark/start/psychologist,
 /turf/open/floor/wood,
-/area/testroom)
+/area/misc/testroom)
 "hb" = (
 /obj/effect/landmark/start/quartermaster,
 /turf/open/floor/wood,
-/area/testroom)
+/area/misc/testroom)
 "hc" = (
 /obj/effect/landmark/start/research_director,
 /turf/open/floor/wood,
-/area/testroom)
+/area/misc/testroom)
 "hd" = (
 /obj/effect/landmark/start/roboticist,
 /turf/open/floor/wood,
-/area/testroom)
+/area/misc/testroom)
 "he" = (
 /obj/effect/landmark/start/scientist,
 /turf/open/floor/wood,
-/area/testroom)
+/area/misc/testroom)
 "hf" = (
 /obj/effect/landmark/start/security_officer,
 /turf/open/floor/wood,
-/area/testroom)
+/area/misc/testroom)
 "hg" = (
 /obj/effect/landmark/start/shaft_miner,
 /turf/open/floor/wood,
-/area/testroom)
+/area/misc/testroom)
 "hh" = (
 /obj/effect/landmark/start/station_engineer,
 /turf/open/floor/wood,
-/area/testroom)
+/area/misc/testroom)
 "hi" = (
 /obj/effect/landmark/start/virologist,
 /turf/open/floor/wood,
-/area/testroom)
+/area/misc/testroom)
 "hj" = (
 /obj/effect/landmark/start/warden,
 /turf/open/floor/wood,
-/area/testroom)
+/area/misc/testroom)
 "hk" = (
 /obj/effect/landmark/start/wizard,
 /turf/open/floor/wood,
-/area/testroom)
+/area/misc/testroom)
 "hl" = (
 /obj/effect/landmark/start/new_player,
 /turf/open/floor/wood,
-/area/testroom)
+/area/misc/testroom)
 "hm" = (
 /obj/machinery/vending/cola/red,
 /turf/open/floor/wood,
-/area/testroom)
+/area/misc/testroom)
 "hn" = (
 /obj/structure/closet/crate/secure/gear,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "ho" = (
 /obj/machinery/vending/games,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "hp" = (
 /obj/machinery/vending/medical,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "hq" = (
 /obj/machinery/vending/robotics,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "hr" = (
 /obj/machinery/vending/wardrobe/science_wardrobe,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "hs" = (
 /obj/machinery/vending/security,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "ht" = (
 /obj/machinery/vending/engineering,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "hu" = (
 /obj/machinery/vending/wardrobe/viro_wardrobe,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "hv" = (
 /obj/machinery/gulag_item_reclaimer,
 /turf/open/floor/noslip,
-/area/testroom)
+/area/misc/testroom)
 "hw" = (
 /obj/machinery/vending/cola/shamblers,
 /turf/open/floor/wood,
-/area/testroom)
+/area/misc/testroom)
 "hx" = (
 /obj/structure/closet/crate/secure/loot,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "hy" = (
 /obj/machinery/vending/magivend,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "hz" = (
 /obj/machinery/vending/medical/syndicate_access,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "hA" = (
 /obj/machinery/suit_storage_unit/syndicate,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "hB" = (
 /obj/machinery/rnd/bepis,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "hC" = (
 /obj/machinery/vending/wardrobe/robo_wardrobe,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "hD" = (
 /obj/machinery/vending/wardrobe/sec_wardrobe,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "hE" = (
-/obj/machinery/mineral/equipment_vendor,
+/obj/machinery/computer/order_console/mining,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "hF" = (
 /obj/machinery/vending/engivend,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "hG" = (
 /obj/machinery/gulag_teleporter,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "hH" = (
 /obj/machinery/ntnet_relay,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "hI" = (
 /obj/machinery/vending/cola/sodie,
 /turf/open/floor/wood,
-/area/testroom)
+/area/misc/testroom)
 "hJ" = (
 /obj/structure/closet/crate/secure/owned,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "hK" = (
 /obj/machinery/vending/wardrobe/curator_wardrobe,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "hL" = (
 /obj/machinery/vending/medical/syndicate_access/cybersun,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "hM" = (
 /obj/machinery/rnd/destructive_analyzer,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "hN" = (
 /obj/machinery/monkey_recycler,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "hO" = (
 /obj/machinery/mineral/ore_redemption,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "hP" = (
 /obj/machinery/vending/tool,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "hQ" = (
 /obj/machinery/mineral/labor_claim_console,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "hR" = (
 /obj/machinery/space_heater,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "hS" = (
 /obj/machinery/vending/cola/space_up,
 /turf/open/floor/wood,
-/area/testroom)
+/area/misc/testroom)
 "hT" = (
 /obj/structure/closet/crate/secure/plasma,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "hU" = (
 /obj/machinery/vending/wallmed,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "hV" = (
 /obj/machinery/rnd/experimentor,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "hW" = (
 /obj/machinery/aug_manipulator,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "hX" = (
 /obj/machinery/nanite_chamber,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "hY" = (
 /obj/machinery/camera/directional/north,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "hZ" = (
 /obj/machinery/suit_storage_unit/mining,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "ia" = (
 /obj/machinery/vending/wardrobe/engi_wardrobe,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "ib" = (
 /obj/machinery/smartfridge/chemistry/virology/preloaded,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "ic" = (
 /obj/machinery/mineral/labor_points_checker,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "id" = (
 /obj/machinery/status_display/ai,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "ie" = (
 /obj/machinery/vending/cola/starkist,
 /turf/open/floor/wood,
-/area/testroom)
+/area/misc/testroom)
 "if" = (
 /obj/structure/closet/crate/silvercrate,
 /obj/effect/turf_decal/siding/yellow{
@@ -1957,683 +1957,683 @@
 	dir = 1
 	},
 /turf/open/floor/iron/yellowsiding,
-/area/testroom)
+/area/misc/testroom)
 "ig" = (
 /obj/machinery/bookbinder,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "ih" = (
 /obj/machinery/vending/wallmed/pubby,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "ii" = (
 /obj/machinery/rnd/server,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "ij" = (
 /obj/machinery/mech_bay_recharge_port,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "ik" = (
 /obj/machinery/nanite_program_hub,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "il" = (
 /obj/machinery/flasher,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "im" = (
 /obj/machinery/suit_storage_unit/mining/eva,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "in" = (
 /obj/machinery/status_display/evac,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "io" = (
 /obj/machinery/vending/custom,
 /turf/open/floor/wood,
-/area/testroom)
+/area/misc/testroom)
 "ip" = (
 /obj/structure/closet/crate/trashcart,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "iq" = (
 /obj/machinery/libraryscanner,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "ir" = (
 /obj/machinery/vending/wardrobe/medi_wardrobe,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "is" = (
 /obj/machinery/suit_storage_unit/rd,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "it" = (
 /obj/machinery/mecha_part_fabricator,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "iu" = (
 /obj/machinery/nanite_programmer,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "iv" = (
 /obj/machinery/recharger,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "iw" = (
 /obj/machinery/rnd/production/protolathe/department/engineering,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "ix" = (
 /obj/machinery/suit_storage_unit/standard_unit,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "iy" = (
 /obj/machinery/vending/custom/unbreakable,
 /turf/open/floor/wood,
-/area/testroom)
+/area/misc/testroom)
 "iz" = (
 /obj/structure/closet/crate/trashcart/filled,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "iA" = (
 /obj/machinery/newscaster,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "iB" = (
 /obj/machinery/mechpad,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "iC" = (
 /obj/machinery/processor/slime,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "iD" = (
 /obj/machinery/rnd/production/protolathe/department/security,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "iE" = (
 /obj/machinery/shieldgen,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "iF" = (
 /obj/machinery/vending/donksofttoyvendor,
 /turf/open/floor/wood,
-/area/testroom)
+/area/misc/testroom)
 "iG" = (
 /obj/structure/closet/crate/trashcart/laundry,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "iH" = (
 /obj/machinery/paystand,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "iI" = (
 /obj/machinery/iv_drip,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "iJ" = (
 /obj/machinery/recharge_station,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "iK" = (
 /obj/machinery/public_nanite_chamber,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "iL" = (
 /obj/machinery/suit_storage_unit/security,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "iM" = (
 /obj/machinery/suit_storage_unit/engine,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "iN" = (
 /obj/machinery/vending/liberationstation,
 /turf/open/floor/wood,
-/area/testroom)
+/area/misc/testroom)
 "iO" = (
 /obj/machinery/photocopier,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "iP" = (
 /obj/machinery/iv_drip/saline,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "iQ" = (
 /obj/machinery/field/generator,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "iR" = (
 /obj/machinery/vending/modularpc,
 /turf/open/floor/wood,
-/area/testroom)
+/area/misc/testroom)
 "iS" = (
 /obj/machinery/medical_kiosk,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "iT" = (
 /obj/machinery/rnd/production/circuit_imprinter/department/science,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "iU" = (
 /obj/machinery/power/smes,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "iV" = (
 /obj/machinery/vending/plasmaresearch,
 /turf/open/floor/wood,
-/area/testroom)
+/area/misc/testroom)
 "iW" = (
 /obj/machinery/medipen_refiller,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "iX" = (
 /obj/machinery/rnd/production/protolathe/department/science,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "iY" = (
 /obj/machinery/power/emitter,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "iZ" = (
 /obj/machinery/vending/snack,
 /turf/open/floor/wood,
-/area/testroom)
+/area/misc/testroom)
 "ja" = (
 /obj/machinery/rnd/production/protolathe/department/medical,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "jb" = (
 /obj/machinery/smartfridge/extract/preloaded,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "jc" = (
 /obj/machinery/power/port_gen/pacman,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "jd" = (
 /obj/machinery/vending/snack/blue,
 /turf/open/floor/wood,
-/area/testroom)
+/area/misc/testroom)
 "je" = (
 /obj/machinery/shower,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "jf" = (
 /obj/machinery/power/rad_collector,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "jg" = (
 /obj/machinery/vending/snack/green,
 /turf/open/floor/wood,
-/area/testroom)
+/area/misc/testroom)
 "jh" = (
 /obj/machinery/smartfridge/organ,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "ji" = (
 /obj/machinery/power/solar,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "jj" = (
 /obj/machinery/vending/snack/orange,
 /turf/open/floor/wood,
-/area/testroom)
+/area/misc/testroom)
 "jk" = (
 /obj/machinery/stasis,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "jl" = (
 /obj/machinery/power/solar_control,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "jm" = (
 /obj/machinery/vending/snack/random,
 /turf/open/floor/wood,
-/area/testroom)
+/area/misc/testroom)
 "jn" = (
 /obj/effect/landmark/start/assistant,
 /turf/open/floor/iron/dark,
-/area/testroom)
+/area/misc/testroom)
 "jo" = (
 /turf/open/floor/iron/dark,
-/area/testroom)
+/area/misc/testroom)
 "jp" = (
 /obj/effect/landmark/start/atmospheric_technician,
 /turf/open/floor/iron/dark,
-/area/testroom)
+/area/misc/testroom)
 "jq" = (
 /obj/effect/landmark/start/bartender,
 /turf/open/floor/iron/dark,
-/area/testroom)
+/area/misc/testroom)
 "jr" = (
 /obj/effect/landmark/start/botanist,
 /turf/open/floor/iron/dark,
-/area/testroom)
+/area/misc/testroom)
 "js" = (
 /obj/effect/landmark/start/captain,
 /turf/open/floor/iron/dark,
-/area/testroom)
+/area/misc/testroom)
 "jt" = (
 /obj/effect/landmark/start/cargo_technician,
 /turf/open/floor/iron/dark,
-/area/testroom)
+/area/misc/testroom)
 "ju" = (
 /obj/effect/landmark/start/chaplain,
 /turf/open/floor/iron/dark,
-/area/testroom)
+/area/misc/testroom)
 "jv" = (
 /obj/effect/landmark/start/chemist,
 /turf/open/floor/iron/dark,
-/area/testroom)
+/area/misc/testroom)
 "jw" = (
 /obj/effect/landmark/start/chief_engineer,
 /turf/open/floor/iron/dark,
-/area/testroom)
+/area/misc/testroom)
 "jx" = (
 /obj/effect/landmark/start/chief_medical_officer,
 /turf/open/floor/iron/dark,
-/area/testroom)
+/area/misc/testroom)
 "jy" = (
 /obj/effect/landmark/start/clown,
 /turf/open/floor/iron/dark,
-/area/testroom)
+/area/misc/testroom)
 "jz" = (
 /obj/effect/landmark/start/cook,
 /turf/open/floor/iron/dark,
-/area/testroom)
+/area/misc/testroom)
 "jA" = (
 /obj/effect/landmark/start/cyborg,
 /turf/open/floor/iron/dark,
-/area/testroom)
+/area/misc/testroom)
 "jB" = (
 /obj/effect/landmark/start/detective,
 /turf/open/floor/iron/dark,
-/area/testroom)
+/area/misc/testroom)
 "jC" = (
 /obj/effect/landmark/start/geneticist,
 /turf/open/floor/iron/dark,
-/area/testroom)
+/area/misc/testroom)
 "jD" = (
 /obj/effect/landmark/start/head_of_personnel,
 /turf/open/floor/iron/dark,
-/area/testroom)
+/area/misc/testroom)
 "jE" = (
 /obj/effect/landmark/start/head_of_security,
 /turf/open/floor/iron/dark,
-/area/testroom)
+/area/misc/testroom)
 "jF" = (
 /obj/effect/landmark/start/janitor,
 /turf/open/floor/iron/dark,
-/area/testroom)
+/area/misc/testroom)
 "jG" = (
 /obj/effect/landmark/start/lawyer,
 /turf/open/floor/iron/dark,
-/area/testroom)
+/area/misc/testroom)
 "jH" = (
 /obj/machinery/vending/snack/teal,
 /turf/open/floor/wood,
-/area/testroom)
+/area/misc/testroom)
 "jI" = (
 /obj/machinery/computer/arcade,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "jJ" = (
 /obj/machinery/computer/atmos_alert,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "jK" = (
 /obj/machinery/computer/bank_machine,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "jL" = (
 /obj/machinery/computer/bounty,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "jM" = (
 /obj/machinery/computer/card/minor/ce,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "jN" = (
 /obj/machinery/computer/card/minor/cmo,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "jO" = (
 /obj/machinery/computer/aifixer,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "jP" = (
 /obj/machinery/computer/card,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "jQ" = (
 /obj/machinery/computer/card/minor/hos,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "jR" = (
 /obj/machinery/vending/sovietsoda,
 /turf/open/floor/wood,
-/area/testroom)
+/area/misc/testroom)
 "jS" = (
 /obj/machinery/computer/holodeck,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "jT" = (
 /obj/machinery/computer/atmos_control,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "jU" = (
 /obj/machinery/computer/communications,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "jV" = (
 /obj/machinery/computer/cargo,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "jW" = (
 /obj/machinery/computer/upload/ai,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "jX" = (
 /obj/machinery/computer/security/hos,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "jY" = (
 /obj/machinery/vending/sustenance,
 /turf/open/floor/wood,
-/area/testroom)
+/area/misc/testroom)
 "jZ" = (
 /obj/machinery/computer/atmos_control/incinerator,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "ka" = (
 /obj/machinery/computer/emergency_shuttle,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "kb" = (
 /obj/machinery/computer/cargo/request,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "kc" = (
 /obj/machinery/computer/upload/borg,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "kd" = (
 /obj/machinery/vending/syndichem,
 /turf/open/floor/wood,
-/area/testroom)
+/area/misc/testroom)
 "ke" = (
 /obj/machinery/computer/atmos_control/tank/air_tank,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "kf" = (
 /obj/machinery/computer/monitor{
 	name = "Bridge Power Monitoring Console"
 	},
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "kg" = (
 /obj/machinery/computer/cargo/express,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "kh" = (
 /obj/machinery/vending/toyliberationstation,
 /turf/open/floor/wood,
-/area/testroom)
+/area/misc/testroom)
 "ki" = (
 /obj/machinery/computer/atmos_control/ordnancemix,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "kj" = (
 /obj/machinery/computer/teleporter,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "kk" = (
 /obj/machinery/artillerycontrol,
 /turf/open/floor/wood,
-/area/testroom)
+/area/misc/testroom)
 "kl" = (
 /obj/machinery/computer/turbine_computer,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "km" = (
 /obj/machinery/computer/vaultcontroller,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "kn" = (
 /obj/machinery/lapvend,
 /turf/open/floor/wood,
-/area/testroom)
+/area/misc/testroom)
 "ko" = (
 /obj/machinery/reagentgrinder/constructed,
 /turf/open/floor/wood,
-/area/testroom)
+/area/misc/testroom)
 "kp" = (
 /obj/effect/landmark/start/librarian,
 /turf/open/floor/iron/dark,
-/area/testroom)
+/area/misc/testroom)
 "kq" = (
 /obj/effect/landmark/start/medical_doctor,
 /turf/open/floor/iron/dark,
-/area/testroom)
+/area/misc/testroom)
 "kr" = (
 /obj/effect/landmark/start/mime,
 /turf/open/floor/iron/dark,
-/area/testroom)
+/area/misc/testroom)
 "ks" = (
 /obj/effect/landmark/start/nukeop,
 /turf/open/floor/iron/dark,
-/area/testroom)
+/area/misc/testroom)
 "kt" = (
 /obj/effect/landmark/start/nukeop_leader,
 /turf/open/floor/iron/dark,
-/area/testroom)
+/area/misc/testroom)
 "ku" = (
 /obj/effect/landmark/start/paramedic,
 /turf/open/floor/iron/dark,
-/area/testroom)
+/area/misc/testroom)
 "kv" = (
 /obj/effect/landmark/start/prisoner,
 /turf/open/floor/iron/dark,
-/area/testroom)
+/area/misc/testroom)
 "kw" = (
 /obj/effect/landmark/start/psychologist,
 /turf/open/floor/iron/dark,
-/area/testroom)
+/area/misc/testroom)
 "kx" = (
 /obj/effect/landmark/start/quartermaster,
 /turf/open/floor/iron/dark,
-/area/testroom)
+/area/misc/testroom)
 "ky" = (
 /obj/effect/landmark/start/research_director,
 /turf/open/floor/iron/dark,
-/area/testroom)
+/area/misc/testroom)
 "kz" = (
 /obj/effect/landmark/start/roboticist,
 /turf/open/floor/iron/dark,
-/area/testroom)
+/area/misc/testroom)
 "kA" = (
 /obj/effect/landmark/start/scientist,
 /turf/open/floor/iron/dark,
-/area/testroom)
+/area/misc/testroom)
 "kB" = (
 /obj/effect/landmark/start/security_officer,
 /turf/open/floor/iron/dark,
-/area/testroom)
+/area/misc/testroom)
 "kC" = (
 /obj/effect/landmark/start/shaft_miner,
 /turf/open/floor/iron/dark,
-/area/testroom)
+/area/misc/testroom)
 "kD" = (
 /obj/effect/landmark/start/station_engineer,
 /turf/open/floor/iron/dark,
-/area/testroom)
+/area/misc/testroom)
 "kE" = (
 /obj/effect/landmark/start/virologist,
 /turf/open/floor/iron/dark,
-/area/testroom)
+/area/misc/testroom)
 "kF" = (
 /obj/effect/landmark/start/warden,
 /turf/open/floor/iron/dark,
-/area/testroom)
+/area/misc/testroom)
 "kG" = (
 /obj/effect/landmark/start/wizard,
 /turf/open/floor/iron/dark,
-/area/testroom)
+/area/misc/testroom)
 "kH" = (
 /obj/effect/landmark/start/new_player,
 /turf/open/floor/iron/dark,
-/area/testroom)
+/area/misc/testroom)
 "kI" = (
 /obj/machinery/recycler,
 /turf/open/floor/wood,
-/area/testroom)
+/area/misc/testroom)
 "kJ" = (
 /obj/machinery/computer/bookmanagement,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "kK" = (
 /obj/machinery/computer/crew,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "kL" = (
 /obj/machinery/computer/security/qm,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "kM" = (
 /obj/machinery/computer/card/minor/rd,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "kN" = (
 /obj/machinery/computer/mech_bay_power_console,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "kO" = (
 /obj/machinery/computer/nanite_chamber_control,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "kP" = (
 /obj/machinery/computer/camera_advanced,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "kQ" = (
 /obj/machinery/computer/security/mining,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "kR" = (
 /obj/machinery/computer/apc_control,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "kS" = (
 /obj/machinery/computer/pandemic,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "kT" = (
 /obj/machinery/computer/telecomms,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "kU" = (
 /obj/machinery/rnd/production/techfab/department/science,
 /turf/open/floor/wood,
-/area/testroom)
+/area/misc/testroom)
 "kV" = (
 /obj/machinery/computer/libraryconsole,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "kW" = (
 /obj/machinery/computer/med_data,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "kX" = (
 /obj/machinery/computer/rdconsole,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "kY" = (
 /obj/machinery/computer/mecha,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "kZ" = (
 /obj/machinery/computer/nanite_cloud_controller,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "la" = (
 /obj/machinery/computer/prisoner/gulag_teleporter_computer,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "lb" = (
 /obj/machinery/computer/shuttle/mining,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "lc" = (
 /obj/machinery/computer/monitor,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "ld" = (
 /obj/machinery/computer/arena,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "le" = (
 /obj/machinery/computer/operating,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "lf" = (
 /obj/machinery/computer/rdservercontrol,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "lg" = (
 /obj/machinery/computer/mechpad,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "lh" = (
 /obj/machinery/computer/prisoner/management,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "li" = (
 /obj/machinery/computer/message_monitor,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "lj" = (
 /obj/machinery/computer/operating{
 	dir = 1;
 	name = "Robotics Operating Computer"
 	},
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "lk" = (
 /obj/machinery/computer/secure_data,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "ll" = (
 /obj/machinery/computer/sat_control,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "lm" = (
 /obj/machinery/computer/robotics,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "ln" = (
 /obj/machinery/computer/security/labor,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "lo" = (
 /obj/machinery/computer/scan_consolenew,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "lp" = (
 /obj/machinery/computer/security/research,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "lq" = (
 /obj/machinery/computer/shuttle/labor,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 "lr" = (
 /obj/machinery/computer/warrant,
 /turf/open/floor/iron,
-/area/testroom)
+/area/misc/testroom)
 
 (1,1,1) = {"
 aa

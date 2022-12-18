@@ -49,10 +49,10 @@
 /area/station/security/brig)
 "af" = (
 /turf/closed/mineral/random/low_chance,
-/area/mine/unexplored)
+/area/lavaland/surface)
 "ag" = (
 /turf/closed/mineral/random/high_chance,
-/area/mine/unexplored)
+/area/lavaland/surface)
 "ah" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/toilet,
@@ -800,8 +800,8 @@
 	pixel_y = 32
 	},
 /obj/item/storage/toolbox/mechanical,
-/obj/item/computer_hardware/hard_drive/portable/quartermaster,
-/obj/item/computer_hardware/hard_drive/portable/quartermaster,
+/obj/item/computer_disk/quartermaster,
+/obj/item/computer_disk/quartermaster,
 /obj/effect/turf_decal/tile/yellow{
 	dir = 4
 	},
@@ -980,7 +980,7 @@
 /turf/closed/mineral/random{
 	mineralSpawnChanceList = list(/turf/closed/mineral/uranium=5,/turf/closed/mineral/diamond=1,/turf/closed/mineral/gold=10,/turf/closed/mineral/silver=12,/turf/closed/mineral/plasma=20,/turf/closed/mineral/iron=40,/turf/closed/mineral/titanium=11,/turf/closed/mineral/gibtonite=4,/turf/closed/mineral/bscrystal=1)
 	},
-/area/mine/unexplored)
+/area/lavaland/surface)
 "cp" = (
 /turf/open/space,
 /turf/open/space/basic,
@@ -1881,7 +1881,7 @@
 /turf/open/floor/iron,
 /area/station/cargo)
 "en" = (
-/obj/machinery/mineral/equipment_vendor,
+/obj/machinery/computer/order_console/mining,
 /obj/effect/turf_decal/tile/brown/anticorner/contrasted{
 	dir = 4
 	},
@@ -5049,16 +5049,6 @@
 /obj/effect/turf_decal/tile/neutral/fourcorners,
 /turf/open/floor/iron/dark,
 /area/station/hallway/primary/fore)
-"kA" = (
-/obj/effect/turf_decal/tile/blue,
-/obj/effect/turf_decal/tile/blue{
-	dir = 4
-	},
-/obj/structure/sign/departments/chemistry/directional/south{
-	pixel_x = 32
-	},
-/turf/open/floor/iron/white,
-/area/station/medical/medbay/central)
 "kB" = (
 /obj/structure/extinguisher_cabinet{
 	pixel_x = 27;
@@ -6405,8 +6395,8 @@
 /obj/effect/turf_decal/tile/bar{
 	dir = 1
 	},
-/obj/structure/chair/sofa,
 /obj/effect/landmark/start/hangover,
+/obj/structure/chair/sofa/right,
 /turf/open/floor/iron,
 /area/station/service/cafeteria)
 "nu" = (
@@ -6880,10 +6870,10 @@
 /obj/effect/turf_decal/tile/bar{
 	dir = 1
 	},
-/obj/structure/chair/sofa{
+/obj/effect/landmark/start/assistant,
+/obj/structure/chair/sofa/left{
 	dir = 1
 	},
-/obj/effect/landmark/start/assistant,
 /turf/open/floor/iron,
 /area/station/service/cafeteria)
 "op" = (
@@ -7548,7 +7538,7 @@
 /turf/open/floor/iron/showroomfloor,
 /area/station/service/cafeteria)
 "pJ" = (
-/mob/living/simple_animal/mouse/brown/tom,
+/mob/living/basic/mouse/brown/tom,
 /obj/machinery/light/small{
 	dir = 1
 	},
@@ -10554,7 +10544,7 @@
 /area/station/science/research)
 "xw" = (
 /obj/structure/table/reinforced,
-/obj/item/reagent_containers/cup/glass/britcup,
+/obj/item/reagent_containers/cup/glass/mug/britcup,
 /obj/structure/window/reinforced{
 	dir = 4;
 	layer = 2.9
@@ -11107,6 +11097,7 @@
 	dir = 1;
 	light_color = "#d1dfff"
 	},
+/obj/item/radio/intercom/directional/north,
 /turf/open/floor/iron/white,
 /area/station/medical/chemistry)
 "yt" = (
@@ -11145,7 +11136,7 @@
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
 	dir = 1
 	},
-/mob/living/simple_animal/pet/dog/corgi/ian,
+/mob/living/basic/pet/dog/corgi/ian,
 /turf/open/floor/wood,
 /area/station/command/heads_quarters/hop)
 "yy" = (
@@ -11216,7 +11207,7 @@
 /obj/effect/turf_decal/tile/yellow{
 	dir = 1
 	},
-/mob/living/simple_animal/mouse/white{
+/mob/living/basic/mouse/white{
 	name = "Labrette"
 	},
 /turf/open/floor/iron/white,
@@ -11572,7 +11563,6 @@
 /obj/effect/turf_decal/tile/yellow{
 	dir = 4
 	},
-/obj/item/radio/intercom/directional/east,
 /obj/machinery/button/door{
 	id = "plumbing_shutters";
 	name = "Plumbing Shutter Control";
@@ -11583,6 +11573,7 @@
 	dir = 4
 	},
 /obj/machinery/camera/autoname/directional/north,
+/obj/structure/sign/departments/chemistry/directional/east,
 /turf/open/floor/iron/white,
 /area/station/medical/chemistry)
 "zp" = (
@@ -12086,7 +12077,7 @@
 /obj/machinery/door/airlock/research/glass/incinerator/ordmix_interior{
 	name = "Burn Chamber Interior Airlock"
 	},
-/obj/machinery/embedded_controller/radio/airlock_controller/incinerator_ordmix{
+/obj/machinery/airlock_controller/incinerator_ordmix{
 	pixel_x = -22
 	},
 /obj/effect/mapping_helpers/airlock/locked,
@@ -13365,7 +13356,7 @@
 /area/station/science/research)
 "CW" = (
 /obj/structure/table,
-/obj/item/reagent_containers/cup/glass/britcup,
+/obj/item/reagent_containers/cup/glass/mug/britcup,
 /obj/machinery/light,
 /obj/structure/extinguisher_cabinet{
 	pixel_x = 5;
@@ -14739,11 +14730,11 @@
 /turf/open/floor/plating,
 /area/station/maintenance/port)
 "FZ" = (
-/obj/structure/janitorialcart,
 /obj/item/mop,
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/cable,
 /obj/item/reagent_containers/cup/bucket,
+/obj/structure/mop_bucket/janitorialcart,
 /turf/open/floor/plating,
 /area/station/maintenance/port)
 "Ga" = (
@@ -16914,7 +16905,7 @@
 /turf/open/floor/engine/n2,
 /area/station/engineering/main)
 "Ni" = (
-/mob/living/simple_animal/pet/dog/pug/mcgriff,
+/mob/living/basic/pet/dog/pug/mcgriff,
 /obj/structure/bed/dogbed/mcgriff,
 /obj/item/grenade/flashbang,
 /turf/open/floor/iron,
@@ -18284,9 +18275,9 @@
 /obj/item/clothing/suit/armor/riot,
 /obj/item/clothing/suit/armor/riot,
 /obj/item/clothing/suit/armor/riot,
-/obj/item/clothing/head/helmet/riot,
-/obj/item/clothing/head/helmet/riot,
-/obj/item/clothing/head/helmet/riot,
+/obj/item/clothing/head/helmet/toggleable/riot,
+/obj/item/clothing/head/helmet/toggleable/riot,
+/obj/item/clothing/head/helmet/toggleable/riot,
 /obj/item/shield/riot,
 /obj/item/shield/riot,
 /obj/item/shield/riot,
@@ -19893,7 +19884,7 @@
 /obj/effect/turf_decal/siding/wood{
 	dir = 8
 	},
-/obj/machinery/computer/chef_order{
+/obj/machinery/computer/order_console/cook{
 	dir = 4
 	},
 /turf/open/floor/wood,
@@ -60630,7 +60621,7 @@ pA
 KP
 zk
 BG
-kA
+pS
 Dw
 yu
 xA

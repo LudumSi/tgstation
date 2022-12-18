@@ -256,7 +256,7 @@
 /area/solar/aft)
 "aI" = (
 /turf/closed/wall,
-/area/testroom)
+/area/misc/testroom)
 "aJ" = (
 /obj/structure/cable,
 /turf/closed/wall,
@@ -290,7 +290,7 @@
 /area/crew_quarters/bar)
 "aP" = (
 /turf/open/floor/plating,
-/area/testroom)
+/area/misc/testroom)
 "aQ" = (
 /obj/structure/cable,
 /turf/open/floor/plasteel,
@@ -630,15 +630,15 @@
 /area/crew_quarters/bar)
 "bY" = (
 /turf/open/floor/plasteel,
-/area/testroom)
+/area/misc/testroom)
 "bZ" = (
 /obj/structure/cable,
 /turf/open/floor/plating,
-/area/testroom)
+/area/misc/testroom)
 "ca" = (
 /obj/effect/landmark/start/cargo_technician,
 /turf/open/floor/plating,
-/area/testroom)
+/area/misc/testroom)
 "cb" = (
 /obj/effect/spawner/structure/window/hollow,
 /turf/open/floor/plating,
@@ -1089,7 +1089,7 @@
 "db" = (
 /obj/item/reagent_containers/food/snacks/donut/chaos,
 /turf/open/floor/plating,
-/area/testroom)
+/area/misc/testroom)
 "dc" = (
 /obj/effect/spawner/structure/window/reinforced,
 /turf/open/floor/plating,
@@ -2034,14 +2034,14 @@
 /area/medical/virology)
 "fv" = (
 /turf/closed/wall/r_wall,
-/area/ai_monitored/security/armory)
+/area/station/ai_monitored/security/armory)
 "fw" = (
 /obj/machinery/camera{
 	c_tag = "Brig Control Room"
 	},
 /obj/structure/bed/dogbed/mcgriff,
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4,
-/mob/living/simple_animal/pet/dog/pug/mcgriff,
+/mob/living/basic/pet/dog/pug/mcgriff,
 /turf/open/floor/plasteel/dark,
 /area/security/warden)
 "fx" = (
@@ -2836,19 +2836,19 @@
 /obj/item/clothing/suit/security/officer/russian,
 /obj/item/grenade/c4,
 /turf/open/floor/plasteel/dark,
-/area/ai_monitored/security/armory)
+/area/station/ai_monitored/security/armory)
 "hd" = (
 /obj/structure/closet/secure_closet/lethalshots,
 /obj/machinery/camera/motion{
 	c_tag = "Armory Motion Sensor"
 	},
 /turf/open/floor/plasteel/dark,
-/area/ai_monitored/security/armory)
+/area/station/ai_monitored/security/armory)
 "he" = (
 /obj/machinery/flasher/portable,
 /obj/structure/cable,
 /turf/open/floor/plasteel/dark,
-/area/ai_monitored/security/armory)
+/area/station/ai_monitored/security/armory)
 "hf" = (
 /obj/structure/table,
 /obj/item/storage/box/chemimp{
@@ -2859,7 +2859,7 @@
 	},
 /obj/structure/cable,
 /turf/open/floor/plasteel/dark,
-/area/ai_monitored/security/armory)
+/area/station/ai_monitored/security/armory)
 "hg" = (
 /obj/structure/table,
 /obj/item/storage/box/firingpins,
@@ -2872,7 +2872,7 @@
 	},
 /obj/structure/cable,
 /turf/open/floor/plasteel/dark,
-/area/ai_monitored/security/armory)
+/area/station/ai_monitored/security/armory)
 "hh" = (
 /obj/machinery/door/airlock/security/glass{
 	id_tag = "innerbrig";
@@ -2956,15 +2956,15 @@
 "hr" = (
 /obj/effect/spawner/structure/window/reinforced,
 /turf/open/floor/plating,
-/area/ai_monitored/security/armory)
+/area/station/ai_monitored/security/armory)
 "hs" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2,
 /turf/open/floor/plasteel/dark,
-/area/ai_monitored/security/armory)
+/area/station/ai_monitored/security/armory)
 "ht" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4,
 /turf/open/floor/plasteel/dark,
-/area/ai_monitored/security/armory)
+/area/station/ai_monitored/security/armory)
 "hu" = (
 /obj/effect/landmark/event_spawn,
 /mob/living/simple_animal/bot/secbot{
@@ -2976,10 +2976,10 @@
 	weaponscheck = 1
 	},
 /turf/open/floor/plasteel/dark,
-/area/ai_monitored/security/armory)
+/area/station/ai_monitored/security/armory)
 "hv" = (
 /turf/open/floor/plasteel/dark,
-/area/ai_monitored/security/armory)
+/area/station/ai_monitored/security/armory)
 "hw" = (
 /obj/item/grenade/barrier{
 	pixel_x = 4
@@ -2990,16 +2990,16 @@
 	},
 /obj/structure/table,
 /turf/open/floor/plasteel/dark,
-/area/ai_monitored/security/armory)
+/area/station/ai_monitored/security/armory)
 "hx" = (
 /obj/machinery/nuclearbomb,
 /turf/open/floor/plasteel/white,
-/area/testroom)
+/area/misc/testroom)
 "hy" = (
 /obj/structure/bookcase/random/adult,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel/white,
-/area/testroom)
+/area/misc/testroom)
 "hz" = (
 /obj/machinery/light{
 	dir = 4;
@@ -3033,7 +3033,7 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/ai_monitored/security/armory)
+/area/station/ai_monitored/security/armory)
 "hD" = (
 /obj/structure/rack,
 /obj/item/clothing/suit/armor/bulletproof{
@@ -3059,7 +3059,7 @@
 	pixel_y = -3
 	},
 /turf/open/floor/plasteel/dark,
-/area/ai_monitored/security/armory)
+/area/station/ai_monitored/security/armory)
 "hE" = (
 /obj/structure/rack,
 /obj/item/gun/energy/e_gun{
@@ -3072,7 +3072,7 @@
 	pixel_y = -3
 	},
 /turf/open/floor/plasteel/dark,
-/area/ai_monitored/security/armory)
+/area/station/ai_monitored/security/armory)
 "hF" = (
 /obj/machinery/atmospherics/pipe/smart/simple/yellow/visible/layer4{
 	icon_state = "pipe11-4";
@@ -3205,7 +3205,7 @@
 	layer = 4
 	},
 /turf/open/floor/plasteel/dark,
-/area/ai_monitored/security/armory)
+/area/station/ai_monitored/security/armory)
 "hS" = (
 /obj/machinery/power/apc{
 	dir = 4;
@@ -3228,12 +3228,12 @@
 	pixel_x = 3;
 	pixel_y = -3
 	},
-/obj/item/clothing/head/helmet/riot{
+/obj/item/clothing/head/helmet/toggleable/riot{
 	pixel_x = -3;
 	pixel_y = 3
 	},
-/obj/item/clothing/head/helmet/riot,
-/obj/item/clothing/head/helmet/riot{
+/obj/item/clothing/head/helmet/toggleable/riot,
+/obj/item/clothing/head/helmet/toggleable/riot{
 	pixel_x = 3;
 	pixel_y = -3
 	},
@@ -3247,7 +3247,7 @@
 	pixel_y = -3
 	},
 /turf/open/floor/plasteel/dark,
-/area/ai_monitored/security/armory)
+/area/station/ai_monitored/security/armory)
 "hU" = (
 /obj/machinery/hydroponics/constructable,
 /obj/structure/cable,
@@ -3265,14 +3265,14 @@
 	pixel_y = -3
 	},
 /turf/open/floor/plasteel/dark,
-/area/ai_monitored/security/armory)
+/area/station/ai_monitored/security/armory)
 "hW" = (
 /obj/structure/rack,
 /obj/item/gun/energy/ionrifle,
 /obj/item/gun/energy/temperature/security,
 /obj/item/clothing/suit/hooded/ablative,
 /turf/open/floor/plasteel/dark,
-/area/ai_monitored/security/armory)
+/area/station/ai_monitored/security/armory)
 "hX" = (
 /obj/structure/rack,
 /obj/item/gun/ballistic/shotgun/riot{
@@ -3285,7 +3285,7 @@
 	pixel_y = -3
 	},
 /turf/open/floor/plasteel/dark,
-/area/ai_monitored/security/armory)
+/area/station/ai_monitored/security/armory)
 "hY" = (
 /obj/structure/rack,
 /obj/item/storage/box/rubbershot{
@@ -3307,7 +3307,7 @@
 	pixel_y = -3
 	},
 /turf/open/floor/plasteel/dark,
-/area/ai_monitored/security/armory)
+/area/station/ai_monitored/security/armory)
 "hZ" = (
 /obj/structure/table,
 /obj/item/clothing/gloves/color/latex,
@@ -4603,7 +4603,7 @@
 	},
 /obj/structure/cable,
 /turf/open/floor/plating,
-/area/testroom)
+/area/misc/testroom)
 "kZ" = (
 /obj/effect/mapping_helpers/airlock/cyclelink_helper{
 	dir = 8
@@ -5616,7 +5616,7 @@
 /obj/effect/turf_decal/stripes/line{
 	dir = 9
 	},
-/mob/living/simple_animal/mouse/white{
+/mob/living/basic/mouse/white{
 	name = "Labrette"
 	},
 /turf/open/floor/engine,

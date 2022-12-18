@@ -10,19 +10,19 @@
 		"cargo": "cargo_box"
 	},
 	"job_changes": {
-		"hos": {
+		"Hos": {
 			"additional_access": 27,
 			"additional_minimal_access": 27
 		},
-		"warden": {
+		"Warden": {
 			"additional_access": 27,
 			"additional_minimal_access": 27
 		},
-		"officer": {
+		"Officer": {
 			"additional_access": 27,
 			"additional_minimal_access": 27
 		},
-		"cook": {
+		"Cook": {
 			"additional_cqc_areas": ["/area/station/service/cafeteria"]
 		}
 	}
