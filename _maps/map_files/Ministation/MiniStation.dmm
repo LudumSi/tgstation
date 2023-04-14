@@ -13079,12 +13079,6 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/iron,
 /area/station/ai_monitored/command/storage/eva)
-"nMw" = (
-/obj/structure/sign/poster/official/cleanliness{
-	pixel_y = 32
-	},
-/turf/open/space/basic,
-/area/space)
 "nMK" = (
 /turf/open/floor/engine,
 /area/station/engineering/atmos)
@@ -44759,7 +44753,7 @@ aTu
 aTu
 aTu
 aTu
-nMw
+aTu
 aTu
 aTu
 aTu
