@@ -113,6 +113,30 @@
 
 		"Spiders": {
 			"weight": 1
+		},
+
+		"Revenant": {
+			"weight": 1
+		},
+
+		"Sentient Disease": {
+			"weight": 1
+		},
+
+		"Space Pirates": {
+			"weight": 1
+		},
+
+		"Obsessed": {
+			"weight": 1
+		},
+
+		"Space Changeling": {
+			"weight": 1
+		},
+
+		"Paradox Clone": {
+			"weight": 1
 		}
 	},
 
