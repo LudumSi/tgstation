@@ -82,10 +82,7 @@
 	dir = 4
 	},
 /obj/effect/turf_decal/tile/neutral,
-/obj/machinery/firealarm{
-	dir = 2;
-	pixel_y = 24
-	},
+/obj/machinery/firealarm/directional/north,
 /turf/open/floor/iron,
 /area/station/hallway/primary/central)
 "afe" = (
@@ -5024,10 +5021,10 @@
 /obj/effect/turf_decal/tile/red,
 /obj/machinery/requests_console/directional/east{
 	announcementConsole = 1;
-	department = "Bridge";
-	name = "Bridge Requests Console";
+	anon_tips_receiver = 1;
 	assistance_requestable = 1;
-	anon_tips_receiver = 1
+	department = "Bridge";
+	name = "Bridge Requests Console"
 	},
 /turf/open/floor/iron/dark,
 /area/station/command/bridge)
@@ -6530,10 +6527,10 @@
 "gYs" = (
 /obj/machinery/requests_console/directional/west{
 	announcementConsole = 1;
-	department = "Head of Personnel's Desk";
-	name = "Head of Personnel's Requests Console";
+	anon_tips_receiver = 1;
 	assistance_requestable = 1;
-	anon_tips_receiver = 1
+	department = "Head of Personnel's Desk";
+	name = "Head of Personnel's Requests Console"
 	},
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
@@ -13308,9 +13305,9 @@
 	pixel_y = -2
 	},
 /obj/machinery/requests_console/directional/east{
+	assistance_requestable = 1;
 	department = "Janitorial";
-	name = "Janitorial Requests Console";
-	assistance_requestable = 1
+	name = "Janitorial Requests Console"
 	},
 /turf/open/floor/iron,
 /area/station/service/janitor)
@@ -15648,10 +15645,7 @@
 /obj/effect/turf_decal/tile/neutral{
 	dir = 1
 	},
-/obj/machinery/firealarm{
-	dir = 2;
-	pixel_y = 24
-	},
+/obj/machinery/firealarm/directional/north,
 /turf/open/floor/iron,
 /area/station/hallway/primary/fore)
 "qvZ" = (
@@ -20168,11 +20162,11 @@
 	},
 /obj/structure/tank_dispenser,
 /obj/machinery/requests_console/directional/west{
+	anon_tips_receiver = 1;
+	assistance_requestable = 1;
 	department = "Ordnance Lab";
 	name = "Toxins Requests Console";
-	pixel_x = -32;
-	assistance_requestable = 1;
-	anon_tips_receiver = 1
+	pixel_x = -32
 	},
 /turf/open/floor/iron,
 /area/station/science/ordnance/testlab)
@@ -21073,11 +21067,11 @@
 	},
 /obj/machinery/requests_console/directional/west{
 	announcementConsole = 1;
+	anon_tips_receiver = 1;
+	assistance_requestable = 1;
 	department = "Chief Medical Officer's Desk";
 	name = "Chief Medical Officer's Requests Console";
-	pixel_x = 30;
-	assistance_requestable = 1;
-	anon_tips_receiver = 1
+	pixel_x = 30
 	},
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
 	dir = 1
