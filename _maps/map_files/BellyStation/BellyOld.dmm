@@ -876,7 +876,7 @@
 /turf/open/floor/plasteel/white,
 /area/crew_quarters/heads/cmo)
 "cD" = (
-/obj/machinery/computer/med_data,
+/obj/machinery/computer/records/medical,
 /obj/effect/turf_decal/tile/blue{
 	dir = 4
 	},
@@ -937,9 +937,6 @@
 	pixel_y = 3
 	},
 /obj/item/cartridge/medical,
-/obj/item/cartridge/chemistry{
-	pixel_y = 2
-	},
 /obj/structure/table,
 /obj/machinery/light,
 /obj/item/wrench/medical,
@@ -1346,7 +1343,7 @@
 	pixel_y = 3
 	},
 /obj/item/storage/box/mousetraps,
-/obj/item/clothing/head/crown,
+/obj/item/clothing/head/costume/crown,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel,
 /area/janitor)
@@ -1435,7 +1432,7 @@
 /turf/open/floor/plasteel/dark,
 /area/space)
 "dZ" = (
-/obj/machinery/computer/med_data,
+/obj/machinery/computer/records/medical,
 /turf/open/floor/plasteel/white,
 /area/medical/cryo)
 "ea" = (
@@ -1585,7 +1582,7 @@
 /turf/open/floor/plasteel/white,
 /area/medical/cryo)
 "ep" = (
-/obj/machinery/computer/secure_data,
+/obj/machinery/computer/records/security,
 /turf/open/floor/plasteel/dark,
 /area/security/brig)
 "eq" = (
@@ -1702,7 +1699,7 @@
 /area/maintenance/port)
 "eE" = (
 /obj/structure/table/glass,
-/obj/item/clothing/gloves/color/latex,
+/obj/item/clothing/gloves/latex,
 /obj/item/surgical_drapes,
 /obj/item/stack/medical/bone_gel,
 /turf/open/floor/plasteel/white,
@@ -2292,7 +2289,7 @@
 	pixel_x = -3;
 	pixel_y = -3
 	},
-/obj/structure/window/reinforced,
+/obj/structure/window/reinforced/spawner/directional/south,
 /obj/effect/turf_decal/tile/blue{
 	dir = 1
 	},
@@ -2375,8 +2372,8 @@
 /area/medical/medbay/lobby)
 "gf" = (
 /obj/structure/window/reinforced/spawner,
-/obj/structure/window/reinforced/spawner/east,
-/obj/structure/window/reinforced/spawner/west,
+/obj/structure/window/reinforced/spawner/directional/east,
+/obj/structure/window/reinforced/spawner/directional/west,
 /obj/structure/flora/ausbushes/reedbush,
 /obj/structure/flora/grass/jungle,
 /obj/structure/flora/junglebush/c,
@@ -2637,7 +2634,7 @@
 	pixel_y = -24
 	},
 /obj/structure/cable,
-/mob/living/simple_animal/hostile/retaliate/bat/sgt_araneus,
+/mob/living/basic/giant_spider/sgt_araneus,
 /turf/open/floor/plasteel/dark,
 /area/crew_quarters/heads/hos)
 "gF" = (
@@ -2673,9 +2670,9 @@
 /area/medical/storage)
 "gI" = (
 /obj/structure/flora/junglebush/b,
-/obj/structure/window/reinforced/spawner/north,
-/obj/structure/window/reinforced/spawner/east,
-/obj/structure/window/reinforced/spawner/west,
+/obj/structure/window/reinforced/spawner/directional/north,
+/obj/structure/window/reinforced/spawner/directional/east,
+/obj/structure/window/reinforced/spawner/directional/west,
 /obj/structure/flora/grass/jungle,
 /turf/open/floor/grass,
 /area/medical/medbay/lobby)
@@ -2715,10 +2712,8 @@
 	pixel_x = -3;
 	pixel_y = -3
 	},
-/obj/structure/window/reinforced,
-/obj/structure/window/reinforced{
-	dir = 8
-	},
+/obj/structure/window/reinforced/spawner/directional/south,
+/obj/structure/window/reinforced/spawner/directional/west,
 /obj/effect/turf_decal/tile/blue{
 	dir = 1
 	},
@@ -3310,7 +3305,7 @@
 /area/station/ai_monitored/security/armory)
 "hZ" = (
 /obj/structure/table,
-/obj/item/clothing/gloves/color/latex,
+/obj/item/clothing/gloves/latex,
 /obj/item/clothing/mask/surgical,
 /obj/machinery/light_switch{
 	pixel_y = -24
@@ -3699,11 +3694,11 @@
 "iX" = (
 /obj/structure/table,
 /obj/item/book/manual/wiki/atmospherics,
-/obj/item/clothing/head/welding{
+/obj/item/clothing/head/utility/welding{
 	pixel_x = -5;
 	pixel_y = 3
 	},
-/obj/item/clothing/head/welding{
+/obj/item/clothing/head/utility/welding{
 	pixel_x = -5;
 	pixel_y = 3
 	},
@@ -3896,7 +3891,7 @@
 /obj/item/storage/box/monkeycubes{
 	layer = 3.1
 	},
-/obj/item/clothing/gloves/color/latex,
+/obj/item/clothing/gloves/latex,
 /obj/item/stack/sheet/mineral/plasma{
 	amount = 2
 	},
@@ -4010,17 +4005,17 @@
 /turf/open/floor/plasteel/white,
 /area/medical/storage)
 "jB" = (
-/obj/structure/window/reinforced/spawner/north,
+/obj/structure/window/reinforced/spawner/directional/north,
 /obj/structure/window/reinforced/spawner,
-/obj/structure/window/reinforced/spawner/east,
+/obj/structure/window/reinforced/spawner/directional/east,
 /obj/structure/flora/ausbushes/brflowers,
 /obj/structure/flora/junglebush,
 /turf/open/floor/grass,
 /area/medical/medbay/lobby)
 "jC" = (
-/obj/structure/window/reinforced/spawner/north,
+/obj/structure/window/reinforced/spawner/directional/north,
 /obj/structure/window/reinforced/spawner,
-/obj/structure/window/reinforced/spawner/west,
+/obj/structure/window/reinforced/spawner/directional/west,
 /obj/structure/flora/ausbushes/brflowers,
 /obj/structure/flora/junglebush/c,
 /turf/open/floor/grass,
@@ -4735,7 +4730,7 @@
 	},
 /obj/item/stack/sheet/metal/fifty,
 /obj/item/storage/toolbox/mechanical,
-/obj/item/clothing/head/welding,
+/obj/item/clothing/head/utility/welding,
 /turf/open/floor/plasteel/white,
 /area/space)
 "lk" = (
@@ -5002,9 +4997,9 @@
 /obj/effect/turf_decal/tile/yellow,
 /obj/machinery/requests_console{
 	department = "Chemistry";
-	departmentType = 2;
 	pixel_x = 32;
-	receive_ore_updates = 1
+	receive_ore_updates = 1;
+	supplies_requestable = 1
 	},
 /turf/open/floor/plasteel/white,
 /area/space)
@@ -5604,8 +5599,7 @@
 /turf/open/floor/plasteel/white,
 /area/space)
 "mH" = (
-/obj/structure/window/reinforced{
-	dir = 8;
+/obj/structure/window/reinforced/spawner/directional/west{
 	layer = 2.9
 	},
 /obj/machinery/door/window/eastright{
@@ -5622,8 +5616,7 @@
 /turf/open/floor/engine,
 /area/space)
 "mI" = (
-/obj/structure/window/reinforced{
-	dir = 1;
+/obj/structure/window/reinforced/spawner/directional/north{
 	pixel_y = 2
 	},
 /obj/effect/turf_decal/stripes/line{
@@ -5702,8 +5695,7 @@
 /turf/open/floor/plasteel/white,
 /area/space)
 "mO" = (
-/obj/structure/window/reinforced{
-	dir = 8;
+/obj/structure/window/reinforced/spawner/directional/west{
 	layer = 2.9
 	},
 /obj/effect/turf_decal/stripes/line{
