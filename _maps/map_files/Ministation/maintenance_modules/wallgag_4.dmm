@@ -1,0 +1,5 @@
+"a" = (/obj/modular_map_connector,/obj/effect/mob_spawn/corpse/human/syndicatepilot,/obj/effect/turf_decal/sand,/obj/item/compact_remote,/mob/living/simple_animal/hostile/bee/toxin,/turf/template_noop,/area/template_noop)
+
+(1,1,1) = {"
+a
+"}

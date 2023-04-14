@@ -1,0 +1,5 @@
+"a" = (/mob/living/simple_animal/bot/floorbot{desc = "Getting Greggy With It (tm)"; name = "Greg"},/obj/modular_map_connector,/obj/item/pipe_dispenser,/turf/template_noop,/area/template_noop)
+
+(1,1,1) = {"
+a
+"}
