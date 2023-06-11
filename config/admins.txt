@@ -9,3 +9,6 @@ abornga = Game Master
 zephyr1112 = Game Admin
 cheetahclaw23 = Game Admin
 thecoosome = Game Admin
+coldmarauder = Game Admin
+zarol = Game Admin
+
