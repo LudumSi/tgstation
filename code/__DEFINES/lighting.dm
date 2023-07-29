@@ -1,16 +1,24 @@
-///Object doesn't use any of the light systems. Should be changed to add a light source to the object.
+/// Object doesn't use any of the light systems. Should be changed to add a light source to the object.
 #define NO_LIGHT_SUPPORT 0
-///Light made with the lighting datums, applying a matrix.
+/// Light made with the lighting datums, applying a matrix.
 #define STATIC_LIGHT 1
-///Light made by masking the lighting darkness plane.
+/// Light made by masking the lighting darkness plane.
 #define MOVABLE_LIGHT 2
-///Light made by masking the lighting darkness plane, and is directional.
+/// Light made by masking the lighting darkness plane, and is directional.
 #define MOVABLE_LIGHT_DIRECTIONAL 3
+///Light made by masking the lighting darkness plane, and is a directionally focused beam.
+#define MOVABLE_LIGHT_BEAM 4
+/// Nonesensical value for light color, used for null checks.
+#define NONSENSICAL_VALUE -99999
 
-///Is a movable light source attached to another movable (its loc), meaning that the lighting component should go one level deeper.
+/// Is a movable light source attached to another movable (its loc), meaning that the lighting component should go one level deeper.
 #define LIGHT_ATTACHED (1<<0)
+/// Freezes a light in its current state, blocking any attempts at modification
+#define LIGHT_FROZEN (1<<1)
+/// Does this light ignore inherent offsets? (Pixels, transforms, etc)
+#define LIGHT_IGNORE_OFFSET (1<<2)
 
-//Bay lighting engine shit, not in /code/modules/lighting because BYOND is being shit about it
+// Bay lighting engine shit, not in /code/modules/lighting because BYOND is being shit about it
 /// frequency, in 1/10ths of a second, of the lighting process
 #define LIGHTING_INTERVAL 5
 
@@ -34,6 +42,9 @@
 
 ///How many tiles standard fires glow.
 #define LIGHT_RANGE_FIRE 3
+#define LIGHT_FIRE_BLOSSOM 2.1
+#define LIGHT_RANGE_FIRE_BLOSSOM_HARVESTED 2.7
+#define LIGHT_POWER_FIRE_BLOSSOM_HARVESTED 1.5
 
 // Lighting cutoff defines
 // These are a percentage of how much darkness to cut off (in rgb)
@@ -76,7 +87,8 @@ GLOBAL_LIST_INIT(emissive_color, EMISSIVE_COLOR)
 /// A globaly cached version of [EM_BLOCK_COLOR] for quick access.
 GLOBAL_LIST_INIT(em_block_color, EM_BLOCK_COLOR)
 /// A set of appearance flags applied to all emissive and emissive blocker overlays.
-#define EMISSIVE_APPEARANCE_FLAGS (KEEP_APART|KEEP_TOGETHER|RESET_COLOR)
+/// KEEP_APART to prevent parent hooking, KEEP_TOGETHER for children, and we reset the color and alpha of our parent so nothing gets overriden
+#define EMISSIVE_APPEARANCE_FLAGS (KEEP_APART|KEEP_TOGETHER|RESET_COLOR|RESET_ALPHA)
 /// The color matrix used to mask out emissive blockers on the emissive plane. Alpha should default to zero, be solely dependent on the RGB value of [EMISSIVE_COLOR], and be independant of the RGB value of [EM_BLOCK_COLOR].
 #define EM_MASK_MATRIX list(0,0,0,1/3, 0,0,0,1/3, 0,0,0,1/3, 0,0,0,0, 1,1,1,0)
 /// A globaly cached version of [EM_MASK_MATRIX] for quick access.

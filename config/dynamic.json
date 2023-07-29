@@ -1,48 +1,48 @@
 {
 	"Dynamic": {
-		"threat_curve_centre": -1
+		"roundstart_split_curve_width": 3
 	},
 	"Roundstart": {
 		"Traitors": {
-			"cost": 8,
-			"scaling_cost": 9,
 			"weight": 1,
-			"required_candidates": 1,
-			"minimum_required_age": 0,
-			"requirements": [
-				10,
-				10,
-				10,
-				10,
-				10,
-				10,
-				10,
-				10,
-				10,
-				10
-			],
-			"antag_cap": {
-				"denominator": 24
-			},
+			"cost": 25,
+			"scaling_cost": 30,
 			"protected_roles": [
 				"Prisoner",
 				"Security Officer",
 				"Warden",
 				"Detective",
 				"Head of Security",
-				"Captain"
+				"Captain",
+				"Head of Personnel",
+				"Chief Engineer",
+				"Research Director",
+				"Quartermaster",
+				"Chief Medical Officer"
 			],
-			"restricted_roles": [
-				"Cyborg"
-			]
+			"antag_cap": {"denominator":6}
 		},
 
 		"Blood Brothers": {
-			"weight": 1
+			"weight": 1,
+			"cost": 40,
+			"scaling_cost": 20,
+			"protected_roles": [
+				"Security Officer",
+				"Warden",
+				"Detective",
+				"Head of Security",
+				"Captain",
+				"Head of Personnel",
+				"Chief Engineer",
+				"Research Director",
+				"Quartermaster",
+				"Chief Medical Officer"
+			]
 		},
 
 		"Changelings": {
-			"weight": 1
+			"weight": 1,
 		},
 
 		"Heretics": {
@@ -84,7 +84,8 @@
 		},
 
 		"Blob": {
-			"weight": 1
+			"weight": 1,
+			"minimum_players": 0
 		},
 
 		"Blob Infection": {
@@ -92,39 +93,48 @@
 		},
 
 		"Alien Infestation": {
-			"weight": 1
+			"weight": 1,
+			"minimum_players": 0
 		},
 
 		"Nightmare": {
-			"weight": 1
+			"weight": 1,
+			"minimum_players": 0
 		},
 
 		"Space Dragon": {
-			"weight": 1
+			"weight": 1,
+			"minimum_players": 0
 		},
 
 		"Abductors": {
-			"weight": 1
+			"weight": 1,
+			"minimum_players": 0
 		},
 
 		"Space Ninja": {
-			"weight": 1
+			"weight": 1,
+			"minimum_players": 0
 		},
 
 		"Spiders": {
-			"weight": 1
+			"weight": 1,
+			"minimum_players": 0
 		},
 
 		"Revenant": {
-			"weight": 1
+			"weight": 1,
+			"minimum_players": 0
 		},
 
 		"Sentient Disease": {
-			"weight": 1
+			"weight": 1,
+			"minimum_players": 0
 		},
 
 		"Space Pirates": {
-			"weight": 1
+			"weight": 1,
+			"minimum_players": 0
 		},
 
 		"Obsessed": {
@@ -132,11 +142,13 @@
 		},
 
 		"Space Changeling": {
-			"weight": 1
+			"weight": 1,
+			"minimum_players": 0
 		},
 
 		"Paradox Clone": {
-			"weight": 1
+			"weight": 1,
+			"minimum_players": 0
 		}
 	},
 
@@ -151,6 +163,15 @@
 
 		"Heretic Smuggler": {
 			"weight": 1
+		},
+
+		"Stowaway Changeling": {
+			"weight": 1
+		}
+	},
+
+	"Station": {
+		"Radioactive Nebula": {
 		}
 	}
 }

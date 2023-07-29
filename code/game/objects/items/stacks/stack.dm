@@ -120,6 +120,9 @@
 	)
 	AddElement(/datum/element/connect_loc, loc_connections)
 
+	if(is_path_in_list(merge_type, GLOB.golem_stack_food_directory))
+		AddComponent(/datum/component/golem_food, golem_food_key = merge_type)
+
 /** Sets the amount of materials per unit for this stack.
  *
  * Arguments:
@@ -448,16 +451,14 @@
 		return FALSE
 	var/turf/dest_turf = get_turf(builder)
 
-	// If we're making a window, we have some special snowflake window checks to do.
-	if(ispath(recipe.result_type, /obj/structure/window))
-		var/obj/structure/window/result_path = recipe.result_type
-		if(!valid_window_location(dest_turf, builder.dir, is_fulltile = initial(result_path.fulltile)))
-			builder.balloon_alert(builder, "won't fit here!")
-			return FALSE
-
 	if(recipe.one_per_turf && (locate(recipe.result_type) in dest_turf))
 		builder.balloon_alert(builder, "already one here!")
 		return FALSE
+
+	if(recipe.check_direction)
+		if(!valid_build_direction(dest_turf, builder.dir, is_fulltile = recipe.is_fulltile))
+			builder.balloon_alert(builder, "won't fit here!")
+			return FALSE
 
 	if(recipe.on_tram)
 		if(!locate(/obj/structure/industrial_lift/tram) in dest_turf)
@@ -473,16 +474,9 @@
 			builder.balloon_alert(builder, "must be made on solid ground!")
 			return FALSE
 
+	if(recipe.check_density)
 		for(var/obj/object in dest_turf)
-			if(istype(object, /obj/structure/grille))
-				continue
-			if(istype(object, /obj/structure/table))
-				continue
-			if(istype(object, /obj/structure/window))
-				var/obj/structure/window/window_structure = object
-				if(!window_structure.fulltile)
-					continue
-			if(object.density || NO_BUILD & object.obj_flags)
+			if(object.density && !(object.obj_flags & IGNORE_DENSITY) || object.obj_flags & BLOCKS_CONSTRUCTION)
 				builder.balloon_alert(builder, "something is in the way!")
 				return FALSE
 
@@ -572,7 +566,8 @@
  * - [inhand][boolean]: Whether or not the stack to check should act like it's in a mob's hand.
  */
 /obj/item/stack/proc/can_merge(obj/item/stack/check, inhand = FALSE)
-	if(!istype(check, merge_type))
+	// We don't only use istype here, since that will match subtypes, and stack things that shouldn't stack
+	if(!istype(check, merge_type) || check.merge_type != merge_type)
 		return FALSE
 	if(mats_per_unit ~! check.mats_per_unit) // ~! in case of lists this operator checks only keys, but not values
 		return FALSE
