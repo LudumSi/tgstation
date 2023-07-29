@@ -1120,16 +1120,6 @@
 /obj/structure/cable,
 /turf/open/floor/iron,
 /area/station/hallway/secondary/entry)
-<<<<<<< HEAD
-"eG" = (
-/obj/machinery/airalarm/unlocked{
-	dir = 4;
-	pixel_x = -24
-	},
-/turf/open/floor/iron,
-/area/station/cargo/storage)
-=======
->>>>>>> 16abc12ab283837f8831e9e02fcf685fc4694600
 "eH" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden,
 /obj/effect/turf_decal/stripes/line{
